@@ -2,7 +2,16 @@ import type { NextConfig } from "next";
 
 const host = "www.universalblooming.com";
 
-const nextConfig: NextConfig = {
+/**
+ * Two targets from one codebase:
+ *  - Full server build (Vercel / Node): headers, redirects, server actions, dynamic OG.
+ *  - STATIC_EXPORT=1 (GitHub Pages preview): plain HTML in ./out under BASE_PATH.
+ *    Run scripts/prepare-static-export.mjs first (see .github/workflows/pages.yml).
+ */
+const isStatic = process.env.NEXT_PUBLIC_STATIC_EXPORT === "1";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
+const serverConfig: NextConfig = {
   poweredByHeader: false,
   images: { formats: ["image/avif", "image/webp"] },
   async headers() {
@@ -43,4 +52,12 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+const staticConfig: NextConfig = {
+  output: "export",
+  basePath,
+  assetPrefix: basePath || undefined,
+  trailingSlash: true,
+  images: { unoptimized: true },
+};
+
+export default isStatic ? staticConfig : serverConfig;
