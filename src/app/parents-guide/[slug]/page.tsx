@@ -8,7 +8,7 @@ import { graph, breadcrumbNode, faqNode, webPageNode, articleNode, type Crumb } 
 import { accentSoft } from "@/lib/accent";
 import { Linker } from "@/lib/autolink";
 import { stripInline, wordCount } from "@/lib/inline";
-import { site, whatsappLink } from "@/config/site";
+import { site, whatsappLink, asset } from "@/config/site";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { PageHero } from "@/components/ui/PageHero";
 import { QuickAnswer } from "@/components/content/QuickAnswer";
@@ -91,7 +91,7 @@ export default async function GuidePage({ params }: Props) {
         tone={accentSoft[g.accent]}
       >
         <div className="flex items-center gap-3 text-sm font-bold text-ink-soft">
-          <Image src={site.founder.image} alt="" width={40} height={40} className="h-10 w-10 shrink-0 rounded-full border-2 border-ink bg-white object-cover" />
+          <Image src={asset(site.founder.image)} alt="" width={40} height={40} className="h-10 w-10 shrink-0 rounded-full border-2 border-ink bg-white object-cover" />
           <div className="flex flex-wrap gap-x-4 gap-y-0.5">
             <span>
               Reviewed by <Link href="/about#founder" className="whitespace-nowrap text-ink underline-offset-4 hover:underline">{site.founder.name}</Link>, <span className="whitespace-nowrap">{site.founder.role}</span>
@@ -144,7 +144,7 @@ export default async function GuidePage({ params }: Props) {
           )}
 
           <section id="author" className="mt-10 flex gap-5 rounded-3xl border-[2.5px] border-ink/10 bg-pink-soft p-6" aria-label="About the reviewer">
-            <Image src={site.founder.image} alt={site.founder.name} width={80} height={80} className="h-20 w-20 shrink-0 rounded-full border-[2.5px] border-ink bg-white object-cover" />
+            <Image src={asset(site.founder.image)} alt={site.founder.name} width={80} height={80} className="h-20 w-20 shrink-0 rounded-full border-[2.5px] border-ink bg-white object-cover" />
             <div>
               <p className="font-display text-lg font-semibold">{site.founder.name}</p>
               <p className="text-sm font-bold text-ink-soft">{site.founder.role}, Universal Blooming</p>

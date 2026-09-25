@@ -7,6 +7,14 @@
  * omitted from the page and from the JSON-LD rather than shown as a placeholder.
  */
 
+/**
+ * Sub-path the site is served from. Empty on a real domain; "/universalblooming"
+ * on the GitHub Pages preview (https://dpacc.github.io/universalblooming).
+ */
+export const BASE_PATH = (process.env.NEXT_PUBLIC_BASE_PATH || "").replace(/\/$/, "");
+/** Prefix a root-relative public asset or raw href with the base path. */
+export const asset = (path: string) => `${BASE_PATH}${path}`;
+
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.universalblooming.com").replace(/\/$/, "");
 
 export const site = {
@@ -71,5 +79,5 @@ export function placeLabel(): string {
 
 export function whatsappLink(message: string): string {
   const text = encodeURIComponent(message);
-  return site.whatsapp ? `https://wa.me/${site.whatsapp}?text=${text}` : `/contact?via=whatsapp`;
+  return site.whatsapp ? `https://wa.me/${site.whatsapp}?text=${text}` : asset("/contact?via=whatsapp");
 }

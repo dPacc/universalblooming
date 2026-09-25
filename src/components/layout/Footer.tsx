@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { site, hasPhone, placeLabel } from "@/config/site";
+import { site, hasPhone, placeLabel, asset } from "@/config/site";
 import { programs } from "@/content/programs";
 import { activities } from "@/content/activities";
 import { guides } from "@/content/guides";
@@ -40,7 +40,7 @@ export function Footer() {
           <div>
             <Link href="/" className="inline-flex items-center gap-3">
               <span className="grid h-16 w-16 place-items-center rounded-full bg-white">
-                <Image src="/images/logo.webp" alt="" width={52} height={49} className="h-12 w-auto" />
+                <Image src={asset("/images/logo.webp")} alt="" width={52} height={49} className="h-12 w-auto" />
               </span>
               <span className="font-display text-2xl font-semibold leading-tight">
                 Universal <span className="text-yellow">Blooming</span>

@@ -53,7 +53,11 @@ export function absoluteUrl(path = "/"): string {
   return `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`.replace(/\/$/, "") || SITE_URL;
 }
 
+/** Static hosting (GitHub Pages) has no server, so per-page OG cards fall back to one pre-rendered card. */
+export const STATIC_EXPORT = process.env.NEXT_PUBLIC_STATIC_EXPORT === "1";
+
 export function ogImageUrl(title: string, eyebrow?: string): string {
+  if (STATIC_EXPORT) return `${SITE_URL}/images/og-default.png`;
   const q = new URLSearchParams({ title: withYear(title) });
   if (eyebrow) q.set("eyebrow", eyebrow);
   return `${SITE_URL}/og?${q.toString()}`;
@@ -82,11 +86,11 @@ export function pageMetadata(input: PageMetaInput): Metadata {
     title,
     description,
     keywords: input.keywords,
-    alternates: { canonical: input.path },
+    alternates: { canonical: absoluteUrl(input.path) },
     robots: input.noindex ? { index: false, follow: true } : undefined,
     openGraph: {
       type: input.type || "website",
-      url: input.path,
+      url: absoluteUrl(input.path),
       title: ogTitle,
       description,
       siteName: site.name,

@@ -4,6 +4,9 @@ import { programs } from "@/content/programs";
 import { activities } from "@/content/activities";
 import { guides } from "@/content/guides";
 
+// Required for the static (GitHub Pages) export; harmless on a server build.
+export const dynamic = "force-static";
+
 /**
  * Built from the content registries. `lastModified` uses real content dates
  * (not build time, a weakness flagged in the Wathim GEO audit) so Google can

@@ -1,6 +1,9 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/config/site";
 
+// Required for the static (GitHub Pages) export; harmless on a server build.
+export const dynamic = "force-static";
+
 /**
  * Open to search and AI answer engines on purpose: parents increasingly ask
  * ChatGPT / Perplexity / Gemini "best nursery near me", and being citable

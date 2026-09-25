@@ -3,7 +3,7 @@ import { readinessQuiz as rq } from "@/content/pages";
 import { pageMetadata, clampDescription } from "@/lib/seo";
 import { graph, breadcrumbNode, faqNode, webPageNode, webAppNode, type Crumb } from "@/lib/schema";
 import { Linker } from "@/lib/autolink";
-import { site } from "@/config/site";
+import { site, asset } from "@/config/site";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { PageHero } from "@/components/ui/PageHero";
 import { QuickAnswer } from "@/components/content/QuickAnswer";
@@ -30,7 +30,7 @@ export default function QuizPage() {
     { name: "Free Tools", path: "/tools" },
     { name: "Nursery Readiness Quiz", path },
   ];
-  const waBase = site.whatsapp ? `https://wa.me/${site.whatsapp}?text=` : "/contact?message=";
+  const waBase = site.whatsapp ? `https://wa.me/${site.whatsapp}?text=` : asset("/contact?message=");
   return (
     <>
       <JsonLd data={graph(

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { site, placeLabel, whatsappLink } from "@/config/site";
+import { site, placeLabel, whatsappLink, asset } from "@/config/site";
 import { programs } from "@/content/programs";
 import { activities } from "@/content/activities";
 import { guides } from "@/content/guides";
@@ -234,7 +234,7 @@ export default function Home() {
           <div className="relative mx-auto w-full max-w-xs">
             <div className="absolute inset-0 translate-x-3 translate-y-3 rounded-[40%_60%_55%_45%/50%_45%_55%_50%] bg-yellow border-[3px] border-ink" />
             <Image
-              src={site.founder.image}
+              src={asset(site.founder.image)}
               alt={`${site.founder.name}, ${site.founder.role} of Universal Blooming`}
               width={520}
               height={509}

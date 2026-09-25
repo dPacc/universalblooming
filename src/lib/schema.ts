@@ -7,6 +7,7 @@
 import { SITE_URL, site, hasAddress } from "@/config/site";
 import type { Faq } from "@/content/types";
 import { stripInline } from "@/lib/inline";
+import { ogImageUrl } from "@/lib/seo";
 
 export const ORG_ID = `${SITE_URL}/#organization`;
 export const WEBSITE_ID = `${SITE_URL}/#website`;
@@ -210,7 +211,7 @@ export function articleNode(opts: {
     headline: opts.headline,
     description: opts.description,
     mainEntityOfPage: { "@id": `${url(opts.path)}#webpage` },
-    image: `${SITE_URL}/og?title=${encodeURIComponent(opts.headline)}&eyebrow=${encodeURIComponent(opts.section)}`,
+    image: ogImageUrl(opts.headline, opts.section),
     datePublished: opts.published,
     dateModified: opts.modified,
     author: { "@id": FOUNDER_ID },

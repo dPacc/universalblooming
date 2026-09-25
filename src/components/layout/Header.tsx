@@ -1,3 +1,4 @@
+import { asset } from "@/config/site";
 import Image from "next/image";
 import Link from "next/link";
 import { mainNav } from "@/lib/nav";
@@ -8,7 +9,7 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b-[2.5px] border-ink bg-cream/90 backdrop-blur-md">
       <div className="container-x flex h-[4.5rem] items-center justify-between gap-4">
         <Link href="/" className="flex items-center gap-2.5 shrink-0" aria-label="Universal Blooming home">
-          <Image src="/images/logo.webp" alt="Universal Blooming logo" width={56} height={53} priority className="h-12 w-auto" />
+          <Image src={asset("/images/logo.webp")} alt="Universal Blooming logo" width={56} height={53} priority className="h-12 w-auto" />
           <span className="font-display text-xl font-semibold leading-none hidden sm:block">
             Universal<br />
             <span className="text-pink">Blooming</span>

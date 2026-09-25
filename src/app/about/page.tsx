@@ -4,7 +4,7 @@ import { about as ab } from "@/content/pages";
 import { pageMetadata } from "@/lib/seo";
 import { graph, breadcrumbNode, faqNode, webPageNode, type Crumb } from "@/lib/schema";
 import { Linker } from "@/lib/autolink";
-import { site, placeLabel } from "@/config/site";
+import { site, placeLabel, asset } from "@/config/site";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { PageHero } from "@/components/ui/PageHero";
 import { Inline } from "@/components/content/Inline";
@@ -42,7 +42,7 @@ export default function AboutPage() {
         eyebrow="About us"
         title="Nurturing every child's unique potential"
         lede={<p>{site.tagline}. A warm, safe place where children learn, play and grow through creativity and exploration.</p>}
-        art={<Image src="/images/logo.webp" alt="Universal Blooming logo: two children reaching for the stars above a planet" width={300} height={282} className="w-56 h-auto sm:w-72" priority />}
+        art={<Image src={asset("/images/logo.webp")} alt="Universal Blooming logo: two children reaching for the stars above a planet" width={300} height={282} className="w-56 h-auto sm:w-72" priority />}
       />
 
       <section className="container-x mt-4 grid gap-10 lg:grid-cols-[1.4fr_1fr]">
@@ -76,7 +76,7 @@ export default function AboutPage() {
 
       <section id="founder" className="container-x mt-20 scroll-mt-24">
         <div className="card-pop grid items-center gap-8 bg-pink-soft p-6 sm:p-10 md:grid-cols-[1fr_1.6fr]">
-          <Image src={site.founder.image} alt={`${site.founder.name}, ${site.founder.role}`} width={520} height={509} className="mx-auto w-full max-w-xs rounded-[40%_60%_55%_45%/50%_45%_55%_50%] border-[3px] border-ink bg-white" />
+          <Image src={asset(site.founder.image)} alt={`${site.founder.name}, ${site.founder.role}`} width={520} height={509} className="mx-auto w-full max-w-xs rounded-[40%_60%_55%_45%/50%_45%_55%_50%] border-[3px] border-ink bg-white" />
           <div>
             <p className="eyebrow">Meet our founder</p>
             <h2 className="mt-1 text-3xl font-semibold sm:text-4xl">{site.founder.name}</h2>
