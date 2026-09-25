@@ -1,0 +1,21 @@
+{
+  "name": "bloomi-video",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts BloomiIntro out/bloomi-intro.mp4",
+    "voice": ".venv/bin/python voice.py af_heart",
+    "music": ".venv/bin/python music.py"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.528",
+    "@remotion/google-fonts": "^4.0.528",
+    "@remotion/media-utils": "^4.0.528",
+    "@remotion/motion-blur": "^4.0.528",
+    "@types/react": "^19.3.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "remotion": "^4.0.528",
+    "typescript": "^7.0.2"
+  }
+}
