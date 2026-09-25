@@ -3,12 +3,15 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { mainNav } from "@/lib/nav";
 
 export function MobileMenu() {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
 
+  useEffect(() => setMounted(true), []);
   useEffect(() => setOpen(false), [pathname]);
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
@@ -34,41 +37,47 @@ export function MobileMenu() {
         </span>
       </button>
 
-      <div
-        id="mobile-menu"
-        aria-hidden={!open}
-        inert={!open}
-        className={`fixed inset-x-0 top-[4.5rem] bottom-0 z-50 overflow-y-auto bg-cream dotted-bg px-4 pb-10 pt-4 transition-[opacity,transform,visibility] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] ${
-          open ? "visible translate-y-0 opacity-100" : "invisible -translate-y-3 opacity-0"
-        }`}
-      >
-        <nav aria-label="Mobile">
-          <ul className="grid gap-2">
-            {mainNav.map((item, i) => (
-              <li key={item.href} className={open ? "animate-pop-in" : ""} style={{ animationDelay: `${i * 35}ms` }}>
-                <Link href={item.href} className="card-pop !shadow-pop-sm block px-5 py-3.5 font-display text-xl font-medium">
-                  {item.label}
-                </Link>
-                {item.children && (
-                  <ul className="mt-2 grid gap-1.5 pl-4">
-                    {item.children.map((c) => (
-                      <li key={c.href}>
-                        <Link href={c.href} className="flex justify-between rounded-2xl bg-white/70 px-4 py-2.5 font-display">
-                          {c.label} <span className="text-sm font-sans font-bold text-ink-soft">{c.note}</span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-3">
-            <Link href="/admissions#book-a-visit" className="btn btn-primary w-full" data-cta="mobile-book-visit">Book a visit</Link>
-            <Link href="/contact" className="btn btn-light w-full">Contact us</Link>
-          </div>
-        </nav>
-      </div>
+      {/* Portalled to <body>: the header's backdrop-blur makes it the containing block for
+          position:fixed children, which clipped this panel to the header's 72px height. */}
+      {mounted &&
+        createPortal(
+          <div
+            id="mobile-menu"
+            aria-hidden={!open}
+            inert={!open}
+            className={`fixed inset-x-0 top-[4.5rem] bottom-0 z-50 overflow-y-auto lg:hidden bg-cream dotted-bg px-4 pb-10 pt-4 transition-[opacity,transform,visibility] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] ${
+              open ? "visible translate-y-0 opacity-100" : "invisible -translate-y-3 opacity-0"
+            }`}
+          >
+            <nav aria-label="Mobile">
+              <ul className="grid gap-2">
+                {mainNav.map((item, i) => (
+                  <li key={item.href} className={open ? "animate-pop-in" : ""} style={{ animationDelay: `${i * 35}ms` }}>
+                    <Link href={item.href} className="card-pop !shadow-pop-sm block px-5 py-3.5 font-display text-xl font-medium">
+                      {item.label}
+                    </Link>
+                    {item.children && (
+                      <ul className="mt-2 grid gap-1.5 pl-4">
+                        {item.children.map((c) => (
+                          <li key={c.href}>
+                            <Link href={c.href} className="flex items-center justify-between gap-3 rounded-2xl bg-white/70 px-4 py-2.5 font-display">
+                              {c.label} <span className="text-sm font-sans font-bold text-ink-soft">{c.note}</span>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-6 grid gap-3">
+                <Link href="/admissions#book-a-visit" className="btn btn-primary w-full" data-cta="mobile-book-visit">Book a visit</Link>
+                <Link href="/contact" className="btn btn-light w-full">Contact us</Link>
+              </div>
+            </nav>
+          </div>,
+          document.body,
+        )}
     </div>
   );
 }
