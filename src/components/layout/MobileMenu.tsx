@@ -60,8 +60,9 @@ export function MobileMenu() {
                       <ul className="mt-2 grid gap-1.5 pl-4">
                         {item.children.map((c) => (
                           <li key={c.href}>
-                            <Link href={c.href} className="flex items-center justify-between gap-3 rounded-2xl bg-white/70 px-4 py-2.5 font-display">
-                              {c.label} <span className="text-sm font-sans font-bold text-ink-soft">{c.note}</span>
+                            <Link href={c.href} className="block rounded-2xl bg-white/70 px-4 py-2.5">
+                              <span className="block font-display text-[1.05rem] leading-tight">{c.label}</span>
+                              <span className="block text-sm font-bold text-ink-soft">{c.note}</span>
                             </Link>
                           </li>
                         ))}
