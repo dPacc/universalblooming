@@ -11,7 +11,7 @@ const path = "/contact";
 
 export const metadata: Metadata = pageMetadata({
   path,
-  titles: [`Contact Universal Blooming Preschool, ${placeLabel()}`, "Contact Universal Blooming"],
+  titles: [`Contact Us: Khalifa Street, ${placeLabel()}`, "Contact Us"],
   description: `Contact Universal Blooming preschool, day care & after school activities in ${placeLabel()}. WhatsApp, call or email us, find directions and opening hours, or book a visit online.`,
   ogTitle: "Say hello!",
   eyebrow: "Contact",

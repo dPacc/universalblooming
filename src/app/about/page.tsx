@@ -19,7 +19,7 @@ const path = "/about";
 
 export const metadata: Metadata = pageMetadata({
   path,
-  titles: [`About Universal Blooming: Preschool in ${placeLabel()}`, "About Universal Blooming"],
+  titles: [`About Us: Preschool & Day Care in ${placeLabel()}`, "About Us"],
   description: `Meet Universal Blooming: Preschool, Day Care & After School Activities in ${placeLabel()}. Our mission, values, founder ${site.founder.name} and our mascot Bloomi.`,
   ogTitle: "Where every child blooms",
   eyebrow: "About us",

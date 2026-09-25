@@ -7,7 +7,7 @@ import { SITE_URL, site } from "@/config/site";
  * page's own title has TITLE_LIMIT - suffix characters to work with.
  */
 export const TITLE_SUFFIX = ` | ${site.name}`;
-export const TITLE_LIMIT = 62;
+export const TITLE_LIMIT = 70; // brand-inclusive budget; Google shows ~60 chars and the brand sits last
 export const DESCRIPTION_LIMIT = 158;
 
 export function titleFits(title: string): boolean {
@@ -17,13 +17,11 @@ export function titleFits(title: string): boolean {
 /** First candidate that fits with the brand suffix; otherwise the brand is dropped (absolute title). */
 export function pickTitle(...candidates: string[]): Metadata["title"] {
   const usable = candidates.filter(Boolean).map(withYear);
-  const fitting = usable.find(titleFits);
-  if (fitting) return fitting;
-  const bare = usable.find((t) => t.length <= TITLE_LIMIT);
-  if (bare) return { absolute: bare };
-  const last = usable[usable.length - 1] ?? site.name;
-  const head = last.slice(0, TITLE_LIMIT);
-  return { absolute: head.slice(0, head.lastIndexOf(" ")).replace(/[\s,;:\-—·&]+$/, "") };
+  // Already names the brand: use as-is, never "About Universal Blooming | Universal Blooming".
+  const branded = usable.find((t) => t.includes(site.name));
+  if (branded) return { absolute: branded };
+  // Otherwise every title carries the brand via the layout template ("%s | Universal Blooming").
+  return usable.find(titleFits) ?? usable.reduce((a, b) => (b.length < a.length ? b : a), usable[0] ?? site.name);
 }
 
 const DANGLING = /\b(and|or|the|a|an|to|of|for|in|on|with|at|by|is|are|from|as|your|how|why|what)$/i;
@@ -67,7 +65,8 @@ interface PageMetaInput {
   path: string;
   titles: string[]; // best first; see pickTitle
   description: string;
-  ogTitle?: string;
+  ogTitle?: string; // text on the OG card image
+  shareTitle?: string; // og:title / twitter:title shown in WhatsApp, Facebook, X previews
   eyebrow?: string;
   keywords?: string[];
   type?: "website" | "article";
@@ -82,6 +81,8 @@ export function pageMetadata(input: PageMetaInput): Metadata {
   const description = clampDescription(input.description);
   const ogTitle = withYear(input.ogTitle || input.titles[0]);
   const image = ogImageUrl(ogTitle, input.eyebrow);
+  // Link previews always name the brand, so a shared page is recognisable in any chat.
+  const share = withYear(input.shareTitle || (ogTitle.includes(site.name) ? ogTitle : `${ogTitle} | ${site.name}`));
   return {
     title,
     description,
@@ -91,7 +92,7 @@ export function pageMetadata(input: PageMetaInput): Metadata {
     openGraph: {
       type: input.type || "website",
       url: absoluteUrl(input.path),
-      title: ogTitle,
+      title: share,
       description,
       siteName: site.name,
       locale: "en_AE",
@@ -100,7 +101,7 @@ export function pageMetadata(input: PageMetaInput): Metadata {
         ? { publishedTime: input.published, modifiedTime: input.modified || input.published }
         : {}),
     },
-    twitter: { card: "summary_large_image", title: ogTitle, description, images: [image] },
+    twitter: { card: "summary_large_image", title: share, description, images: [image] },
   };
 }
 

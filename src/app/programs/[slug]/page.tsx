@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     path: `/programs/${p.slug}`,
     titles: [p.seoTitle, p.ageLabel ? `${p.name} (${p.ageLabel})` : p.name],
     description: p.seoDescription,
-    ogTitle: p.ageLabel ? `${p.name} for ${p.ageLabel}` : p.name,
+    ogTitle: p.ageLabel ? `${p.name} in ${placeLabel()} · Ages ${p.ageLabel.replace(" years", "")}` : `${p.name} in ${placeLabel()}`,
     eyebrow: "Programs",
     keywords: p.keywords,
   });

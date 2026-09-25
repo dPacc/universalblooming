@@ -28,10 +28,11 @@ export const metadata: Metadata = {
       "Preschool, Day Care & After School Activities in the UAE",
     ],
     ogTitle: "Where young minds bloom",
+    shareTitle: `Universal Blooming - Preschool, Day Care & After School Activities in ${site.city || "the UAE"}`,
     eyebrow: "Preschool · Day Care · After School Activities",
     description: `Preschool, Day Care & After School Activities in ${place}: play-based preschool for ages 3–6, loving day care and activities for 3+. Book a visit today.`,
   }),
-  title: { absolute: `Universal Blooming | Preschool, Day Care & After School Activities in ${site.city || "the UAE"}` },
+  title: { absolute: `Universal Blooming - Preschool, Day Care & After School Activities in ${site.city || "the UAE"}` },
 };
 
 export default function Home() {

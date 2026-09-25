@@ -18,7 +18,7 @@ const caveat = Caveat({ subsets: ["latin"], variable: "--font-caveat", display: 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Universal Blooming | Preschool, Day Care & After School Activities in the UAE",
+    default: `Universal Blooming - Preschool, Day Care & After School Activities in ${site.city || "the UAE"}`,
     template: `%s | ${site.name}`,
   },
   description: site.description,

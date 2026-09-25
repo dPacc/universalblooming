@@ -15,7 +15,7 @@ export const programs: Program[] = [
     tagline: "Creativity, confidence and early learning skills through play.",
     cardText:
       "For children aged 3–6. Hands-on projects, early phonics and numbers, and plenty of play that builds confidence for FS1, KG1 and beyond.",
-    seoTitle: "Preschool for 3–6 Year Olds in the UAE",
+    seoTitle: "Preschool in Abu Dhabi for Ages 3–6",
     seoDescription:
       "Play-based preschool for ages 3–6 in the UAE. Early phonics, numbers, creativity and confidence for FS1 and KG1. Book a visit or WhatsApp us to learn more.",
     quickAnswer:
@@ -431,7 +431,7 @@ export const programs: Program[] = [
     tagline: "A warm, safe, caring place where little ones feel loved.",
     cardText:
       "For little ones who are not yet ready for preschool. Gentle routines, lots of cuddles and play that builds first words, first friendships and steady little steps.",
-    seoTitle: "Day Care for Little Ones in the UAE",
+    seoTitle: "Day Care in Abu Dhabi for Little Ones",
     seoDescription:
       "Loving, play-based day care for little ones in the UAE. Gentle routines, first words and first friendships. Book a visit or message us on WhatsApp today.",
     quickAnswer:
@@ -827,7 +827,7 @@ export const programs: Program[] = [
     tagline: "Explore hobbies and discover new talents after class.",
     cardText:
       "For children aged 3 and up. Sports, arts, music, science and games after the school or preschool day, in a friendly space where children can relax and try new things.",
-    seoTitle: "After-School Activities for Kids in the UAE",
+    seoTitle: "After School Activities in Abu Dhabi, Ages 3+",
     seoDescription:
       "After-school activities for children aged 3+ in the UAE: sports, arts, music, science and games. Ask about current sessions on WhatsApp or book a visit.",
     quickAnswer:

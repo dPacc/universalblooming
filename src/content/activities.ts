@@ -984,7 +984,7 @@ export const activities: Activity[] = [
     tagline: "Team games and sporty fun that build strong bodies and good sports.",
     cardText:
       "Ball skills, relays, parachute games and team challenges that build coordination, teamwork and fair play.",
-    seoTitle: "Sports and Games for Kids in the UAE",
+    seoTitle: "Sports and Games for Kids in Abu Dhabi",
     seoDescription:
       "Ball skills, relays, parachute games and team challenges for kids aged 3 and up in the UAE. See the skills they build and ideas for home. Book a visit.",
     quickAnswer:
