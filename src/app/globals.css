@@ -1,0 +1,221 @@
+@import "tailwindcss";
+
+/* Palette sampled from the Universal Blooming logo. */
+@theme {
+  --color-ink: #2b2355;
+  --color-ink-soft: #564d7f;
+  --color-cream: #fff9f0;
+  --color-paper: #ffffff;
+  --color-pink: #e6237a;
+  --color-pink-soft: #fde4ef;
+  --color-orange: #f7931e;
+  --color-orange-soft: #ffeedd;
+  --color-yellow: #ffc20e;
+  --color-yellow-soft: #fff5cc;
+  --color-green: #7cb342;
+  --color-green-soft: #e9f5dc;
+  --color-teal: #1fa99a;
+  --color-teal-soft: #daf4f0;
+  --color-sky: #29abe2;
+  --color-sky-soft: #dcf2fc;
+  --color-blue: #3f6fc4;
+  --color-blue-soft: #e1e9f8;
+  --color-red: #e53935;
+  --color-red-soft: #fde2e1;
+
+  --font-display: var(--font-fredoka), ui-rounded, system-ui, sans-serif;
+  --font-sans: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
+  --font-hand: var(--font-caveat), cursive;
+
+  --radius-blob: 2.25rem;
+  --shadow-pop: 0 6px 0 0 rgb(43 35 85 / 0.9);
+  --shadow-pop-sm: 0 4px 0 0 rgb(43 35 85 / 0.9);
+  --shadow-soft: 0 18px 40px -18px rgb(43 35 85 / 0.35);
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-float-slow: float 9s ease-in-out infinite;
+  --animate-drift: drift 40s linear infinite;
+  --animate-spin-slow: spin 24s linear infinite;
+  --animate-wiggle: wiggle 0.5s ease-in-out;
+  --animate-bloom: bloom 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  --animate-pop-in: pop-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0) rotate(var(--r, 0deg)); }
+    50% { transform: translateY(-14px) rotate(calc(var(--r, 0deg) + 6deg)); }
+  }
+  @keyframes drift {
+    from { transform: translateX(-20vw); }
+    to { transform: translateX(120vw); }
+  }
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(-6deg); }
+    75% { transform: rotate(6deg); }
+  }
+  @keyframes bloom {
+    from { transform: scale(0) rotate(-90deg); opacity: 0; }
+    to { transform: scale(1) rotate(0deg); opacity: 1; }
+  }
+  @keyframes pop-in {
+    from { transform: translateY(10px) scale(0.98); opacity: 0; }
+    to { transform: none; opacity: 1; }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  p, li, dd, figcaption, blockquote { text-wrap: pretty; }
+  a, button { transition-property: color, background-color, border-color, box-shadow, transform, opacity; transition-duration: 0.2s; transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1); }
+  ::selection { background: var(--color-yellow); color: var(--color-ink); }
+  :focus-visible { outline: 3px solid var(--color-sky); outline-offset: 3px; border-radius: 6px; }
+}
+
+@layer components {
+  .container-x {
+    width: 100%;
+    max-width: 76rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+  @media (min-width: 640px) { .container-x { padding-inline: 1.5rem; } }
+
+  /* Chunky "sticker" button with a hard drop shadow that presses in on click. */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+    font-family: var(--font-display); font-weight: 600; font-size: 1.05rem;
+    padding: 0.8rem 1.4rem; border-radius: 999px; border: 2.5px solid var(--color-ink);
+    box-shadow: var(--shadow-pop-sm); transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.2s;
+    white-space: nowrap; cursor: pointer;
+  }
+  .btn:hover { transform: translateY(-2px); box-shadow: 0 6px 0 0 rgb(43 35 85 / 0.9); }
+  .btn:active { transform: translateY(3px); box-shadow: 0 1px 0 0 rgb(43 35 85 / 0.9); }
+  .btn-primary { background: var(--color-pink); color: #fff; }
+  .btn-sun { background: var(--color-yellow); color: var(--color-ink); }
+  .btn-light { background: #fff; color: var(--color-ink); }
+  .btn-whatsapp { background: #25d366; color: #0b3d20; }
+
+  .card-pop {
+    background: #fff; border: 2.5px solid var(--color-ink); border-radius: 1.75rem;
+    box-shadow: var(--shadow-pop); transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.3s;
+  }
+  a.card-pop:hover, .card-pop.is-hoverable:hover { transform: translateY(-4px); box-shadow: 0 10px 0 0 rgb(43 35 85 / 0.9); }
+
+  .chip {
+    display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.3rem 0.85rem; border-radius: 999px;
+    font-weight: 800; font-size: 0.8rem; letter-spacing: 0.04em; text-transform: uppercase;
+    border: 2px solid currentColor;
+  }
+
+  .eyebrow { font-family: var(--font-hand); font-size: 1.6rem; line-height: 1; color: var(--color-pink); }
+
+  /* Long-form prose rendered from content blocks. */
+  .prose-ub { font-size: 1.075rem; }
+  .prose-ub > * + * { margin-top: 1.1rem; }
+  .prose-ub h3 { font-size: 1.35rem; font-weight: 600; margin-top: 1.9rem; color: var(--color-ink); }
+  .prose-ub a, .link-ub {
+    color: var(--color-blue); font-weight: 700; text-decoration: underline; text-decoration-thickness: 2px;
+    text-underline-offset: 3px; text-decoration-color: color-mix(in srgb, var(--color-blue) 35%, transparent);
+    transition: text-decoration-color 0.2s;
+  }
+  .prose-ub a:hover, .link-ub:hover { text-decoration-color: var(--color-pink); }
+  .prose-ub strong { font-weight: 800; color: var(--color-ink); }
+  .prose-ub ul, .prose-ub ol { padding-left: 1.4rem; }
+  .prose-ub ul > li { list-style: none; position: relative; }
+  .prose-ub ul > li::before {
+    content: ""; position: absolute; left: -1.15rem; top: 0.7em; width: 0.5rem; height: 0.5rem;
+    border-radius: 999px; background: var(--color-pink);
+  }
+  .prose-ub ol > li { list-style: decimal; }
+  .prose-ub ol > li::marker { font-family: var(--font-display); color: var(--color-pink); font-weight: 700; }
+  .prose-ub li + li { margin-top: 0.45rem; }
+  .prose-ub table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 0.97rem; }
+  .prose-ub th, .prose-ub td { padding: 0.7rem 0.9rem; text-align: left; vertical-align: top; }
+  .prose-ub thead th { background: var(--color-ink); color: #fff; font-family: var(--font-display); font-weight: 500; vertical-align: bottom; }
+  .prose-ub thead th:first-child { border-top-left-radius: 1rem; }
+  .prose-ub thead th:last-child { border-top-right-radius: 1rem; }
+  .prose-ub tbody th, .prose-ub tbody td { border-bottom: 1.5px dashed color-mix(in srgb, var(--color-ink) 18%, transparent); }
+  .prose-ub tbody th { color: var(--color-ink); font-weight: 800; }
+  .prose-ub tbody tr:nth-child(even) > * { background: color-mix(in srgb, var(--color-yellow-soft) 60%, #fff); }
+
+  /* Wide tables scroll sideways on phones; soft edge fades hint there is more. */
+  .table-scroll { overscroll-behavior-x: contain; scrollbar-width: thin; }
+  @supports (animation-timeline: scroll()) {
+    .table-scroll {
+      mask-image: linear-gradient(to right, transparent, #000 var(--fade-l), #000 calc(100% - var(--fade-r)), transparent);
+      /* Longhands only: a later `animation` shorthand would reset the timeline. */
+      animation-name: table-fade;
+      animation-timing-function: linear;
+      animation-fill-mode: both;
+      animation-duration: auto !important;
+      animation-iteration-count: 1 !important;
+      animation-timeline: scroll(self inline);
+    }
+  }
+  .wavy-underline {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='10' viewBox='0 0 40 10'%3E%3Cpath d='M0 6 Q10 0 20 6 T40 6' fill='none' stroke='%23ffc20e' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: repeat-x; background-position: 0 100%; background-size: 40px 10px; padding-bottom: 0.35rem;
+  }
+
+  .dotted-bg {
+    background-image: radial-gradient(color-mix(in srgb, var(--color-ink) 12%, transparent) 1.5px, transparent 1.5px);
+    background-size: 22px 22px;
+  }
+
+  /* Scroll-reveal (progressive enhancement; content is visible without JS). */
+  .js [data-reveal] { opacity: 0; transform: translateY(22px); transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1), transform 0.8s cubic-bezier(0.22, 1, 0.36, 1); }
+  .js [data-reveal].is-in { opacity: 1; transform: none; }
+}
+
+@property --fade-l { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fade-r { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@keyframes table-fade {
+  0% { --fade-l: 0px; --fade-r: 2.5rem; }
+  12% { --fade-l: 2.5rem; }
+  88% { --fade-r: 2.5rem; }
+  100% { --fade-l: 2.5rem; --fade-r: 0px; }
+}
+
+/* ── Transitions ─────────────────────────────────────────── */
+:root { interpolate-size: allow-keywords; }
+
+/* Each route fades and rises in (app/template.tsx re-mounts per navigation). */
+@keyframes page-enter { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.page-enter { animation: page-enter 0.55s cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+/* Smooth <details> accordions where supported (Chromium 131+); instant elsewhere. */
+details::details-content {
+  height: 0;
+  overflow: clip;
+  transition: height 0.4s cubic-bezier(0.22, 1, 0.36, 1), content-visibility 0.4s allow-discrete;
+}
+details[open]::details-content { height: auto; }
+
+
+@media (prefers-reduced-motion: reduce) {
+  .page-enter { animation: none; }
+  *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+  .js [data-reveal] { opacity: 1; transform: none; }
+}
+
+@media print {
+  header, footer, .no-print { display: none !important; }
+}
