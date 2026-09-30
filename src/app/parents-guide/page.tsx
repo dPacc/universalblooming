@@ -14,17 +14,17 @@ const path = "/parents-guide";
 
 export const metadata: Metadata = pageMetadata({
   path,
-  titles: ["Parents' Guide to Nurseries in the UAE ({year})"],
-  description: "Clear, sourced guides for UAE parents: nursery age cut-offs, fees, documents, choosing a nursery, curricula, settling in, milestones and school readiness.",
-  ogTitle: "The UAE parents' guide to nursery",
+  titles: ["Parents' Guide to Preschool & Day Care in the UAE ({year})"],
+  description: "Clear, sourced guides for UAE parents: preschool age cut-offs, fees, documents, choosing a preschool or day care, curricula, settling in, milestones and school readiness.",
+  ogTitle: "The UAE parents' guide to preschool & day care",
   eyebrow: "Parents' Guide",
 });
 
-const ORDER: Guide["category"][] = ["Admissions", "Fees & Costs", "Choosing a Nursery", "Child Development", "Everyday Parenting"];
+const ORDER: Guide["category"][] = ["Admissions", "Fees & Costs", "Choosing a Preschool", "Child Development", "Everyday Parenting"];
 const ICON: Record<Guide["category"], string> = {
   Admissions: "📝",
   "Fees & Costs": "💰",
-  "Choosing a Nursery": "🔍",
+  "Choosing a Preschool": "🔍",
   "Child Development": "🌱",
   "Everyday Parenting": "💛",
 };
@@ -35,14 +35,14 @@ export default function GuidesHub() {
   return (
     <>
       <JsonLd data={graph(
-        webPageNode({ path, name: "Parents' Guide", description: "Guides for UAE parents choosing a nursery.", type: "CollectionPage" }),
+        webPageNode({ path, name: "Parents' Guide", description: "Guides for UAE parents choosing a preschool or day care.", type: "CollectionPage" }),
         breadcrumbNode(crumbs),
         itemListNode(path, guides.map((g) => ({ name: withYear(g.title), path: `/parents-guide/${g.slug}` }))),
       )} />
       <PageHero
         crumbs={crumbs}
         eyebrow="Parents' guide"
-        title="Honest, sourced answers for UAE parents"
+        title="A parents' guide to preschool and day care"
         lede={<p>Everything we get asked on visits, written down properly: age cut-offs, fees, documents, curricula, settling in and more. Checked against KHDA, ADEK and Ministry of Education sources.</p>}
         art={<BloomiBuddy mood="read" bubble="I love reading! 📚" bubbleSide="left" size="w-40 sm:w-52" />}
         tone="bg-sky-soft"

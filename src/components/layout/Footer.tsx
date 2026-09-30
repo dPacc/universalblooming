@@ -22,8 +22,7 @@ export function Footer() {
       links: [
         { label: "Admissions", href: "/admissions" },
         { label: "Book a campus visit", href: "/admissions#book-a-visit" },
-        { label: "Nursery age calculator", href: "/tools/nursery-age-calculator" },
-        { label: "Nursery readiness quiz", href: "/tools/nursery-readiness-quiz" },
+        { label: "Preschool readiness quiz", href: "/tools/preschool-readiness-quiz" },
         { label: "About us", href: "/about" },
         { label: "Meet Bloomi", href: "/about#bloomi" },
         { label: "FAQ", href: "/faq" },

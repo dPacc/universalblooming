@@ -13,36 +13,36 @@ import { RelatedGuides } from "@/components/content/Related";
 import { ReadinessQuiz } from "@/components/interactive/ReadinessQuiz";
 import { CtaBand } from "@/components/lead/CtaBand";
 
-const path = "/tools/nursery-readiness-quiz";
+const path = "/tools/preschool-readiness-quiz";
 
 export const metadata: Metadata = pageMetadata({
   path,
-  titles: [rq.seoTitle, "Nursery Readiness Quiz"],
+  titles: [rq.seoTitle, "Preschool Readiness Quiz"],
   description: rq.seoDescription,
-  ogTitle: "Is my child ready for nursery?",
+  ogTitle: "Is my child ready for preschool?",
   eyebrow: "Free 2-minute quiz",
-  keywords: ["is my child ready for nursery", "nursery readiness checklist", "preschool readiness quiz", "school readiness UAE"],
+  keywords: ["is my child ready for preschool", "preschool readiness checklist", "preschool readiness quiz", "school readiness UAE"],
 });
 
 export default function QuizPage() {
   const crumbs: Crumb[] = [
     { name: "Home", path: "/" },
     { name: "Free Tools", path: "/tools" },
-    { name: "Nursery Readiness Quiz", path },
+    { name: "Preschool Readiness Quiz", path },
   ];
   const waBase = site.whatsapp ? `https://wa.me/${site.whatsapp}?text=` : asset("/contact?message=");
   return (
     <>
       <JsonLd data={graph(
-        webPageNode({ path, name: "Nursery Readiness Quiz", description: clampDescription(rq.seoDescription), speakable: true }),
+        webPageNode({ path, name: "Preschool Readiness Quiz", description: clampDescription(rq.seoDescription), speakable: true }),
         breadcrumbNode(crumbs),
-        webAppNode({ path, name: "Nursery Readiness Quiz", description: clampDescription(rq.seoDescription) }),
+        webAppNode({ path, name: "Preschool Readiness Quiz", description: clampDescription(rq.seoDescription) }),
         faqNode(rq.faqs, path),
       )} />
       <PageHero
         crumbs={crumbs}
         eyebrow="Free 2-minute quiz"
-        title="Is my child ready for nursery?"
+        title="Is my child ready for preschool?"
         lede={<p>Ten quick questions about everyday moments. You&apos;ll get a friendly result, your child&apos;s strengths and simple ideas to try at home. No sign-up needed.</p>}
         tone="bg-pink-soft"
       />
@@ -57,7 +57,7 @@ export default function QuizPage() {
         </article>
       </div>
       <div className="container-x mt-16">
-        <RelatedGuides slugs={["settling-into-nursery", "child-development-milestones", "school-readiness-checklist"]} />
+        <RelatedGuides slugs={["settling-into-preschool", "child-development-milestones", "school-readiness-checklist"]} />
       </div>
       <CtaBand source="readiness-quiz" />
     </>

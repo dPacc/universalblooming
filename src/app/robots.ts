@@ -6,7 +6,7 @@ export const dynamic = "force-static";
 
 /**
  * Open to search and AI answer engines on purpose: parents increasingly ask
- * ChatGPT / Perplexity / Gemini "best nursery near me", and being citable
+ * ChatGPT / Perplexity / Gemini "best preschool near me", and being citable
  * there is a lead channel. /_next/ is NOT blocked (Google needs CSS/JS to render).
  */
 const AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "PerplexityBot", "Google-Extended", "Applebot-Extended", "Bingbot"];

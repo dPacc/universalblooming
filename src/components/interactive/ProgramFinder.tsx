@@ -17,6 +17,7 @@ interface P {
 }
 
 function label(m: number) {
+  if (m >= 144) return "12+ years";
   const y = Math.floor(m / 12);
   const mo = m % 12;
   if (y === 0) return `${mo} month${mo === 1 ? "" : "s"}`;
@@ -78,7 +79,7 @@ export function ProgramFinder({ programs }: { programs: P[] }) {
               <span>6 months</span>
               <span>3 years</span>
               <span>6 years</span>
-              <span>12 years</span>
+              <span>12+ years</span>
             </div>
           </div>
         </div>
@@ -113,7 +114,7 @@ export function ProgramFinder({ programs }: { programs: P[] }) {
               <p className="font-display text-2xl font-semibold">Let&apos;s find the right fit 🌸</p>
               <p className="mt-2 text-ink-soft">
                 Tell us about your little one and we&apos;ll suggest the best program. Planning ahead is smart: many families register early.{" "}
-                <Link className="link-ub" href="/tools/nursery-age-calculator">Check key dates</Link>.
+                <Link className="link-ub" href="/admissions">See how admissions work</Link>.
               </p>
             </div>
           )}

@@ -10,13 +10,12 @@ const path = "/tools";
 export const metadata: Metadata = pageMetadata({
   path,
   titles: ["Free Tools for UAE Parents"],
-  description: "Free tools for UAE parents: work out your child's nursery, FS1 and KG1 year group under the new 31 December cut-off, and check nursery readiness in 2 minutes.",
+  description: "A free 2-minute preschool readiness quiz for UAE parents: ten everyday questions, a friendly result, your child's strengths and simple ideas to try at home.",
   eyebrow: "Free tools",
 });
 
 const tools: { href: string; title: string; text: string; mood: BloomiMood; tone: string }[] = [
-  { href: "/tools/nursery-age-calculator", title: "Nursery & School Age Calculator", text: "Enter a date of birth and see Nursery, FS1/Pre-KG, FS2/KG1 and Grade 1 placement for the next three years, using the new UAE cut-off rules.", mood: "think", tone: "bg-sky-soft" },
-  { href: "/tools/nursery-readiness-quiz", title: "Nursery Readiness Quiz", text: "Ten everyday questions, a friendly result, your child's strengths and ideas to build readiness at home.", mood: "cheer", tone: "bg-pink-soft" },
+  { href: "/tools/preschool-readiness-quiz", title: "Preschool Readiness Quiz", text: "Ten everyday questions, a friendly result, your child's strengths and ideas to build readiness at home.", mood: "cheer", tone: "bg-pink-soft" },
 ];
 
 export default function ToolsHub() {
@@ -29,7 +28,7 @@ export default function ToolsHub() {
         itemListNode(path, tools.map((t) => ({ name: t.title, path: t.href }))),
       )} />
       <PageHero crumbs={crumbs} eyebrow="Free tools" title="Free tools for UAE parents" lede={<p>Quick, private, no sign-up. Built by the Universal Blooming team to answer the questions we hear most.</p>} art={<Bloomi mood="think" className="h-auto w-40 sm:w-52" />} />
-      <section className="container-x mt-4 grid gap-6 md:grid-cols-2">
+      <section className="container-x mt-4 grid max-w-3xl gap-6">
         {tools.map((t) => (
           <Link key={t.href} href={t.href} className={`card-pop group relative overflow-hidden p-8 pr-8 sm:pr-40 ${t.tone}`}>
             <h2 className="text-3xl font-semibold">{t.title}</h2>

@@ -16,7 +16,7 @@ export default function Terms() {
       <article className="container-x prose-ub max-w-3xl mt-4">
         <p>By using this website you agree to these terms. The website is operated by {site.legalName}.</p>
         <h3>Information, guides and tools</h3>
-        <p>Our parent guides, age calculator and readiness quiz are general information to help families. UAE admission rules can change and schools make final placement decisions, so always confirm with the relevant school or regulator (KHDA, ADEK, SPEA or the Ministry of Education). The readiness quiz is not a developmental assessment. If you have concerns about your child&apos;s development, speak to your paediatrician.</p>
+        <p>Our parent guides and readiness quiz are general information to help families. UAE admission rules can change and schools make final placement decisions, so always confirm with the relevant school or regulator (KHDA, ADEK, SPEA or the Ministry of Education). The readiness quiz is not a developmental assessment. If you have concerns about your child&apos;s development, speak to your paediatrician.</p>
         <h3>Enrolment</h3>
         <p>Programs, schedules and fees are confirmed in writing at enrolment. Nothing on this website is an offer of a place.</p>
         <h3>Content</h3>

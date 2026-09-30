@@ -11,13 +11,6 @@ export const mainNav = [
   { label: "Activities", href: "/activities" },
   { label: "Admissions", href: "/admissions" },
   { label: "Parents' Guide", href: "/parents-guide" },
-  {
-    label: "Free Tools",
-    href: "/tools",
-    children: [
-      { label: "Nursery Age Calculator", href: "/tools/nursery-age-calculator", note: "Which year group?" },
-      { label: "Nursery Readiness Quiz", href: "/tools/nursery-readiness-quiz", note: "2-minute quiz" },
-    ],
-  },
+  { label: "Readiness Quiz", href: "/tools/preschool-readiness-quiz" },
   { label: "About", href: "/about" },
 ];
