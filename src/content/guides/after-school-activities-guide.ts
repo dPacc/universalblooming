@@ -8,7 +8,7 @@ const guide: Guide = {
   seoDescription:
     "How to choose after-school activities for 5–12 year olds in the UAE: benefits, ideas by age, a sample weekly plan, safety questions and overscheduling signs.",
   excerpt:
-    "Arts, music, sports, science or storytelling? A practical guide to choosing after-school activities that suit your child's age and temperament, without overloading the week.",
+    "Arts, music, science, storytelling or brain games? A practical guide to choosing after-school activities that suit your child's age and temperament, without overloading the week.",
   quickAnswer:
     "The best after-school activities match your child's age, interests and energy, and leave time for homework, free play and sleep. For most 5–12 year olds, two or three regular activities a week is plenty. Mix active and calm options, try before committing for a full term, and check safety, supervision and pickup arrangements with every provider.",
   keywords: [
