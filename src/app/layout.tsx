@@ -27,7 +27,11 @@ export const metadata: Metadata = {
   creator: site.name,
   publisher: site.name,
   formatDetection: { telephone: false },
-  robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
+  // Preview/staging builds (NEXT_PUBLIC_NOINDEX=1) must never be indexed or compete with the real domain.
+  robots:
+    process.env.NEXT_PUBLIC_NOINDEX === "1"
+      ? { index: false, follow: false }
+      : { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
   openGraph: {
     type: "website",
     siteName: site.name,

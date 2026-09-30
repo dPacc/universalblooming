@@ -53,6 +53,8 @@ export function absoluteUrl(path = "/"): string {
 
 /** Static hosting (GitHub Pages) has no server, so per-page OG cards fall back to one pre-rendered card. */
 export const STATIC_EXPORT = process.env.NEXT_PUBLIC_STATIC_EXPORT === "1";
+/** Preview/staging builds must never be indexed. */
+export const PREVIEW_NOINDEX = process.env.NEXT_PUBLIC_NOINDEX === "1";
 
 export function ogImageUrl(title: string, eyebrow?: string): string {
   if (STATIC_EXPORT) return `${SITE_URL}/images/og-default.png`;
@@ -88,7 +90,12 @@ export function pageMetadata(input: PageMetaInput): Metadata {
     description,
     keywords: input.keywords,
     alternates: { canonical: absoluteUrl(input.path) },
-    robots: input.noindex ? { index: false, follow: true } : undefined,
+    // Omit the key unless needed: an explicit undefined would wipe the layout's robots settings.
+    ...(PREVIEW_NOINDEX
+      ? { robots: { index: false, follow: false } }
+      : input.noindex
+        ? { robots: { index: false, follow: true } }
+        : {}),
     openGraph: {
       type: input.type || "website",
       url: absoluteUrl(input.path),
