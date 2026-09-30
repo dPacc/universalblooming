@@ -155,7 +155,7 @@ const guide: Guide = {
       blocks: [
         {
           type: "p",
-          text: "By 3, most children can hold a short conversation, ask lots of questions and join other children in play. This is also when many start FS1 or Pre-KG. Our [nursery age guide](/parents-guide/nursery-age-uae) explains how ages and cut-off dates work in the UAE.",
+          text: "By 3, most children can hold a short conversation, ask lots of questions and join other children in play. This is also when many start FS1 or Pre-KG. Our [preschool age guide](/parents-guide/preschool-age-uae) explains how ages and cut-off dates work in the UAE.",
         },
         {
           type: "table",
@@ -170,7 +170,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "If your child is about to start nursery, our guide to [settling into nursery](/parents-guide/settling-into-nursery) explains why some upset at drop-off is normal and how to help it pass quickly.",
+          text: "If your child is about to start preschool or day care, our guide to [settling into preschool](/parents-guide/settling-into-preschool) explains why some upset at drop-off is normal and how to help it pass quickly.",
         },
       ],
     },
@@ -188,7 +188,7 @@ const guide: Guide = {
           head: ["Area", "What most children do by 4 years", "How play supports it"],
           rows: [
             ["Social and emotional", "Pretends to be something else during play (teacher, superhero, dog); asks to play with children if none are around; comforts others who are hurt or sad; avoids danger, like not jumping from tall heights; likes to be a helper; changes behaviour based on where they are", "Role play, class helper jobs and talking through friendships"],
-            ["Language and communication", "Says sentences with four or more words; says some words from a song, story or nursery rhyme; talks about at least one thing that happened during the day; answers simple questions like \"What is a coat for?\"", "Rhymes, show-and-tell and talking about the day at circle time"],
+            ["Language and communication", "Says sentences with four or more words; says some words from a song, story or children's rhyme; talks about at least one thing that happened during the day; answers simple questions like \"What is a coat for?\"", "Rhymes, show-and-tell and talking about the day at circle time"],
             ["Cognitive", "Names a few colours; tells what comes next in a well-known story; draws a person with three or more body parts", "Repeated favourite stories, drawing and colour games"],
             ["Movement and physical", "Catches a large ball most of the time; serves themselves food or pours water with adult supervision; unbuttons some buttons; holds a crayon or pencil between fingers and thumb, not a fist", "Ball games, pouring at the water tray and fine-motor crafts"],
           ],
@@ -242,7 +242,7 @@ const guide: Guide = {
             "Write down what you have noticed, with examples and roughly when it started",
             "Note any skills your child used to have but has stopped using",
             "Bring the CDC checklist for your child's age, with ticks for what they can do",
-            "Ask nursery staff what they see day to day, as children can behave differently in a group",
+            "Ask preschool or day care staff what they see day to day, as children can behave differently in a group",
             "Take short videos at home if a behaviour is hard to describe",
             "Ask your paediatrician what the next step is and when to review",
           ],
@@ -255,13 +255,13 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "Nursery staff can share observations and support your child in everyday play, but they do not diagnose. At Universal Blooming we are always happy to talk through what we notice with you, and to work alongside any advice your paediatrician gives.",
+          text: "Preschool and day care staff can share observations and support your child in everyday play, but they do not diagnose. At Universal Blooming we are always happy to talk through what we notice with you, and to work alongside any advice your paediatrician gives.",
         },
       ],
     },
     {
-      id: "how-nursery-play-supports-development",
-      title: "How does play at nursery support every area of development?",
+      id: "how-preschool-play-supports-development",
+      title: "How does play at preschool and day care support every area of development?",
       blocks: [
         {
           type: "p",
@@ -269,7 +269,7 @@ const guide: Guide = {
         },
         {
           type: "table",
-          caption: "How everyday nursery activities connect to milestones",
+          caption: "How everyday preschool activities connect to milestones",
           head: ["Activity", "Main areas supported", "Example skills"],
           rows: [
             ["[Creative arts](/activities/creative-arts)", "Movement, cognitive", "Scribbling, drawing circles and people, pencil grip"],
@@ -292,7 +292,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "Our [preschool program](/programs/preschool) supports 3–6 year olds and our [day care program](/programs/day-care) supports little ones who are not yet ready for preschool. You can see all our [programs](/programs), try the [nursery readiness quiz](/tools/nursery-readiness-quiz), or visit [admissions](/admissions) to book a visit and ask how we share observations with parents.",
+          text: "Our [preschool program](/programs/preschool) supports 3–6 year olds and our [day care program](/programs/day-care) supports little ones who are not yet ready for preschool. You can see all our [programs](/programs), try the [preschool readiness quiz](/tools/preschool-readiness-quiz), or visit [admissions](/admissions) to book a visit and ask how we share observations with parents.",
         },
       ],
     },
@@ -315,12 +315,12 @@ const guide: Guide = {
       a: "Talk to your paediatrician promptly. Losing skills a child once had is always worth raising with a doctor rather than waiting to see, in line with the CDC's \"don't wait\" advice.",
     },
     {
-      q: "Can nursery staff tell me if my child has a developmental delay?",
-      a: "No. Nursery staff can share what they observe in play and routines, which is useful information for you and your paediatrician, but only a qualified health professional can assess or diagnose.",
+      q: "Can preschool or day care staff tell me if my child has a developmental delay?",
+      a: "No. Preschool and day care staff can share what they observe in play and routines, which is useful information for you and your paediatrician, but only a qualified health professional can assess or diagnose.",
     },
     {
-      q: "Do children who go to nursery develop faster?",
-      a: "Every child develops at their own pace. Nursery offers varied play, routines and time with other children, which gives lots of chances to practise new skills alongside the learning that happens at home.",
+      q: "Do children who go to preschool or day care develop faster?",
+      a: "Every child develops at their own pace. Preschool and day care offer varied play, routines and time with other children, which gives lots of chances to practise new skills alongside the learning that happens at home.",
     },
     {
       q: "At what ages are children screened for development?",
@@ -328,7 +328,7 @@ const guide: Guide = {
     },
     {
       q: "Is my child ready for FS1 if they have met their 3-year milestones?",
-      a: "Placement in the UAE is mainly based on age and cut-off dates. Read our [nursery age guide](/parents-guide/nursery-age-uae) and the [school readiness checklist](/parents-guide/school-readiness-checklist) for more.",
+      a: "Placement in the UAE is mainly based on age and cut-off dates. Read our [preschool age guide](/parents-guide/preschool-age-uae) and the [school readiness checklist](/parents-guide/school-readiness-checklist) for more.",
     },
   ],
   sources: [
@@ -377,9 +377,9 @@ const guide: Guide = {
       url: "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more",
     },
   ],
-  related: ["school-readiness-checklist", "settling-into-nursery", "daycare-vs-preschool-vs-nursery"],
+  related: ["school-readiness-checklist", "settling-into-preschool", "daycare-vs-preschool-vs-kindergarten"],
   relatedPrograms: ["day-care", "preschool"],
-  tool: "nursery-readiness-quiz",
+  tool: "preschool-readiness-quiz",
 };
 
 export default guide;

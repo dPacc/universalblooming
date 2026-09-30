@@ -1,27 +1,27 @@
 import type { Guide } from "@/content/types";
 
 const guide: Guide = {
-  slug: "how-to-choose-a-nursery-uae",
-  category: "Choosing a Nursery",
-  title: "How to Choose a Nursery in the UAE: The Complete Checklist",
-  seoTitle: "How to Choose a Nursery in the UAE: Checklist",
+  slug: "how-to-choose-a-preschool-uae",
+  category: "Choosing a Preschool",
+  title: "How to Choose a Preschool or Day Care in the UAE: The Complete Checklist",
+  seoTitle: "How to Choose a Preschool or Day Care in the UAE",
   seoDescription:
-    "Choosing a nursery in the UAE? Check the licence, Dubai staff ratios, safeguarding and hygiene, then use our checklist, visit questions and scorecard.",
+    "Choosing a preschool or day care in the UAE? Check the licence, Dubai staff ratios, safeguarding and hygiene, then use our checklist and visit questions.",
   excerpt:
-    "A practical checklist for UAE parents: how to check a nursery's licence, what ratios to expect, 24 questions to ask on a visit, red flags and a printable scorecard.",
+    "A practical checklist for UAE parents: how to check a preschool's licence, what ratios to expect, 24 questions to ask on a visit, red flags and a printable scorecard.",
   quickAnswer:
-    "Start by confirming the nursery is **licensed by the right regulator**: **KHDA** in Dubai, **ADEK** in Abu Dhabi, **SPEA** in Sharjah or the **Ministry of Education** in the northern emirates. Then check staff ratios (in Dubai, **1:3 for babies** up to **1:12 for 4–5 year olds**), safeguarding, staff qualifications, hygiene, communication and the settling-in policy on a visit.",
+    "Start by confirming the preschool or day care is **licensed by the right regulator**: **KHDA** in Dubai, **ADEK** in Abu Dhabi, **SPEA** in Sharjah or the **Ministry of Education** in the northern emirates. Then check staff ratios (in Dubai, **1:3 for babies** up to **1:12 for 4–5 year olds**), safeguarding, staff qualifications, hygiene, communication and the settling-in policy on a visit.",
   keywords: [
-    "how to choose a nursery UAE",
-    "nursery checklist Dubai",
-    "questions to ask nursery visit",
-    "KHDA approved nursery",
-    "ADEK licensed nursery",
-    "nursery ratio UAE",
-    "best nursery Dubai",
-    "nursery red flags",
-    "choosing a nursery Abu Dhabi",
-    "nursery Sharjah checklist",
+    "how to choose a preschool UAE",
+    "preschool checklist Dubai",
+    "questions to ask preschool visit",
+    "KHDA approved preschool",
+    "ADEK licensed early childhood centre",
+    "day care ratio UAE",
+    "best preschool Dubai",
+    "day care red flags",
+    "choosing a day care Abu Dhabi",
+    "preschool Sharjah checklist",
   ],
   published: "2026-09-25",
   updated: "2026-09-25",
@@ -29,39 +29,39 @@ const guide: Guide = {
   sections: [
     {
       id: "what-to-look-for",
-      title: "What should you look for when choosing a nursery?",
+      title: "What should you look for when choosing a preschool or day care?",
       blocks: [
         {
           type: "p",
-          text: "The best nursery for your child is **licensed, safe, warm and a good fit for your family's day**. A glossy building matters far less than the adults in the room and how they talk to children. Most parents shortlist on location and fees, then decide on the feel of the visit.",
+          text: "The best preschool or day care for your child is **licensed, safe, warm and a good fit for your family's day**. A glossy building matters far less than the adults in the room and how they talk to children. Most parents shortlist on location and fees, then decide on the feel of the visit.",
         },
         {
           type: "p",
-          text: "This guide takes you through each area in order of importance: licence, ratios and staff, safety and safeguarding, curriculum, environment and health, and communication. At the end you will find a checklist, 24 questions to take on your visit, the red flags to watch for and a scorecard to compare nurseries side by side.",
+          text: "This guide takes you through each area in order of importance: licence, ratios and staff, safety and safeguarding, curriculum, environment and health, and communication. At the end you will find a checklist, 24 questions to take on your visit, the red flags to watch for and a scorecard to compare centres side by side.",
         },
         {
           type: "p",
-          text: "Before you judge quality, settle the practical questions that rule nurseries in or out. How far is it from home or work at rush hour? Do the hours match your working day, including the commute? Is it a baby-to-four nursery, or an early childhood centre that also runs FS1 and FS2 classes? If you are unsure which type of setting you need, our guide to [day care vs preschool vs nursery](/parents-guide/daycare-vs-preschool-vs-nursery) explains the differences in the UAE.",
+          text: "Before you judge quality, settle the practical questions that rule centres in or out. How far is it from home or work at rush hour? Do the hours match your working day, including the commute? Is it a baby-to-four day care, or an early childhood centre that also runs FS1 and FS2 classes? If you are unsure which type of setting you need, our guide to [day care vs preschool vs kindergarten](/parents-guide/daycare-vs-preschool-vs-kindergarten) explains the differences in the UAE.",
         },
         {
           type: "callout",
           tone: "tip",
           title: "Check the age first",
-          text: "Before you book visits, make sure your child's age fits the rooms you are looking at. Our [nursery age calculator](/tools/nursery-age-calculator) shows which year group a date of birth falls into, and the [nursery age guide](/parents-guide/nursery-age-uae) explains the UAE cut-offs.",
+          text: "Before you book visits, make sure your child's age fits the rooms you are looking at. Our [preschool age guide](/parents-guide/preschool-age-uae) shows which year group a date of birth falls into and explains the UAE cut-offs.",
         },
       ],
     },
     {
-      id: "is-the-nursery-licensed",
-      title: "How do you check a nursery is licensed in the UAE?",
+      id: "is-the-centre-licensed",
+      title: "How do you check a preschool or day care is licensed in the UAE?",
       blocks: [
         {
           type: "p",
-          text: "Every nursery must be licensed, and the regulator depends on the emirate. Federal Decree-Law No. 51 of 2022 regulates nurseries across the UAE, and each emirate adds its own layer.",
+          text: "Every early childhood centre must be licensed, and the regulator depends on the emirate. Federal Decree-Law No. 51 of 2022 regulates early childhood centres across the UAE, and each emirate adds its own layer.",
         },
         {
           type: "table",
-          caption: "Who licenses nurseries in each emirate",
+          caption: "Who licenses early childhood centres in each emirate",
           head: ["Emirate", "Regulator", "Ages covered", "How to check"],
           rows: [
             [
@@ -73,7 +73,7 @@ const guide: Guide = {
             [
               "Abu Dhabi, Al Ain, Al Dhafra",
               "**ADEK** (Department of Education and Knowledge)",
-              "Nurseries: **45 days to 4 years**",
+              "Early childhood centres: **45 days to 4 years**",
               "Licence must be **displayed in reception**; search the **TAMM** directory",
             ],
             [
@@ -84,7 +84,7 @@ const guide: Guide = {
             ],
             [
               "Ras Al Khaimah",
-              "RAK Department of Knowledge for private schools; the nursery position is not fully confirmed",
+              "RAK Department of Knowledge for private schools; the position for early childhood centres is not fully confirmed",
               "Federal definition: up to 4 years",
               "Check with **both RAKDOK and the Ministry of Education**",
             ],
@@ -98,17 +98,17 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "In Abu Dhabi, ADEK's licence conditions include a qualified, licensed principal and staff, health and safety compliance, updated medical records, **ADEK-approved fees**, **CCTV monitoring** and emergency protocols. The licence is renewed every year. The TAMM directory shows nurseries' fees, curriculum and **Irtiqaa** inspection ratings, as reported by Gulf News.",
+          text: "In Abu Dhabi, ADEK's licence conditions include a qualified, licensed principal and staff, health and safety compliance, updated medical records, **ADEK-approved fees**, **CCTV monitoring** and emergency protocols. The licence is renewed every year. The TAMM directory shows early childhood centres' fees, curriculum and **Irtiqaa** inspection ratings, as reported by Gulf News.",
         },
         {
           type: "p",
-          text: "In Dubai, KHDA launched a **Quality Framework for Early Childhood Care and Education** in November 2025. It covers five areas: learning and curriculum, partnership with families, learning environment, health and safeguarding, and leadership. It is a self-review tool, and at the time of writing **KHDA does not publish nursery ratings**, so be wary of any Dubai nursery claiming an official KHDA grade.",
+          text: "In Dubai, KHDA launched a **Quality Framework for Early Childhood Care and Education** in November 2025. It covers five areas: learning and curriculum, partnership with families, learning environment, health and safeguarding, and leadership. It is a self-review tool, and at the time of writing **KHDA does not publish early childhood centre ratings**, so be wary of any Dubai preschool or day care claiming an official KHDA grade.",
         },
       ],
     },
     {
       id: "staff-to-child-ratios",
-      title: "What staff-to-child ratio should a nursery have?",
+      title: "What staff-to-child ratio should a preschool or day care have?",
       blocks: [
         {
           type: "p",
@@ -129,7 +129,7 @@ const guide: Guide = {
           type: "callout",
           tone: "note",
           title: "Outside Dubai",
-          text: "We could not verify the published ratios for Abu Dhabi, Sharjah or the Ministry of Education. Ask the nursery for the ratio in your child's room and which regulation it follows.",
+          text: "We could not verify the published ratios for Abu Dhabi, Sharjah or the Ministry of Education. Ask the centre for the ratio in your child's room and which regulation it follows.",
         },
         {
           type: "h3",
@@ -151,7 +151,7 @@ const guide: Guide = {
       blocks: [
         {
           type: "p",
-          text: "All UAE settings sit under **Federal Law No. 3 of 2016 on child rights**, known as **Wadeema's Law**, which KHDA cites for child protection. A good nursery can tell you, without hesitation, who its safeguarding lead is and what happens if a member of staff has a concern.",
+          text: "All UAE settings sit under **Federal Law No. 3 of 2016 on child rights**, known as **Wadeema's Law**, which KHDA cites for child protection. A good preschool or day care can tell you, without hesitation, who its safeguarding lead is and what happens if a member of staff has a concern.",
         },
         {
           type: "ul",
@@ -159,9 +159,9 @@ const guide: Guide = {
             "**Entry and pickup.** How are visitors signed in? Who can collect your child, and how is that person checked?",
             "**Safeguarding lead.** Is there a named person, and are all staff trained in child protection?",
             "**Supervision.** Are children always in sight of an adult, including at nap time and in the bathroom?",
-            "**CCTV and parent access.** In Abu Dhabi, CCTV is a licence condition. Ask any nursery how footage is used and who can see it.",
+            "**CCTV and parent access.** In Abu Dhabi, CCTV is a licence condition. Ask any centre how footage is used and who can see it.",
             "**Emergencies.** Are fire drills and evacuation plans in place? Is there a lockdown procedure?",
-            "**Inclusion.** Federal Decree-Law 51 of 2022 requires non-discriminatory admission and support for children with special needs. Ask how the nursery supports children who need extra help.",
+            "**Inclusion.** Federal Decree-Law 51 of 2022 requires non-discriminatory admission and support for children with special needs. Ask how the centre supports children who need extra help.",
           ],
         },
         {
@@ -178,7 +178,7 @@ const guide: Guide = {
       blocks: [
         {
           type: "p",
-          text: "UAE nurseries use a range of approaches: **EYFS** (the British early years framework and the most common), **Montessori**, **Reggio Emilia**-inspired, **play-based**, and others. Many blend two. Our guide to [nursery curricula in the UAE](/parents-guide/nursery-curriculum-uae) compares them in detail.",
+          text: "UAE preschools and day cares use a range of approaches: **EYFS** (the British early years framework and the most common), **Montessori**, **Reggio Emilia**-inspired, **play-based**, and others. Many blend two. Our guide to [preschool curricula in the UAE](/parents-guide/preschool-curriculum-uae) compares them in detail.",
         },
         {
           type: "p",
@@ -215,21 +215,21 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "Health paperwork is part of registration too. Our guide to [nursery registration documents](/parents-guide/nursery-registration-documents-uae) covers the immunisation record and health forms most nurseries ask for.",
+          text: "Health paperwork is part of registration too. Our guide to [preschool and day care registration documents](/parents-guide/preschool-registration-documents-uae) covers the immunisation record and health forms most centres ask for.",
         },
       ],
     },
     {
       id: "communication-and-settling-in",
-      title: "How will the nursery communicate with you and settle your child?",
+      title: "How will the preschool communicate with you and settle your child?",
       blocks: [
         {
           type: "p",
-          text: "Good nurseries treat parents as partners. KHDA's quality framework even names **partnership with families** as one of its five domains. Ask how you will hear about your child's day: an app, a daily sheet, a quick chat at pickup, or all three.",
+          text: "Good preschools and day cares treat parents as partners. KHDA's quality framework even names **partnership with families** as one of its five domains. Ask how you will hear about your child's day: an app, a daily sheet, a quick chat at pickup, or all three.",
         },
         {
           type: "p",
-          text: "The **settling-in policy** tells you a lot about a nursery's values. A thoughtful nursery offers a gradual start with shorter days, lets a parent stay at first, and keeps the same adult with your child. A nursery that suggests you simply drop and go on day one may not be the gentlest fit. Our [settling-in plan](/parents-guide/settling-into-nursery) explains what a good first fortnight looks like.",
+          text: "The **settling-in policy** tells you a lot about a centre's values. A thoughtful preschool or day care offers a gradual start with shorter days, lets a parent stay at first, and keeps the same adult with your child. A centre that suggests you simply drop and go on day one may not be the gentlest fit. Our [settling-in plan](/parents-guide/settling-into-preschool) explains what a good first fortnight looks like.",
         },
         {
           type: "p",
@@ -238,12 +238,12 @@ const guide: Guide = {
       ],
     },
     {
-      id: "nursery-checklist",
-      title: "The complete nursery checklist",
+      id: "preschool-checklist",
+      title: "The complete preschool and day care checklist",
       blocks: [
         {
           type: "p",
-          text: "Print this or save it to your phone and tick it off as you visit each nursery.",
+          text: "Print this or save it to your phone and tick it off as you visit each preschool or day care.",
         },
         {
           type: "checklist",
@@ -272,13 +272,13 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "Fees deserve their own comparison. Our [nursery fees guide](/parents-guide/nursery-fees-uae) lists what is usually included, where VAT applies and the questions that make quotes comparable.",
+          text: "Fees deserve their own comparison. Our [preschool and day care fees guide](/parents-guide/preschool-fees-uae) lists what is usually included, where VAT applies and the questions that make quotes comparable.",
         },
       ],
     },
     {
       id: "questions-to-ask-on-a-visit",
-      title: "What questions should you ask on a nursery visit?",
+      title: "What questions should you ask on a preschool or day care visit?",
       blocks: [
         {
           type: "p",
@@ -334,7 +334,7 @@ const guide: Guide = {
             "No written allergy, medication or illness policy",
             "Pressure to pay a deposit on the day",
             "Fees that are not written down, or extras that only come up later",
-            "Claims of an official Dubai nursery rating, which KHDA does not currently publish",
+            "Claims of an official Dubai early childhood centre rating, which KHDA does not currently publish",
           ],
         },
         {
@@ -344,7 +344,7 @@ const guide: Guide = {
         {
           type: "table",
           caption: "Score each area from 1 (poor) to 5 (excellent)",
-          head: ["Area", "What a 5 looks like", "Nursery A", "Nursery B", "Nursery C"],
+          head: ["Area", "What a 5 looks like", "Centre A", "Centre B", "Centre C"],
           rows: [
             ["Licence", "Licence shown, regulator confirmed", "", "", ""],
             ["Ratios and staff", "Clear ratio, qualified team, low turnover", "", "", ""],
@@ -369,35 +369,35 @@ const guide: Guide = {
   ],
   faqs: [
     {
-      q: "How do I know if a nursery is KHDA approved?",
-      a: "Ask the nursery for its KHDA permit and check the centre with KHDA. In Dubai, KHDA licenses all early childhood centres for children aged 45 days to 6 years.",
+      q: "How do I know if a preschool or day care is KHDA approved?",
+      a: "Ask the centre for its KHDA permit and check the centre with KHDA. In Dubai, KHDA licenses all early childhood centres for children aged 45 days to 6 years.",
     },
     {
-      q: "What is the nursery staff ratio in Dubai?",
+      q: "What is the preschool and day care staff ratio in Dubai?",
       a: "KHDA guidelines (2022, as reported) allow up to **1:3** for 45 days to 17 months, **1:5** for 18 to 35 months, **1:8** for 36 to 47 months and **1:12** for 48 to 71 months.",
     },
     {
-      q: "How do I check a nursery in Abu Dhabi?",
-      a: "ADEK licenses nurseries, and the licence must be displayed in reception. The TAMM directory shows fees, curriculum and Irtiqaa inspection ratings.",
+      q: "How do I check a preschool or day care in Abu Dhabi?",
+      a: "ADEK licenses early childhood centres, and the licence must be displayed in reception. The TAMM directory shows fees, curriculum and Irtiqaa inspection ratings.",
     },
     {
-      q: "Does KHDA rate nurseries in Dubai?",
-      a: "Not at the time of writing. KHDA's Early Childhood Care and Education Quality Framework (November 2025) is a self-review and development tool, and it does not yet include published nursery ratings.",
+      q: "Does KHDA rate preschools and day cares in Dubai?",
+      a: "Not at the time of writing. KHDA's Early Childhood Care and Education Quality Framework (November 2025) is a self-review and development tool, and it does not yet include published early childhood centre ratings.",
     },
     {
-      q: "What questions should I ask when visiting a nursery?",
+      q: "What questions should I ask when visiting a preschool or day care?",
       a: "Ask about the licence, room ratios, your child's key person, safeguarding, pickup rules, daily routine, food and allergies, illness policy, communication, settling in and a full fee sheet. See our 24-question list above.",
     },
     {
-      q: "Who regulates nurseries in Sharjah?",
-      a: "The Sharjah Private Education Authority (SPEA) regulates private nurseries in Sharjah, grants licences and evaluates performance.",
+      q: "Who regulates early childhood centres in Sharjah?",
+      a: "The Sharjah Private Education Authority (SPEA) regulates private early childhood centres in Sharjah, grants licences and evaluates performance.",
     },
     {
-      q: "How many nurseries should I visit before choosing?",
+      q: "How many preschools should I visit before choosing?",
       a: "There is no rule, but visiting two or three lets you compare. Use the same checklist and scorecard at each visit so your comparison is fair.",
     },
     {
-      q: "What are the red flags when choosing a nursery?",
+      q: "What are the red flags when choosing a preschool or day care?",
       a: "Watch for a licence that cannot be shown, vague answers about ratios, easy access for strangers, unhappy or unoccupied children, missing health policies and fees that are not written down.",
     },
     {
@@ -415,15 +415,15 @@ const guide: Guide = {
       url: "https://educationmiddleeast.com/news/khda-announces-strict-guidelines-for-early-childhood-centres-staff/",
     },
     {
-      label: "ADEK: Parents are required to ensure their child is enrolled in a licensed nursery",
+      label: "ADEK: Parents are required to ensure their child is enrolled in a licensed early childhood centre",
       url: "https://www.adek.gov.ae/en/Media-Centre/News/ADEK-Parents-are-required-to-ensure-their-child-is-enrolled-in-a-licensed-nursery",
     },
     {
-      label: "ADEK: Nurseries",
+      label: "ADEK: Early childhood centres",
       url: "https://www.adek.gov.ae/Education-System/Nurseries",
     },
     {
-      label: "Gulf News: Choosing a nursery in Abu Dhabi (2024)",
+      label: "Gulf News: Choosing an early childhood centre in Abu Dhabi (2024)",
       url: "https://gulfnews.com/living-in-uae/education/choosing-a-nursery-in-abu-dhabi-here-the-necessary-requirements-parents-should-know-1.1716477515282",
     },
     {
@@ -447,9 +447,8 @@ const guide: Guide = {
       url: "https://web.khda.gov.ae/en/About-Us/Whats-New/Policy-on-Arabic-Language-Provision-in-Early-Child",
     },
   ],
-  related: ["nursery-fees-uae", "nursery-curriculum-uae", "settling-into-nursery"],
+  related: ["preschool-fees-uae", "preschool-curriculum-uae", "settling-into-preschool"],
   relatedPrograms: ["day-care", "preschool"],
-  tool: "nursery-age-calculator",
 };
 
 export default guide;

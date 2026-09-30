@@ -24,10 +24,10 @@ export const metadata: Metadata = pageMetadata({
 });
 
 const faqs: Faq[] = [
-  { q: "Which program is right for my child?", a: "It mostly depends on age: [Preschool](/programs/preschool) is for 3–6 year olds, younger children join [Day Care](/programs/day-care), and [After School Activities](/programs/after-school) welcome children aged 3 and up, so preschoolers can join too. Use the [nursery age calculator](/tools/nursery-age-calculator) to check which UAE school year group your child falls into too." },
+  { q: "Which program is right for my child?", a: "It mostly depends on age: [Preschool](/programs/preschool) is for 3–6 year olds, younger children join [Day Care](/programs/day-care), and [After School Activities](/programs/after-school) welcome children aged 3 and up, so preschoolers can join too. Our guide to [preschool and FS1 age rules in the UAE](/parents-guide/preschool-age-uae) explains which year group your child falls into." },
   { q: "Can my child move from Day Care to Preschool?", a: "Yes. Children move up as they grow, so the familiar faces and routines stay the same while the learning grows with them." },
   { q: "Do you offer full-day and half-day options?", a: "Schedules vary by program. We'll share the current timings and options on your [visit](/admissions#book-a-visit) or on WhatsApp." },
-  { q: "What is the difference between day care and preschool?", a: "Day care focuses on care, routine and play for younger children, while preschool adds more structured early learning to get children ready for FS1 or KG1. Read our [day care vs preschool vs nursery guide](/parents-guide/daycare-vs-preschool-vs-nursery)." },
+  { q: "What is the difference between day care and preschool?", a: "Day care focuses on care, routine and play for younger children, while preschool adds more structured early learning to get children ready for FS1 or KG1. Read our [day care vs preschool vs kindergarten guide](/parents-guide/daycare-vs-preschool-vs-kindergarten)." },
 ];
 
 export default function ProgramsHub() {

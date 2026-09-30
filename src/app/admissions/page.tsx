@@ -97,7 +97,7 @@ export default function AdmissionsPage() {
 
       <div className="container-x mt-20 grid gap-14">
         <RelatedPrograms />
-        <RelatedGuides slugs={["nursery-registration-documents-uae", "nursery-age-uae", "settling-into-nursery"]} />
+        <RelatedGuides slugs={["preschool-registration-documents-uae", "preschool-age-uae", "settling-into-preschool"]} />
       </div>
     </>
   );

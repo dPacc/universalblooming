@@ -70,7 +70,7 @@ const guide: Guide = {
             [
               "8–10 years",
               "Skill-building, teamwork and a sense of progress",
-              "[Sports and games](/activities/sports-and-games), instruments, [science clubs](/activities/little-scientists), drama",
+              "Sports and games, instruments, [science clubs](/activities/little-scientists), drama",
               "Let them pick one main activity and one fun extra",
             ],
             [
@@ -128,14 +128,14 @@ const guide: Guide = {
           rows: [
             ["Arts and crafts", "Painting, drawing, clay, collage, [creative arts](/activities/creative-arts)", "Fine motor control, self-expression, patience"],
             ["Music and movement", "Singing, rhythm, instruments, dance, [music and movement](/activities/music-and-movement)", "Listening, memory, coordination, confidence"],
-            ["Sports and active play", "Ball games, athletics, swimming, martial arts, [sports and games](/activities/sports-and-games)", "Fitness, teamwork, resilience, following rules"],
+            ["Sports and active play", "Ball games, athletics, swimming, martial arts", "Fitness, teamwork, resilience, following rules"],
             ["STEM and science", "Experiments, building, coding, nature study, [little scientists](/activities/little-scientists)", "Curiosity, problem-solving, early maths and reasoning"],
             ["Storytelling and languages", "Reading clubs, drama, creative writing, Arabic or other languages, [storytime](/activities/storytime-and-phonics)", "Vocabulary, communication, imagination"],
           ],
         },
         {
           type: "p",
-          text: "You can browse all of these on our [activities](/activities) page. Many children enjoy a setting that blends several types in one afternoon, so they can try new things without signing up for five separate clubs.",
+          text: "You can see the activities we offer on our [activities](/activities) page. Many children enjoy a setting that blends several types in one afternoon, so they can try new things without signing up for five separate clubs.",
         },
       ],
     },
@@ -183,7 +183,7 @@ const guide: Guide = {
           head: ["Day", "After school", "Evening", "Why it works"],
           rows: [
             ["Monday", "Snack, free play at home", "Homework, reading, early night", "Gentle start to the week"],
-            ["Tuesday", "Active session: [sports and games](/activities/sports-and-games) indoors or in shade", "Dinner, short reading", "Burns off energy mid-week"],
+            ["Tuesday", "Active session: ball games or active play indoors or in shade", "Dinner, short reading", "Burns off energy mid-week"],
             ["Wednesday", "Creative session: [creative arts](/activities/creative-arts) or music", "Homework, family time", "Calm, hands-on contrast to Tuesday"],
             ["Thursday", "Free afternoon, playdate or park", "Homework, reading", "Protects unstructured play"],
             ["Friday", "[Science club](/activities/little-scientists) or storytelling", "Relaxed evening", "Ends the week with curiosity, not pressure"],
@@ -257,7 +257,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "Many of the same questions apply when choosing a nursery. Our [how to choose a nursery guide](/parents-guide/how-to-choose-a-nursery-uae) has a longer visit checklist you can adapt. When comparing costs, remember that optional extracurricular activities are typically charged VAT at 5% in the UAE, and our [nursery fees guide](/parents-guide/nursery-fees-uae) explains how VAT and extras work.",
+          text: "Many of the same questions apply when choosing a preschool. Our [how to choose a preschool guide](/parents-guide/how-to-choose-a-preschool-uae) has a longer visit checklist you can adapt. When comparing costs, remember that optional extracurricular activities are typically charged VAT at 5% in the UAE, and our [preschool fees guide](/parents-guide/preschool-fees-uae) explains how VAT and extras work.",
         },
       ],
     },
@@ -326,7 +326,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "If you would like a single, balanced setting where your child can try arts, music, sports, science and storytelling in one place, explore our [After School Activities](/programs/after-school) or see all our [programs](/programs). Visit [admissions](/admissions) to book a visit and ask about days and session details.",
+          text: "If you would like a single, balanced setting where your child can try arts, music, science, storytelling and Right Brain Activation classes (memory, focus, visualisation and creativity activities) in one place, explore our [After School Activities](/programs/after-school) or see all our [programs](/programs). Visit [admissions](/admissions) to book a visit and ask about days and session details.",
         },
       ],
     },
@@ -391,7 +391,7 @@ const guide: Guide = {
       url: "https://www.vatupdate.com/2026/07/18/fta-publishes-first-standalone-education-sector-vat-guide-vatged1-zero-rating-sharpened-ancillary-supplies-recalibrated/",
     },
   ],
-  related: ["school-readiness-checklist", "child-development-milestones", "how-to-choose-a-nursery-uae"],
+  related: ["school-readiness-checklist", "child-development-milestones", "how-to-choose-a-preschool-uae"],
   relatedPrograms: ["after-school"],
 };
 

@@ -23,13 +23,14 @@ export const programs: Program[] = [
     keywords: [
       "preschool near me",
       "preschool UAE",
-      "nursery for 3 year olds UAE",
+      "preschool for 3 year olds Abu Dhabi",
       "pre-KG Dubai",
       "preschool Abu Dhabi",
       "preschool Sharjah",
       "play-based preschool UAE",
       "FS1 preparation Dubai",
-      "nursery for 4 year olds UAE",
+      "preschool for 4 year olds Abu Dhabi",
+      "preschool Khalifa Street Abu Dhabi",
     ],
     highlights: [
       {
@@ -65,57 +66,63 @@ export const programs: Program[] = [
     ],
     day: [
       {
+        time: "Start of the day",
+        title: "Circle Time: Welcome & Free Play",
+        text: "Children are greeted warmly, settle in with free play, then gather in a circle to share news, feelings and plans for the day.",
+        icon: "🤗",
+      },
+      {
         time: "Morning",
-        title: "Arrival and self-registration",
-        text: "Children hang up their bags, find their name card and choose a calm starter activity.",
-        icon: "🎒",
+        title: "Focused Learning Time",
+        text: "Short, playful small-group sessions on the week's theme help children practise listening, following instructions and concentrating for a little longer each day.",
+        icon: "🎯",
       },
       {
-        time: "Early morning",
-        title: "Morning circle",
-        text: "A group welcome to talk about the day, the weather, feelings and what we will explore.",
-        icon: "⭕",
-      },
-      {
-        time: "Mid-morning",
-        title: "Focused learning time",
-        text: "Short, playful small-group sessions on phonics, numbers or the current project theme.",
+        time: "Morning",
+        title: "Literacy and Numeracy",
+        text: "Songs, sound games, stories and hands-on counting build early phonics and number sense, so letters and numbers feel familiar and fun.",
         icon: "🔤",
       },
       {
         time: "Mid-morning",
-        title: "Snack and chat",
-        text: "A healthy snack where children serve themselves, pour drinks and practise conversation.",
+        title: "Snack and Social Time",
+        text: "A healthy snack where children serve themselves, pour drinks and chat with friends, practising independence, table manners and conversation.",
         icon: "🍎",
       },
       {
+        time: "Mid-morning",
+        title: "Cognitive Puzzles & Blocks",
+        text: "Puzzles, shape sorters and building blocks invite children to plan, test ideas and solve problems, building early maths and thinking skills.",
+        icon: "🧩",
+      },
+      {
         time: "Late morning",
-        title: "Outdoor play and games",
-        text: "Running, climbing, ball skills and group games, outside when weather allows or in an active indoor space.",
-        icon: "🌳",
+        title: "Creativity & Art",
+        text: "Painting, drawing, collage and craft projects let children explore colour and texture, share their ideas and feel proud of what they make.",
+        icon: "🎨",
       },
       {
-        time: "Midday",
-        title: "Lunch together",
-        text: "A social meal that builds independence, table manners and healthy habits.",
-        icon: "🥗",
-      },
-      {
-        time: "Early afternoon",
-        title: "Rest or quiet time",
-        text: "A rest for those who need it, and quiet books, puzzles or audio stories for those who do not.",
-        icon: "🌙",
+        time: "Late morning",
+        title: "Sensory & Fine Motor Play",
+        text: "Play dough, pouring, threading and sensory trays strengthen little fingers and hand control, getting children ready for holding pencils and using scissors.",
+        icon: "🖐️",
       },
       {
         time: "Afternoon",
-        title: "Creative and discovery time",
-        text: "Art, music, role play and simple science experiments linked to the week's theme.",
+        title: "STEM & Discovery",
+        text: "Simple experiments, magnets, building challenges and nature finds spark curiosity, as children predict, test and talk about what they discover.",
         icon: "🔬",
       },
       {
-        time: "Late afternoon",
-        title: "Story and goodbye",
-        text: "A closing story, a chance to share favourite moments, then a handover to parents.",
+        time: "Afternoon",
+        title: "Music & Movement",
+        text: "Songs, rhythm games, instruments and dance help children build coordination, listening skills and confidence while releasing energy in a joyful way.",
+        icon: "🎵",
+      },
+      {
+        time: "End of the day",
+        title: "Story Time & Calm Closing",
+        text: "A shared story, a chance to talk about favourite moments and a calm goodbye help children end the day feeling settled and happy.",
         icon: "📖",
       },
     ],
@@ -158,7 +165,7 @@ export const programs: Program[] = [
             type: "callout",
             tone: "tip",
             title: "Comparing curricula?",
-            text: "Many UAE nurseries follow EYFS, Montessori or Reggio-inspired approaches. Our [nursery curriculum guide](/parents-guide/nursery-curriculum-uae) explains how each one works so you can compare fairly.",
+            text: "Many UAE early years settings follow EYFS, Montessori or Reggio-inspired approaches. Our [preschool curriculum guide](/parents-guide/preschool-curriculum-uae) explains how each one works so you can compare fairly.",
           },
         ],
       },
@@ -168,17 +175,21 @@ export const programs: Program[] = [
         blocks: [
           {
             type: "p",
-            text: "Preschool days have a little more structure than toddler days, with short focused sessions balanced by long stretches of free play. The timeline above shows the usual flow; times are approximate and adjust to the group. Each part of the day has a purpose:",
+            text: "Preschool days have a little more structure than day care, with short focused sessions balanced by plenty of hands-on play. The timeline above shows the ten parts of a typical preschool day, in order, and the pace adjusts to the group. Each part of the day has a purpose:",
           },
           {
             type: "ul",
             items: [
-              "**Self-registration and morning circle:** independence, speaking in a group and following routines.",
-              "**Phonics or number play in small groups:** early literacy, early maths and self-care.",
-              "**Outdoor play and games:** coordination, teamwork and fresh energy for learning.",
-              "**Lunch:** independence, healthy habits and conversation.",
-              "**Art, music or science after rest:** creativity, curiosity and problem solving.",
-              "**Closing story and goodbyes:** listening and reflecting on the day.",
+              "**Circle time, welcome and free play:** settling in calmly, speaking in a group and following routines.",
+              "**Focused learning time:** listening, concentration and following instructions.",
+              "**Literacy and numeracy:** early phonics, letter sounds, counting and number sense.",
+              "**Snack and social time:** independence, healthy habits and conversation.",
+              "**Cognitive puzzles and blocks:** planning, problem solving and early maths.",
+              "**Creativity and art:** self-expression, imagination and pride in their work.",
+              "**Sensory and fine motor play:** hand strength and control for pencils and scissors.",
+              "**STEM and discovery:** curiosity, predicting and testing ideas.",
+              "**Music and movement:** coordination, rhythm, listening and confidence.",
+              "**Story time and calm closing:** listening, reflecting on the day and a settled goodbye.",
             ],
           },
           {
@@ -276,7 +287,7 @@ export const programs: Program[] = [
           },
           {
             type: "p",
-            text: "Children joining Preschool for the first time get a gradual settling-in period. Three- and four-year-olds often settle faster than toddlers, but some still find the first weeks hard. Our [settling into nursery guide](/parents-guide/settling-into-nursery) shares ways to make goodbyes easier.",
+            text: "Children joining Preschool for the first time get a gradual settling-in period. Three- and four-year-olds often settle faster than toddlers, but some still find the first weeks hard. Our [settling into preschool guide](/parents-guide/settling-into-preschool) shares ways to make goodbyes easier.",
           },
         ],
       },
@@ -296,7 +307,7 @@ export const programs: Program[] = [
               "A named water bottle",
               "A sun hat for outdoor play",
               "Easy shoes your child can put on with little help",
-              "A small comforter for rest time, if your child still naps",
+              "A small comforter, if it helps your child feel settled",
             ],
           },
           {
@@ -316,7 +327,7 @@ export const programs: Program[] = [
           },
           {
             type: "p",
-            text: "Our [how to choose a nursery guide](/parents-guide/how-to-choose-a-nursery-uae) has a printable checklist, and the [registration documents guide](/parents-guide/nursery-registration-documents-uae) lists the paperwork to gather.",
+            text: "Our [how to choose a preschool guide](/parents-guide/how-to-choose-a-preschool-uae) has a printable checklist, and the [registration documents guide](/parents-guide/preschool-registration-documents-uae) lists the paperwork to gather.",
           },
         ],
       },
@@ -326,7 +337,7 @@ export const programs: Program[] = [
         blocks: [
           {
             type: "p",
-            text: "In the UAE, children move from nursery into the first school year group, usually called **FS1** in British curriculum schools or **KG1** in many other curricula. The exact age depends on the school, curriculum and emirate, and cut-off dates differ, so check your child's year group with our [nursery age calculator](/tools/nursery-age-calculator) and the [nursery age guide](/parents-guide/nursery-age-uae).",
+            text: "In the UAE, children move from preschool into the first school year group, usually called **FS1** in British curriculum schools or **KG1** in many other curricula. The exact age depends on the school, curriculum and emirate, and cut-off dates differ, so check your child's year group with our [preschool age guide](/parents-guide/preschool-age-uae).",
           },
           {
             type: "p",
@@ -345,7 +356,7 @@ export const programs: Program[] = [
           },
           {
             type: "p",
-            text: "Want a fuller picture? Our [school readiness checklist](/parents-guide/school-readiness-checklist) and [nursery readiness quiz](/tools/nursery-readiness-quiz) can help you spot areas to practise at home.",
+            text: "Want a fuller picture? Our [school readiness checklist](/parents-guide/school-readiness-checklist) and [preschool readiness quiz](/tools/preschool-readiness-quiz) can help you spot areas to practise at home.",
           },
         ],
       },
@@ -376,11 +387,11 @@ export const programs: Program[] = [
     faqs: [
       {
         q: "What age can my child start preschool in the UAE?",
-        a: "Our Preschool is for children from around **3 years**. Age cut-offs for FS1, KG1 and school vary by emirate and curriculum, so use our [nursery age calculator](/tools/nursery-age-calculator) or read the [nursery age guide](/parents-guide/nursery-age-uae) to check your child's year group.",
+        a: "Our Preschool is for children from around **3 years**. Age cut-offs for FS1, KG1 and school vary by emirate and curriculum, so read our [preschool age guide](/parents-guide/preschool-age-uae) to check your child's year group.",
       },
       {
         q: "What is the difference between preschool and FS1 or KG1?",
-        a: "FS1 and KG1 are the first year groups in many UAE schools. Preschool is an early years setting before, or alongside, those years. Our [day care vs preschool vs nursery guide](/parents-guide/daycare-vs-preschool-vs-nursery) explains how they fit together.",
+        a: "FS1 and KG1 are the first year groups in many UAE schools. Preschool is an early years setting before, or alongside, those years. Our [day care vs preschool vs kindergarten guide](/parents-guide/daycare-vs-preschool-vs-kindergarten) explains how they fit together.",
       },
       {
         q: "Will my child learn to read and write in preschool?",
@@ -392,7 +403,7 @@ export const programs: Program[] = [
       },
       {
         q: "How much does preschool cost?",
-        a: "Please ask the team for current fees, as they depend on the sessions you choose. For general context on UAE nursery costs and what to check is included, read our [nursery fees guide](/parents-guide/nursery-fees-uae).",
+        a: "Please ask the team for current fees, as they depend on the sessions you choose. For general context on UAE preschool costs and what to check is included, read our [preschool fees guide](/parents-guide/preschool-fees-uae).",
       },
       {
         q: "Does my child need to be toilet trained to join preschool?",
@@ -409,10 +420,10 @@ export const programs: Program[] = [
     ],
     relatedGuides: [
       "school-readiness-checklist",
-      "nursery-age-uae",
-      "nursery-curriculum-uae",
-      "how-to-choose-a-nursery-uae",
-      "nursery-fees-uae",
+      "preschool-age-uae",
+      "preschool-curriculum-uae",
+      "how-to-choose-a-preschool-uae",
+      "preschool-fees-uae",
     ],
     relatedActivities: ["storytime-and-phonics", "creative-arts", "little-scientists", "social-and-emotional-skills"],
   },
@@ -439,12 +450,12 @@ export const programs: Program[] = [
     keywords: [
       "day care near me",
       "day care for toddlers UAE",
-      "toddler nursery UAE",
+      "day care Abu Dhabi",
       "day care Dubai",
       "toddler day care Abu Dhabi",
       "daycare Sharjah toddlers",
       "play-based day care UAE",
-      "baby and toddler nursery UAE",
+      "day care Khalifa Street Abu Dhabi",
     ],
     highlights: [
       {
@@ -549,7 +560,7 @@ export const programs: Program[] = [
           },
           {
             type: "p",
-            text: "Many UAE families use the words day care and nursery for the same thing. If you are comparing options, our guide to [the difference between day care, preschool and nursery](/parents-guide/daycare-vs-preschool-vs-nursery) explains how the terms are used and which suits which age.",
+            text: "Families in the UAE meet many different terms for early years care. If you are comparing options, our guide to [the difference between day care, preschool and kindergarten](/parents-guide/daycare-vs-preschool-vs-kindergarten) explains how the terms are used and which suits which age.",
           },
         ],
       },
@@ -573,7 +584,7 @@ export const programs: Program[] = [
             type: "callout",
             tone: "tip",
             title: "Curious about teaching approaches?",
-            text: "Our guide to [nursery curriculum options in the UAE](/parents-guide/nursery-curriculum-uae) compares play-based learning with EYFS, Montessori and Reggio Emilia in plain language.",
+            text: "Our guide to [early years curriculum options in the UAE](/parents-guide/preschool-curriculum-uae) compares play-based learning with EYFS, Montessori and Reggio Emilia in plain language.",
           },
         ],
       },
@@ -683,7 +694,7 @@ export const programs: Program[] = [
             type: "callout",
             tone: "note",
             title: "Planning the first weeks",
-            text: "Our [settling into nursery guide](/parents-guide/settling-into-nursery) has a step-by-step plan for the first two weeks, plus tips for handling separation anxiety.",
+            text: "Our [settling into preschool guide](/parents-guide/settling-into-preschool) has a step-by-step plan for the first two weeks, plus tips for handling separation anxiety.",
           },
         ],
       },
@@ -723,7 +734,7 @@ export const programs: Program[] = [
           },
           {
             type: "p",
-            text: "For a longer list, see our [how to choose a nursery checklist](/parents-guide/how-to-choose-a-nursery-uae). To prepare paperwork ahead of time, check the [nursery registration documents guide](/parents-guide/nursery-registration-documents-uae).",
+            text: "For a longer list, see our [how to choose a preschool checklist](/parents-guide/how-to-choose-a-preschool-uae). To prepare paperwork ahead of time, check the [registration documents guide](/parents-guide/preschool-registration-documents-uae).",
           },
         ],
       },
@@ -741,7 +752,7 @@ export const programs: Program[] = [
           },
           {
             type: "p",
-            text: "Because Day Care and Preschool follow the same play-based philosophy, children moving up keep much of what they know, just with new challenges. Not sure which group your child fits? Try our [nursery age calculator](/tools/nursery-age-calculator) or read [what age children can start nursery in the UAE](/parents-guide/nursery-age-uae).",
+            text: "Because Day Care and Preschool follow the same play-based philosophy, children moving up keep much of what they know, just with new challenges. Not sure which group your child fits? Read [what age children can start preschool in the UAE](/parents-guide/preschool-age-uae) or ask the team on a visit.",
           },
         ],
       },
@@ -772,11 +783,11 @@ export const programs: Program[] = [
     faqs: [
       {
         q: "What age can my child start day care in Dubai?",
-        a: "Our Day Care is for little ones who are not yet ready for preschool, and the team will happily talk through availability for your child. Across the UAE, nurseries set their own minimum ages within the rules of their licensing authority, so ages can differ between centres. See our [nursery age guide](/parents-guide/nursery-age-uae) for more, or ask the team on a visit.",
+        a: "Our Day Care is for little ones who are not yet ready for preschool, and the team will happily talk through availability for your child. Across the UAE, early childhood centres set their own minimum ages within the rules of their licensing authority, so ages can differ between centres. See our [preschool age guide](/parents-guide/preschool-age-uae) for more, or ask the team on a visit.",
       },
       {
-        q: "Is day care the same as nursery in the UAE?",
-        a: "In everyday use, mostly yes. Many UAE parents say day care and nursery interchangeably for settings that care for children before school. Our [day care vs preschool vs nursery guide](/parents-guide/daycare-vs-preschool-vs-nursery) explains the differences in detail.",
+        q: "What is the difference between day care and preschool?",
+        a: "At Universal Blooming, Day Care is for little ones who are not yet ready for preschool, with gentle routines, play and rest. Preschool is for children aged 3–6 and adds more early learning before FS1 or KG1. Our [day care vs preschool vs kindergarten guide](/parents-guide/daycare-vs-preschool-vs-kindergarten) explains the differences in detail.",
       },
       {
         q: "Do you offer half days?",
@@ -784,7 +795,7 @@ export const programs: Program[] = [
       },
       {
         q: "How much does day care cost?",
-        a: "Fees depend on the sessions you choose, so please ask the team for current fees. For a general picture of what to budget for, including costs families often miss, read our [nursery fees in the UAE guide](/parents-guide/nursery-fees-uae).",
+        a: "Fees depend on the sessions you choose, so please ask the team for current fees. For a general picture of what to budget for, including costs families often miss, read our [preschool fees in the UAE guide](/parents-guide/preschool-fees-uae).",
       },
       {
         q: "Are meals included?",
@@ -804,11 +815,11 @@ export const programs: Program[] = [
       },
     ],
     relatedGuides: [
-      "daycare-vs-preschool-vs-nursery",
-      "settling-into-nursery",
-      "nursery-age-uae",
+      "daycare-vs-preschool-vs-kindergarten",
+      "settling-into-preschool",
+      "preschool-age-uae",
       "child-development-milestones",
-      "how-to-choose-a-nursery-uae",
+      "how-to-choose-a-preschool-uae",
     ],
     relatedActivities: ["music-and-movement", "storytime-and-phonics", "outdoor-play", "creative-arts"],
   },
@@ -823,30 +834,33 @@ export const programs: Program[] = [
     ageMinMonths: 36,
     ageMaxMonths: 144,
     accent: "orange",
-    emoji: "⚽",
+    emoji: "🧩",
     tagline: "Explore hobbies and discover new talents after class.",
     cardText:
-      "For children aged 3 and up. Sports, arts, music, science and games after the school or preschool day, in a friendly space where children can relax and try new things.",
+      "For children aged 3 and up. Arts, music, science and Right Brain Activation classes after the school or preschool day, in a friendly space where children can relax and try new things.",
     seoTitle: "After School Activities in Abu Dhabi, Ages 3+",
     seoDescription:
-      "After-school activities for children aged 3+ in the UAE: sports, arts, music, science and games. Ask about current sessions on WhatsApp or book a visit.",
+      "After-school activities for ages 3+ in Abu Dhabi: arts, music, science and Right Brain Activation classes. Ask about sessions on WhatsApp or book a visit.",
     quickAnswer:
-      "Universal Blooming **After School Activities** are for children aged **3 years and up**. After the school or preschool day, children unwind and try sports, arts and crafts, music, science experiments and team games in a friendly, supervised setting. It suits families who want their child to explore hobbies, make friends and build confidence outside the classroom.",
+      "Universal Blooming **After School Activities** are for children aged **3 years and up**. After the school or preschool day, children unwind and try arts and crafts, music, science experiments and **Right Brain Activation** classes, which use memory games, puzzles and creative exercises to build focus and imagination. It suits families who want their child to explore hobbies, make friends and build confidence outside the classroom.",
     keywords: [
       "after school activities near me",
       "after school activities UAE",
+      "after school activities Abu Dhabi",
+      "right brain activation classes Abu Dhabi",
       "after school club Dubai",
       "kids activities Abu Dhabi",
       "after school care Sharjah",
       "activities for 3 year olds UAE",
       "activities for 6 year olds UAE",
       "kids hobby classes UAE",
+      "memory and focus activities for kids Abu Dhabi",
       "after school programs for kids",
     ],
     highlights: [
       {
         title: "Try new hobbies",
-        text: "A mix of sports, arts, music and science so children can find what they love.",
+        text: "A mix of arts, music, science and Right Brain Activation so children can find what they love.",
         icon: "🌟",
       },
       {
@@ -855,9 +869,9 @@ export const programs: Program[] = [
         icon: "🧃",
       },
       {
-        title: "Active and healthy",
-        text: "Games and sports that keep bodies moving and build coordination and stamina.",
-        icon: "🏃",
+        title: "Right Brain Activation",
+        text: "Playful memory, pattern and visualisation games that build focus, memory, imagination and creativity.",
+        icon: "🧠",
       },
       {
         title: "Hands-on projects",
@@ -865,8 +879,8 @@ export const programs: Program[] = [
         icon: "🛠️",
       },
       {
-        title: "Friends and teamwork",
-        text: "Mixed-age groups that build cooperation, fair play and leadership.",
+        title: "Friends and cooperation",
+        text: "Mixed-age groups that build cooperation, kindness and leadership.",
         icon: "🤝",
       },
       {
@@ -897,14 +911,14 @@ export const programs: Program[] = [
       {
         time: "Afternoon",
         title: "Main activity session",
-        text: "The day's focus: a sport, art project, music session or science experiment.",
+        text: "The day's focus: an art project, music session, science experiment or Right Brain Activation class.",
         icon: "🎯",
       },
       {
         time: "Late afternoon",
-        title: "Active games",
-        text: "Team games, relays and ball skills to burn off energy and practise fair play.",
-        icon: "⚽",
+        title: "Brain games and puzzles",
+        text: "Memory games, pattern puzzles and picture challenges that stretch focus and imagination.",
+        icon: "🧠",
       },
       {
         time: "Late afternoon",
@@ -915,7 +929,7 @@ export const programs: Program[] = [
       {
         time: "Late afternoon",
         title: "Show and share",
-        text: "Children share what they made, learned or scored today with the group.",
+        text: "Children share what they made or learned today with the group.",
         icon: "🏅",
       },
       {
@@ -932,11 +946,11 @@ export const programs: Program[] = [
         blocks: [
           {
             type: "p",
-            text: "Our After School Activities are for children aged **3 years and up**. After the school or preschool day, children come together to relax, play and try a mix of sports, arts, music, science and games, in a friendly and supervised setting.",
+            text: "Our After School Activities are for children aged **3 years and up**. After the school or preschool day, children come together to relax, play and try a mix of arts, music, science and Right Brain Activation classes, in a friendly and supervised setting.",
           },
           {
             type: "p",
-            text: "The aim is simple: help children explore hobbies and discover new talents. A child who has never held a paintbrush might find they love art. A quiet child might shine in a science challenge. A child with endless energy gets a healthy outlet in team games.",
+            text: "The aim is simple: help children explore hobbies and discover new talents. A child who has never held a paintbrush might find they love art. A quiet child might shine in a science challenge. A child who loves puzzles might light up during memory and pattern games.",
           },
           {
             type: "p",
@@ -953,6 +967,35 @@ export const programs: Program[] = [
         ],
       },
       {
+        id: "right-brain-activation",
+        title: "What are Right Brain Activation classes?",
+        blocks: [
+          {
+            type: "p",
+            text: "Right Brain Activation classes are enrichment sessions built around playful memory games, visualisation, pattern and picture activities, puzzles, music and creative exercises. They are designed to help children build **focus, memory, imagination and creativity** in a relaxed, encouraging way.",
+          },
+          {
+            type: "p",
+            text: "Sessions are hands-on and game-based, never tests. Children work at their own pace, and activities are adapted to the ages in the group. In a typical class, children practise:",
+          },
+          {
+            type: "checklist",
+            items: [
+              "Remembering and recalling pictures, sequences and details",
+              "Picturing scenes and ideas in their mind's eye",
+              "Spotting, copying and continuing patterns",
+              "Solving puzzles step by step",
+              "Listening closely to music and rhythm",
+              "Turning ideas into drawings, stories and creations",
+            ],
+          },
+          {
+            type: "p",
+            text: "Want to know more? Ask the team about the current Right Brain Activation timetable and age groups on a visit or via WhatsApp, or start on our [admissions page](/admissions).",
+          },
+        ],
+      },
+      {
         id: "our-approach",
         title: "How is after-school time different from school?",
         blocks: [
@@ -962,11 +1005,11 @@ export const programs: Program[] = [
           },
           {
             type: "p",
-            text: "Children get a real say. They help choose projects, suggest games and set their own small goals, such as learning a new drum rhythm or beating their personal best in a relay. Having a voice builds motivation and independence.",
+            text: "Children get a real say. They help choose projects, suggest games and set their own small goals, such as learning a new drum rhythm or finishing a tricky puzzle. Having a voice builds motivation and independence.",
           },
           {
             type: "p",
-            text: "Mixed-age groups are a strength. Older children practise leadership by helping younger ones, and younger children stretch themselves by watching and copying. Adults guide, coach and keep everyone safe and included.",
+            text: "Mixed-age groups are a strength. Older children practise leadership by helping younger ones, and younger children stretch themselves by watching and copying. Adults guide, encourage and keep everyone safe and included.",
           },
           {
             type: "callout",
@@ -988,8 +1031,8 @@ export const programs: Program[] = [
             type: "ul",
             items: [
               "**Arrive and unwind:** check-in, a snack and free play help children recharge after a long school day.",
-              "**Main activity:** a sport, art, music or science focus gives time to learn a new skill in depth.",
-              "**Get moving:** team games and active challenges release energy and build teamwork.",
+              "**Main activity:** an art, music, science or Right Brain Activation focus gives time to learn a new skill in depth.",
+              "**Brain games and puzzles:** memory, pattern and picture challenges build focus and imagination.",
               "**Quiet time:** reading, board games or light homework bring balance, calm and a sense of choice.",
               "**Share and go home:** show and share, tidy-up and handover end the session with pride and a calm goodbye.",
             ],
@@ -1000,7 +1043,7 @@ export const programs: Program[] = [
           },
           {
             type: "p",
-            text: "Free choice matters too. A child who is tired or overwhelmed can pick a quieter option, and a child bursting with energy can head for the active games. Adults keep an eye on everyone and gently encourage children to try something new now and then.",
+            text: "Free choice matters too. A child who is tired or overwhelmed can pick a quieter option, and a child bursting with ideas can dive into a bigger project. Adults keep an eye on everyone and gently encourage children to try something new now and then.",
           },
         ],
       },
@@ -1018,11 +1061,6 @@ export const programs: Program[] = [
             head: ["Activity area", "Examples", "Skills developed"],
             rows: [
               [
-                "[Sports and games](/activities/sports-and-games)",
-                "Relays, ball skills, parachute games, team challenges",
-                "Coordination, stamina, teamwork, fair play, handling winning and losing",
-              ],
-              [
                 "[Creative arts](/activities/creative-arts)",
                 "Painting, collage, clay, printmaking, recycled crafts",
                 "Fine motor control, planning, self-expression, patience",
@@ -1038,6 +1076,11 @@ export const programs: Program[] = [
                 "Curiosity, predicting, testing ideas, problem solving",
               ],
               [
+                "Right Brain Activation",
+                "Memory games, visualisation, pattern and picture activities, puzzles",
+                "Focus, memory, imagination, creativity",
+              ],
+              [
                 "Reading and quiet time",
                 "Book corner, storytelling, board games",
                 "Vocabulary, concentration, strategy, turn-taking",
@@ -1046,7 +1089,7 @@ export const programs: Program[] = [
           },
           {
             type: "p",
-            text: "Across all activities, children also practise the [social and emotional skills](/activities/social-and-emotional-skills) that matter at every age: cooperating, resolving disagreements, being a good sport and keeping going when something is hard.",
+            text: "Across all activities, children also practise the [social and emotional skills](/activities/social-and-emotional-skills) that matter at every age: cooperating, resolving disagreements, being a kind friend and keeping going when something is hard.",
           },
           {
             type: "p",
@@ -1054,7 +1097,7 @@ export const programs: Program[] = [
           },
           {
             type: "p",
-            text: "Children who have already found a favourite, such as football or drawing, still benefit from trying other things. Variety builds a broader base of skills, and many children surprise themselves (and their parents) with a new interest.",
+            text: "Children who have already found a favourite, such as drawing or music, still benefit from trying other things. Variety builds a broader base of skills, and many children surprise themselves (and their parents) with a new interest.",
           },
         ],
       },
@@ -1091,9 +1134,8 @@ export const programs: Program[] = [
           {
             type: "checklist",
             items: [
-              "Comfortable clothes and trainers suitable for active play",
+              "Comfortable clothes and shoes",
               "A named water bottle",
-              "A sun hat or cap for outdoor games",
               "A change of top for messy art or science sessions",
               "Any medicines, such as an inhaler, with written instructions",
               "A book or light homework, if your child likes a quiet corner",
@@ -1125,15 +1167,15 @@ export const programs: Program[] = [
         blocks: [
           {
             type: "p",
-            text: "Children who try varied activities tend to build a wider range of skills and a stronger sense of what they enjoy. Confidence gained in one area, like performing a song or leading a team, often carries into the classroom.",
+            text: "Children who try varied activities tend to build a wider range of skills and a stronger sense of what they enjoy. Confidence gained in one area, like performing a song or leading a group project, often carries into the classroom.",
           },
           {
             type: "p",
-            text: "Play and physical activity also help children regulate emotions and focus. A child who has run, laughed and created something after school often arrives home calmer and more settled for the evening.",
+            text: "Play, music and creative activity also help children regulate emotions and focus. A child who has laughed, played and created something after school often arrives home calmer and more settled for the evening.",
           },
           {
             type: "p",
-            text: "For older children, discovering a real passion can guide which clubs, sports or lessons to pursue next. We are happy to share what we have noticed about your child's strengths and interests.",
+            text: "For older children, discovering a real passion can guide which clubs or lessons to pursue next. We are happy to share what we have noticed about your child's strengths and interests.",
           },
           {
             type: "p",
@@ -1144,8 +1186,8 @@ export const programs: Program[] = [
             items: [
               "Tries a new activity even when unsure",
               "Works with other children towards a shared goal",
-              "Handles losing a game without giving up",
-              "Follows multi-step instructions from a coach or leader",
+              "Keeps going when a puzzle or project is tricky",
+              "Follows multi-step instructions from an adult or group leader",
               "Talks about what they made or learned with pride",
             ],
           },
@@ -1163,7 +1205,7 @@ export const programs: Program[] = [
             type: "ul",
             items: [
               "You want your child to try a variety of hobbies before committing to one",
-              "Your child needs an active, social outlet after the school day",
+              "Your child needs a creative, social outlet after the school day",
               "You work and want a friendly, supervised place for your child after class",
               "Your child is in our Preschool and would love more to do after class, or has moved up to school and wants to keep coming",
             ],
@@ -1182,7 +1224,11 @@ export const programs: Program[] = [
       },
       {
         q: "Which activities do you offer after school?",
-        a: "Our activity areas include [sports and games](/activities/sports-and-games), [creative arts](/activities/creative-arts), [music and movement](/activities/music-and-movement) and [little scientists](/activities/little-scientists). The exact timetable can change by term, so the team will share what is running now.",
+        a: "Our activity areas include [creative arts](/activities/creative-arts), [music and movement](/activities/music-and-movement), [little scientists](/activities/little-scientists) and Right Brain Activation classes. The exact timetable can change by term, so the team will share what is running now.",
+      },
+      {
+        q: "What is Right Brain Activation?",
+        a: "Right Brain Activation classes are enrichment activities that use playful memory games, visualisation, pattern and picture activities, puzzles, music and creative exercises. They are designed to help children practise focus, memory, imagination and creativity in a fun, low-pressure way. Ask the team about the current timetable and age groups on a visit or via WhatsApp, or start on our [admissions page](/admissions).",
       },
       {
         q: "What days and times do after-school sessions run?",
@@ -1194,7 +1240,7 @@ export const programs: Program[] = [
       },
       {
         q: "Do you collect children from school?",
-        a: "Please ask the team about current collection and transport options, as these can vary. You can reach us via our [contact page](/contact).",
+        a: "Please ask the team about current collection and travel options, as these can vary. You can reach us via our [contact page](/contact).",
       },
       {
         q: "How much do after-school activities cost?",
@@ -1206,6 +1252,6 @@ export const programs: Program[] = [
       },
     ],
     relatedGuides: ["after-school-activities-guide", "school-readiness-checklist", "child-development-milestones"],
-    relatedActivities: ["sports-and-games", "creative-arts", "music-and-movement", "little-scientists"],
+    relatedActivities: ["creative-arts", "music-and-movement", "little-scientists", "storytime-and-phonics"],
   },
 ];

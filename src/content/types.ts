@@ -21,7 +21,7 @@ export type Block =
 
 export interface Section {
   id: string; // kebab-case anchor, used in the table of contents
-  title: string; // H2, question-form where natural ("How much does nursery cost in Dubai?")
+  title: string; // H2, question-form where natural ("How much does preschool cost in Abu Dhabi?")
   blocks: Block[];
 }
 
@@ -38,11 +38,11 @@ export interface Source {
 export type Accent = "pink" | "orange" | "yellow" | "green" | "teal" | "sky" | "blue" | "red";
 
 export type ProgramSlug = "day-care" | "preschool" | "after-school";
-export type ToolSlug = "nursery-age-calculator" | "nursery-readiness-quiz";
+export type ToolSlug = "preschool-readiness-quiz";
 
 export interface Guide {
   slug: string;
-  category: "Admissions" | "Fees & Costs" | "Choosing a Nursery" | "Child Development" | "Everyday Parenting";
+  category: "Admissions" | "Fees & Costs" | "Choosing a Preschool" | "Child Development" | "Everyday Parenting";
   title: string; // H1
   seoTitle: string; // ≤ 50 chars incl. {year}; brand suffix is added automatically
   seoDescription: string; // 140–158 chars

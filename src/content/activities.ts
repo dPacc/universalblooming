@@ -23,7 +23,7 @@ export const activities: Activity[] = [
       "kids painting classes near me",
       "toddler art activities",
       "craft activities for preschoolers",
-      "creative arts nursery Dubai",
+      "creative arts preschool Dubai",
       "art for 3 year olds",
     ],
     skills: [
@@ -208,7 +208,7 @@ export const activities: Activity[] = [
       },
     ],
     relatedPrograms: ["day-care", "preschool", "after-school"],
-    relatedGuides: ["child-development-milestones", "school-readiness-checklist", "nursery-curriculum-uae"],
+    relatedGuides: ["child-development-milestones", "school-readiness-checklist", "preschool-curriculum-uae"],
   },
 
   // ---------------------------------------------------------------------------
@@ -231,7 +231,7 @@ export const activities: Activity[] = [
     keywords: [
       "phonics for preschoolers UAE",
       "storytime for toddlers near me",
-      "early reading nursery Dubai",
+      "early reading preschool Dubai",
       "phonics classes for kids",
       "language development activities toddlers",
       "pre-reading skills 4 year old",
@@ -341,7 +341,7 @@ export const activities: Activity[] = [
               "Share a book every day, even for five minutes before bed",
               "Let your child choose the book, even if it is the same one again",
               "Point to pictures and ask \"What can you see?\"",
-              "Sing nursery rhymes and pause so your child can fill in the rhyming word",
+              "Sing rhymes and pause so your child can fill in the rhyming word",
               "Play \"I spy\" with first sounds: \"I spy something beginning with sss\"",
               "Read in your home language too; strong home language skills help English",
               "Visit a library or bookshop and make it a treat",
@@ -365,7 +365,7 @@ export const activities: Activity[] = [
           },
           {
             type: "p",
-            text: "In [After School Activities](/programs/after-school), older children enjoy a quiet reading corner and story-based drama. Ask about our approach to phonics when you [book a visit](/admissions), and see our [nursery age calculator](/tools/nursery-age-calculator) to check which year group your child will join.",
+            text: "In [After School Activities](/programs/after-school), older children enjoy a quiet reading corner and story-based drama. Ask about our approach to phonics when you [book a visit](/admissions), and see our [preschool age guide](/parents-guide/preschool-age-uae) to check which year group your child will join.",
           },
         ],
       },
@@ -397,7 +397,7 @@ export const activities: Activity[] = [
       },
     ],
     relatedPrograms: ["day-care", "preschool"],
-    relatedGuides: ["school-readiness-checklist", "child-development-milestones", "nursery-curriculum-uae"],
+    relatedGuides: ["school-readiness-checklist", "child-development-milestones", "preschool-curriculum-uae"],
   },
 
   // ---------------------------------------------------------------------------
@@ -418,7 +418,7 @@ export const activities: Activity[] = [
     quickAnswer:
       "**Outdoor play** at Universal Blooming gives children of all ages time to run, climb, balance, dig and explore. It builds gross motor skills, coordination, confidence and healthy habits. In the UAE's hotter months, we plan active play for cooler times of day or move it to active indoor spaces so children keep moving safely all year.",
     keywords: [
-      "outdoor play nursery UAE",
+      "outdoor play preschool UAE",
       "gross motor activities toddlers",
       "outdoor activities for preschoolers",
       "active play for kids Dubai",
@@ -559,7 +559,7 @@ export const activities: Activity[] = [
           },
           {
             type: "p",
-            text: "When choosing a nursery, it is worth asking how active play is planned through the year. Our [how to choose a nursery guide](/parents-guide/how-to-choose-a-nursery-uae) includes this and other useful questions. To see our spaces, [book a visit](/admissions).",
+            text: "When choosing a preschool or day care, it is worth asking how active play is planned through the year. Our [how to choose a preschool guide](/parents-guide/how-to-choose-a-preschool-uae) includes this and other useful questions. To see our spaces, [book a visit](/admissions).",
           },
         ],
       },
@@ -587,7 +587,7 @@ export const activities: Activity[] = [
       },
     ],
     relatedPrograms: ["day-care", "preschool", "after-school"],
-    relatedGuides: ["child-development-milestones", "how-to-choose-a-nursery-uae", "school-readiness-checklist"],
+    relatedGuides: ["child-development-milestones", "how-to-choose-a-preschool-uae", "school-readiness-checklist"],
   },
 
   // ---------------------------------------------------------------------------
@@ -611,7 +611,7 @@ export const activities: Activity[] = [
       "social skills activities for toddlers",
       "emotional development preschool",
       "teaching kids to share",
-      "social emotional learning nursery UAE",
+      "social emotional learning preschool UAE",
       "helping toddlers with big feelings",
       "friendship skills preschoolers",
     ],
@@ -703,7 +703,7 @@ export const activities: Activity[] = [
           },
           {
             type: "p",
-            text: "Strong social skills also make the day happier. Children who can join in games, share and repair a friendship after a squabble enjoy nursery and school more.",
+            text: "Strong social skills also make the day happier. Children who can join in games, share and repair a friendship after a squabble enjoy preschool and school more.",
           },
           {
             type: "p",
@@ -734,8 +734,8 @@ export const activities: Activity[] = [
           {
             type: "callout",
             tone: "tip",
-            title: "Starting nursery soon?",
-            text: "Separation can bring big feelings. Our [settling into nursery guide](/parents-guide/settling-into-nursery) has a plan for smoother goodbyes.",
+            title: "Starting preschool soon?",
+            text: "Separation can bring big feelings. Our [settling into preschool guide](/parents-guide/settling-into-preschool) has a plan for smoother goodbyes.",
           },
         ],
       },
@@ -777,7 +777,7 @@ export const activities: Activity[] = [
       },
     ],
     relatedPrograms: ["day-care", "preschool", "after-school"],
-    relatedGuides: ["settling-into-nursery", "school-readiness-checklist", "child-development-milestones"],
+    relatedGuides: ["settling-into-preschool", "school-readiness-checklist", "child-development-milestones"],
   },
 
   // ---------------------------------------------------------------------------
@@ -992,7 +992,7 @@ export const activities: Activity[] = [
     keywords: [
       "kids sports classes UAE",
       "sports activities for 4 year olds",
-      "after school sports Dubai",
+      "kids sports activities Dubai",
       "ball skills for preschoolers",
       "team games for kids",
       "kids football near me",
@@ -1137,7 +1137,7 @@ export const activities: Activity[] = [
         blocks: [
           {
             type: "p",
-            text: "Simple games are part of active play in [Preschool](/programs/preschool), and sports are a highlight of [After School Activities](/programs/after-school).",
+            text: "Simple games are part of active play in [Preschool](/programs/preschool), and toddlers in [Day Care](/programs/day-care) build the foundations through [outdoor play](/activities/outdoor-play).",
           },
           {
             type: "p",
@@ -1168,7 +1168,7 @@ export const activities: Activity[] = [
         a: "Activities change by term, so the team will share what is currently running. Ask on a visit or via our [contact page](/contact).",
       },
     ],
-    relatedPrograms: ["preschool", "after-school"],
+    relatedPrograms: ["preschool"],
     relatedGuides: ["after-school-activities-guide", "child-development-milestones", "school-readiness-checklist"],
   },
 
@@ -1194,7 +1194,7 @@ export const activities: Activity[] = [
       "STEM for kids UAE",
       "science experiments for toddlers",
       "kids science classes Dubai",
-      "STEM nursery UAE",
+      "STEM preschool UAE",
       "easy science experiments for 4 year olds",
     ],
     skills: [
@@ -1330,7 +1330,7 @@ export const activities: Activity[] = [
         blocks: [
           {
             type: "p",
-            text: "Simple discovery play starts in [Day Care](/programs/day-care), becomes regular experiments in [Preschool](/programs/preschool), and grows into design challenges in [After School Activities](/programs/after-school). Curious about how different curricula approach early science? Read our [nursery curriculum guide](/parents-guide/nursery-curriculum-uae) or [book a visit](/admissions).",
+            text: "Simple discovery play starts in [Day Care](/programs/day-care), becomes regular experiments in [Preschool](/programs/preschool), and grows into design challenges in [After School Activities](/programs/after-school). Curious about how different curricula approach early science? Read our [preschool curriculum guide](/parents-guide/preschool-curriculum-uae) or [book a visit](/admissions).",
           },
         ],
       },
@@ -1345,7 +1345,7 @@ export const activities: Activity[] = [
         a: "Yes, with supervision and child-safe materials. We use everyday items like water, ice, seeds, magnets and baking soda.",
       },
       {
-        q: "What is STEM in nursery?",
+        q: "What is STEM in preschool?",
         a: "STEM stands for science, technology, engineering and maths. In the early years it means hands-on play like building, measuring, testing and problem solving, not screens or worksheets.",
       },
       {
@@ -1358,6 +1358,6 @@ export const activities: Activity[] = [
       },
     ],
     relatedPrograms: ["day-care", "preschool", "after-school"],
-    relatedGuides: ["nursery-curriculum-uae", "school-readiness-checklist", "child-development-milestones"],
+    relatedGuides: ["preschool-curriculum-uae", "school-readiness-checklist", "child-development-milestones"],
   },
 ];

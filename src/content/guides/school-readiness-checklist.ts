@@ -24,7 +24,7 @@ const guide: Guide = {
   published: "2026-09-25",
   updated: "2026-09-25",
   accent: "orange",
-  tool: "nursery-readiness-quiz",
+  tool: "preschool-readiness-quiz",
   sections: [
     {
       id: "is-my-child-ready",
@@ -32,7 +32,7 @@ const guide: Guide = {
       blocks: [
         {
           type: "p",
-          text: "Start with the reassuring part: in the UAE, you do not have to decide whether your child is old enough. **Age decides the year group.** From 2026-27, September-start schools place children in FS1 / Pre-KG if they turn 3 by 31 December, and FS2 / KG1 if they turn 4 by 31 December. You can check your child's group in seconds with the [nursery age calculator](/tools/nursery-age-calculator).",
+          text: "Start with the reassuring part: in the UAE, you do not have to decide whether your child is old enough. **Age decides the year group.** From 2026-27, September-start schools place children in FS1 / Pre-KG if they turn 3 by 31 December, and FS2 / KG1 if they turn 4 by 31 December. Our [preschool age guide](/parents-guide/preschool-age-uae) explains which group applies to your child.",
         },
         {
           type: "p",
@@ -53,7 +53,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "Want a quick snapshot first? Try our 10-question [nursery readiness quiz](/tools/nursery-readiness-quiz), then come back to the full checklist below.",
+          text: "Want a quick snapshot first? Try our 10-question [preschool readiness quiz](/tools/preschool-readiness-quiz), then come back to the full checklist below.",
         },
       ],
     },
@@ -63,13 +63,13 @@ const guide: Guide = {
       blocks: [
         {
           type: "p",
-          text: "In most cases, no. The UAE rules put age first in the early years, and there are only a few narrow situations where readiness changes where a child is placed. It helps to know them before you talk to a school or nursery.",
+          text: "In most cases, no. The UAE rules put age first in the early years, and there are only a few narrow situations where readiness changes where a child is placed. It helps to know them before you talk to a school or preschool.",
         },
         {
           type: "callout",
           tone: "warning",
-          title: "Dubai: nurseries cannot hold children back for maturity",
-          text: "KHDA's parent guidance says that from FS1 to Year 1 (Pre-KG to KG2), **age is the overriding placement rule**. Holding a child back for maturity is not allowed without KHDA-reviewed evidence. **Nurseries and early childhood centres must follow the age-grade chart from FS1** and cannot skip or repeat a year without KHDA approval.",
+          title: "Dubai: preschools cannot hold children back for maturity",
+          text: "KHDA's parent guidance says that from FS1 to Year 1 (Pre-KG to KG2), **age is the overriding placement rule**. Holding a child back for maturity is not allowed without KHDA-reviewed evidence. **Early childhood centres, including preschools and day care centres, must follow the age-grade chart from FS1** and cannot skip or repeat a year without KHDA approval.",
         },
         {
           type: "table",
@@ -84,7 +84,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "So for most families, readiness is not about when your child starts. It is about giving them a confident start in the year group their age puts them in. Our guide to [nursery and FS1 ages in the UAE](/parents-guide/nursery-age-uae) explains the cut-off rules in full.",
+          text: "So for most families, readiness is not about when your child starts. It is about giving them a confident start in the year group their age puts them in. Our guide to [preschool and FS1 ages in the UAE](/parents-guide/preschool-age-uae) explains the cut-off rules in full.",
         },
       ],
     },
@@ -134,7 +134,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "If separation is hard, you are not alone. Our guide to [settling into nursery](/parents-guide/settling-into-nursery) has a gentle, step-by-step plan. In our [social and emotional skills](/activities/social-and-emotional-skills) activities, children practise teamwork, kindness and naming feelings through play.",
+          text: "If separation is hard, you are not alone. Our guide to [settling into preschool](/parents-guide/settling-into-preschool) has a gentle, step-by-step plan. In our [social and emotional skills](/activities/social-and-emotional-skills) activities, children practise teamwork, kindness and naming feelings through play.",
         },
       ],
     },
@@ -249,7 +249,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "Prefer an interactive version? The [readiness quiz](/tools/nursery-readiness-quiz) gives you a quick summary and ideas for next steps.",
+          text: "Prefer an interactive version? The [readiness quiz](/tools/preschool-readiness-quiz) gives you a quick summary and ideas for next steps.",
         },
       ],
     },
@@ -344,15 +344,15 @@ const guide: Guide = {
   faqs: [
     {
       q: "What age does a child start FS1 in the UAE?",
-      a: "In September-start schools, children join FS1 / Pre-KG in the academic year in which they turn **3 by 31 December**. For 2026-27 that means children born in 2023. Use our [nursery age calculator](/tools/nursery-age-calculator) to check.",
+      a: "In September-start schools, children join FS1 / Pre-KG in the academic year in which they turn **3 by 31 December**. For 2026-27 that means children born in 2023. Our [preschool age guide](/parents-guide/preschool-age-uae) explains the rules in full.",
     },
     {
       q: "Does my child need to be toilet trained for FS1?",
-      a: "Policies vary by school and nursery, so ask directly. Many families find it helps if children can at least tell an adult when they need the toilet. Ask the school how it supports children who are still learning.",
+      a: "Policies vary by school and preschool, so ask directly. Many families find it helps if children can at least tell an adult when they need the toilet. Ask the school how it supports children who are still learning.",
     },
     {
       q: "Can I hold my child back a year if they are not ready?",
-      a: "In Dubai, age is the overriding placement rule from FS1 to Year 1. Holding a child back for maturity is not allowed without KHDA-reviewed evidence, and nurseries cannot skip or repeat a year without KHDA approval. Elsewhere, check with ADEK, SPEA or the Ministry of Education.",
+      a: "In Dubai, age is the overriding placement rule from FS1 to Year 1. Holding a child back for maturity is not allowed without KHDA-reviewed evidence, and early childhood centres cannot skip or repeat a year without KHDA approval. Elsewhere, check with ADEK, SPEA or the Ministry of Education.",
     },
     {
       q: "Is there an assessment for FS1 in Dubai?",
@@ -368,7 +368,7 @@ const guide: Guide = {
     },
     {
       q: "What are the most important school readiness skills?",
-      a: "Separating from you with support, communicating needs, following simple instructions, basic self-care and playing alongside others. Try our [readiness quiz](/tools/nursery-readiness-quiz) for a quick snapshot.",
+      a: "Separating from you with support, communicating needs, following simple instructions, basic self-care and playing alongside others. Try our [readiness quiz](/tools/preschool-readiness-quiz) for a quick snapshot.",
     },
     {
       q: "My child has an autumn birthday. Will they be too young for FS1?",
@@ -409,7 +409,7 @@ const guide: Guide = {
       url: "https://publications.aap.org/pediatrics/article/149/3/e2021052138/184748/Evidence-Informed-Milestones-for-Developmental",
     },
   ],
-  related: ["nursery-age-uae", "child-development-milestones", "settling-into-nursery"],
+  related: ["preschool-age-uae", "child-development-milestones", "settling-into-preschool"],
   relatedPrograms: ["preschool", "day-care"],
 };
 

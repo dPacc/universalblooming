@@ -1,26 +1,26 @@
 import type { Guide } from "@/content/types";
 
 const guide: Guide = {
-  slug: "daycare-vs-preschool-vs-nursery",
-  category: "Choosing a Nursery",
-  title: "Day Care vs Preschool vs Nursery vs Kindergarten in the UAE",
-  seoTitle: "Day Care vs Preschool vs Nursery vs KG in UAE",
+  slug: "daycare-vs-preschool-vs-kindergarten",
+  category: "Choosing a Preschool",
+  title: "Day Care vs Preschool vs Kindergarten in the UAE",
+  seoTitle: "Day Care vs Preschool vs Kindergarten in the UAE",
   seoDescription:
-    "Day care, preschool, nursery or KG? What each term means in the UAE, the ages and regulators involved, and which one your family needs and when.",
+    "Day care, preschool or kindergarten (KG)? What each term means in the UAE, the ages and regulators involved, and which one your family needs and when.",
   excerpt:
-    "What day care, preschool, nursery and kindergarten actually mean in the UAE, how they differ by age, hours and regulator, and when working parents usually need each one.",
+    "What day care, preschool and kindergarten actually mean in the UAE, how they differ by age, hours and regulator, and when working parents usually need each one.",
   quickAnswer:
-    "In the UAE, **nursery** and **day care** usually mean the same thing: licensed care for babies and young children, which federal law covers **up to age 4**. **Preschool** describes the 3 to 5 stage before school. **Kindergarten** (KG1, KG2) is the first stage of school, joined by age. In Dubai, KHDA early childhood centres can take children from **45 days to 6 years**.",
+    "In the UAE, **day care** usually means licensed care for babies and young children in an **early childhood centre**, which federal law covers **up to age 4**. **Preschool** describes the 3 to 5 stage before school. **Kindergarten** (KG1, KG2) is the first stage of school, joined by age. In Dubai, KHDA early childhood centres can take children from **45 days to 6 years**.",
   keywords: [
-    "day care vs nursery",
-    "preschool vs nursery UAE",
-    "difference between nursery and kindergarten",
+    "day care vs preschool",
+    "preschool vs day care UAE",
+    "difference between day care and kindergarten",
     "day care Dubai",
-    "nursery vs KG1",
+    "preschool vs KG1",
     "what age is preschool UAE",
     "infant daycare 45 days",
     "early childhood centre Dubai",
-    "maternity leave UAE nursery",
+    "maternity leave UAE day care",
   ],
   published: "2026-09-25",
   updated: "2026-09-25",
@@ -28,39 +28,39 @@ const guide: Guide = {
   sections: [
     {
       id: "what-is-the-difference",
-      title: "What is the difference between day care, preschool, nursery and kindergarten?",
+      title: "What is the difference between day care, preschool and kindergarten?",
       blocks: [
         {
           type: "p",
-          text: "The short version: **day care** and **nursery** are care-and-learning settings for babies and young children; **preschool** is the stage just before school, roughly ages 3 to 5; and **kindergarten** is the first formal year or two of school, called KG1 and KG2 in many UAE schools.",
+          text: "The short version: **day care** is a care-and-learning setting for babies and young children, usually in a licensed early childhood centre; **preschool** is the stage just before school, roughly ages 3 to 5; and **kindergarten** is the first formal year or two of school, called KG1 and KG2 in many UAE schools.",
         },
         {
           type: "p",
-          text: "The terms overlap a lot, and UAE providers use them loosely. What matters more is your child's age, the hours you need and **which authority licenses the setting**. The legal term in UAE regulation is \"nursery\" (in Arabic, hadana), and in Dubai the licence is called an **early childhood centre (ECC)**.",
+          text: "The terms overlap a lot, and UAE providers use them loosely. What matters more is your child's age, the hours you need and **which authority licenses the setting**. UAE regulators license these settings as **early childhood centres (ECCs)**; the Arabic legal term is hadana.",
         },
         {
           type: "p",
-          text: "Part of the confusion is simply that UAE families come from everywhere. A British parent says nursery, an American parent says day care or preschool, and an Indian parent may say playschool, all for much the same place. When you call around, describe your child's age and the hours you need rather than relying on the label.",
+          text: "Part of the confusion is simply that UAE families come from everywhere. An American parent says day care or preschool, an Indian parent may say playschool, and a British parent may use another word again, all for much the same place. When you call around, describe your child's age and the hours you need rather than relying on the label.",
         },
         {
           type: "callout",
           tone: "tip",
           title: "Start with your child's age",
-          text: "Enter your child's date of birth in our [nursery age calculator](/tools/nursery-age-calculator) to see whether they are nursery age or due to start FS1, Pre-KG or KG1.",
+          text: "Check your child's date of birth against our [preschool age guide](/parents-guide/preschool-age-uae) to see whether they are day care age or due to start FS1, Pre-KG or KG1.",
         },
       ],
     },
     {
-      id: "what-does-nursery-mean-uae",
-      title: "What does \"nursery\" mean under UAE rules?",
+      id: "what-is-an-early-childhood-centre-uae",
+      title: "What is an early childhood centre under UAE rules?",
       blocks: [
         {
           type: "p",
-          text: "**Federal Decree-Law No. 51 of 2022** regulates nurseries across the UAE and defines a child, for nursery purposes, as aged from **1 day to 4 years**. Each emirate's regulator then sets its own detail.",
+          text: "**Federal Decree-Law No. 51 of 2022** regulates early childhood centres across the UAE and defines a child, for this purpose, as aged from **1 day to 4 years**. Each emirate's regulator then sets its own detail.",
         },
         {
           type: "table",
-          caption: "Nursery ages by regulator",
+          caption: "Early childhood centre ages by regulator",
           head: ["Where", "Regulator", "Ages the setting can take"],
           rows: [
             ["UAE (federal)", "Federal Decree-Law 51 of 2022", "Up to **4 years**"],
@@ -72,7 +72,7 @@ const guide: Guide = {
             [
               "Abu Dhabi",
               "ADEK",
-              "**45 days to 4 years** for private nurseries; public **Al Ghad** nurseries take children from **3 months to 4 years**",
+              "**45 days to 4 years** for private early childhood centres; public **Al Ghad** centres take children from **3 months to 4 years**",
             ],
             ["Sharjah", "SPEA", "Check with SPEA; the federal definition likely applies"],
             [
@@ -84,11 +84,11 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "Inside a nursery, you will often see rooms called \"Babies\", \"Toddlers\" or \"Pre-FS1\". These are each nursery's own labels, not regulated terms, so ask which ages each room covers.",
+          text: "Inside an early childhood centre, you will often see rooms called \"Babies\", \"Toddlers\" or \"Pre-FS1\". These are each centre's own labels, not regulated terms, so ask which ages each room covers.",
         },
         {
           type: "p",
-          text: "In Abu Dhabi, the public **Al Ghad** nurseries are free for eligible Emirati families, with priority for working mothers.",
+          text: "In Abu Dhabi, the public **Al Ghad** early childhood centres are free for eligible Emirati families, with priority for working mothers.",
         },
       ],
     },
@@ -98,7 +98,7 @@ const guide: Guide = {
       blocks: [
         {
           type: "p",
-          text: "\"Day care\" is the everyday word many families use for nursery, especially for babies and toddlers. In the UAE it is not a separate licence type: a day care is normally a licensed nursery or early childhood centre offering **longer hours** that fit around working parents.",
+          text: "\"Day care\" is the everyday word many families use for these settings, especially for babies and toddlers. In the UAE it is not a separate licence type: a day care is normally a licensed early childhood centre offering **longer hours** that fit around working parents.",
         },
         {
           type: "p",
@@ -120,7 +120,7 @@ const guide: Guide = {
       blocks: [
         {
           type: "p",
-          text: "\"Preschool\" usually describes the **3 to 5** stage, when children are ready for more group play, early language and number work, and building independence. In the UAE it can mean two things: the older rooms of a nursery, or the first school years such as **FS1** or **Pre-KG**.",
+          text: "\"Preschool\" usually describes the **3 to 5** stage, when children are ready for more group play, early language and number work, and building independence. In the UAE it can mean two things: the older rooms of an early childhood centre, or the first school years such as **FS1** or **Pre-KG**.",
         },
         {
           type: "p",
@@ -138,7 +138,7 @@ const guide: Guide = {
       blocks: [
         {
           type: "p",
-          text: "Kindergarten is the first stage of **school** rather than nursery. The name depends on the curriculum, and from the **2026-27** academic year the Ministry of Education set the cut-off for September-start schools at **31 December**: your child must reach the required age on or before 31 December of the year they join.",
+          text: "Kindergarten is the first stage of **school** rather than day care. The name depends on the curriculum, and from the **2026-27** academic year the Ministry of Education set the cut-off for September-start schools at **31 December**: your child must reach the required age on or before 31 December of the year they join.",
         },
         {
           type: "table",
@@ -156,52 +156,47 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "Because a Dubai ECC licence runs to age 6, some Dubai centres offer FS1, FS2 or KG classes themselves. In other emirates, nursery generally ends at 4 and children move to a school. Our [nursery age guide](/parents-guide/nursery-age-uae) covers the 2026-27 cut-off changes in detail.",
+          text: "Because a Dubai ECC licence runs to age 6, some Dubai centres offer FS1, FS2 or KG classes themselves. In other emirates, early childhood centres generally stop at 4 and children move to a school. Our [preschool age guide](/parents-guide/preschool-age-uae) covers the 2026-27 cut-off changes in detail.",
         },
       ],
     },
     {
       id: "comparison-table",
-      title: "How do day care, nursery, preschool and kindergarten compare?",
+      title: "How do day care, preschool and kindergarten compare?",
       blocks: [
         {
           type: "table",
-          caption: "Day care vs nursery vs preschool vs kindergarten in the UAE",
-          head: ["", "Day care", "Nursery", "Preschool", "Kindergarten"],
+          caption: "Day care vs preschool vs kindergarten in the UAE",
+          head: ["", "Day care", "Preschool", "Kindergarten"],
           rows: [
             [
               "Typical age",
-              "Babies and toddlers (from 45 days in Dubai and Abu Dhabi)",
-              "From 45 days, up to 4 years (up to 6 in a Dubai ECC)",
+              "Babies and toddlers, from 45 days in Dubai and Abu Dhabi; licences run up to 4 years (up to 6 in a Dubai ECC)",
               "About 3 to 5 years",
               "KG1 at 4, KG2 at 5 (Pre-KG or FS1 at 3)",
             ],
             [
               "Typical hours",
-              "Often longer days for working parents",
-              "Half-day or full-day options",
+              "Often longer days for working parents, with half-day or full-day options",
               "Half-day or full-day",
               "School hours",
             ],
             [
               "Calendar",
-              "Often close to year-round",
               "Often close to year-round, with holiday camps",
-              "Nursery or school calendar, depending on setting",
+              "Early childhood centre or school calendar, depending on setting",
               "School calendar",
             ],
             [
               "Main focus",
-              "Care, routines, attachment, play",
-              "Care plus play-based early learning",
+              "Care, routines, attachment and play, plus play-based early learning",
               "Social skills, language, early literacy and numeracy through play",
               "Structured early years curriculum",
             ],
             [
               "Regulator",
-              "KHDA, ADEK, SPEA or MoE (as a nursery)",
-              "KHDA, ADEK, SPEA or MoE",
-              "Nursery regulator, or school regulator if in a school",
+              "KHDA, ADEK, SPEA or MoE (as an early childhood centre)",
+              "Early childhood centre regulator, or school regulator if in a school",
               "School regulator for the emirate",
             ],
           ],
@@ -210,7 +205,7 @@ const guide: Guide = {
           type: "callout",
           tone: "note",
           title: "Hours and calendars vary",
-          text: "Half-day sessions commonly end around 12:30 to 1pm and full days somewhere between 3pm and 6pm, but each setting sets its own hours. Standalone nurseries often stay open close to year-round, while school FS and KG classes follow the school calendar, which runs from **31 August 2026** to **2 July 2027** this year.",
+          text: "Half-day sessions commonly end around 12:30 to 1pm and full days somewhere between 3pm and 6pm, but each setting sets its own hours. Standalone early childhood centres often stay open close to year-round, while school FS and KG classes follow the school calendar, which runs from **31 August 2026** to **2 July 2027** this year.",
         },
       ],
     },
@@ -226,25 +221,25 @@ const guide: Guide = {
           type: "ol",
           items: [
             "**From 45 days (Dubai and Abu Dhabi):** infant day care, if both parents are back at work.",
-            "**1 to 3 years:** day care or nursery, full or half days. This is when many families start, even if a parent is at home, for social play and routine.",
-            "**3 years:** preschool rooms in a nursery, or FS1 / Pre-KG at a school, depending on your plans and the cut-off.",
+            "**1 to 3 years:** day care, full or half days. This is when many families start, even if a parent is at home, for social play and routine.",
+            "**3 years:** preschool rooms in an early childhood centre, or FS1 / Pre-KG at a school, depending on your plans and the cut-off.",
             "**4 to 5 years:** FS2 / KG1, then Year 1 / KG2, at school (or in a Dubai ECC that offers these classes).",
             "**5 years and up:** school, plus [after-school activities](/programs/after-school) for hobbies and new talents.",
           ],
         },
         {
           type: "p",
-          text: "There is no rule that a child must attend nursery before school. Parents choose nursery for childcare, for social play, or to help a child get used to routines and other adults before FS1 or KG1. Our [readiness quiz](/tools/nursery-readiness-quiz) can help you judge whether your child is ready for a group setting.",
+          text: "There is no rule that a child must attend preschool or day care before school. Parents choose it for childcare, for social play, or to help a child get used to routines and other adults before FS1 or KG1. Our [readiness quiz](/tools/preschool-readiness-quiz) can help you judge whether your child is ready for a group setting.",
         },
         {
           type: "p",
-          text: "Some families keep a child in nursery until the school place starts; others move to a school FS1 class at 3. If you are weighing that up, compare the hours, calendar and fees of each. Our [nursery fees guide](/parents-guide/nursery-fees-uae) shows what to include in the comparison.",
+          text: "Some families keep a child in an early childhood centre until the school place starts; others move to a school FS1 class at 3. If you are weighing that up, compare the hours, calendar and fees of each. Our [preschool and day care fees guide](/parents-guide/preschool-fees-uae) shows what to include in the comparison.",
         },
       ],
     },
     {
-      id: "nursery-or-school-fs1",
-      title: "Is it better to stay in nursery or move to a school FS1 class at 3?",
+      id: "early-childhood-centre-or-school-fs1",
+      title: "Is it better to stay in an early childhood centre or move to a school FS1 class at 3?",
       blocks: [
         {
           type: "p",
@@ -252,8 +247,8 @@ const guide: Guide = {
         },
         {
           type: "table",
-          caption: "Nursery preschool room vs school FS1 / Pre-KG at age 3",
-          head: ["Consider", "Staying in nursery", "Moving to school FS1 / Pre-KG"],
+          caption: "Early childhood centre preschool room vs school FS1 / Pre-KG at age 3",
+          head: ["Consider", "Staying in the early childhood centre", "Moving to school FS1 / Pre-KG"],
           rows: [
             ["Hours", "Often longer, flexible days", "Fixed school hours, sometimes with after-care"],
             ["Calendar", "Often close to year-round", "School terms and holidays"],
@@ -264,7 +259,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "If you have a particular school in mind, check when it takes new children and whether places at FS2 or KG1 are easier or harder to get than at FS1. If your working hours are long, a nursery's longer day and summer opening may simply fit better for another year.",
+          text: "If you have a particular school in mind, check when it takes new children and whether places at FS2 or KG1 are easier or harder to get than at FS1. If your working hours are long, an early childhood centre's longer day and summer opening may simply fit better for another year.",
         },
       ],
     },
@@ -305,7 +300,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "Put that next to the minimum nursery age of **45 days** in Dubai and Abu Dhabi, and you can see why many mothers in the private sector start looking for an infant place for when their baby is around **2 to 3 months old**, and why federal employees may look at around 3 months. Some families bridge the gap with unpaid leave, family help or a nanny before starting day care at 1 year or later.",
+          text: "Put that next to the minimum day care age of **45 days** in Dubai and Abu Dhabi, and you can see why many mothers in the private sector start looking for an infant place for when their baby is around **2 to 3 months old**, and why federal employees may look at around 3 months. Some families bridge the gap with unpaid leave, family help or a nanny before starting day care at 1 year or later.",
         },
         {
           type: "callout",
@@ -315,7 +310,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "Whatever your start date, plan the first weeks carefully. Our [settling-in plan](/parents-guide/settling-into-nursery) shows how to build up gradually before you return to work.",
+          text: "Whatever your start date, plan the first weeks carefully. Our [settling-in plan](/parents-guide/settling-into-preschool) shows how to build up gradually before you return to work.",
         },
       ],
     },
@@ -342,7 +337,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "For the full list of things to look for on a visit, see our [checklist for choosing a nursery](/parents-guide/how-to-choose-a-nursery-uae), and for how different nurseries teach, read about [UAE nursery curricula](/parents-guide/nursery-curriculum-uae).",
+          text: "For the full list of things to look for on a visit, see our [checklist for choosing a preschool or day care](/parents-guide/how-to-choose-a-preschool-uae), and for how different preschools teach, read about [UAE preschool curricula](/parents-guide/preschool-curriculum-uae).",
         },
         {
           type: "p",
@@ -353,23 +348,23 @@ const guide: Guide = {
   ],
   faqs: [
     {
-      q: "Is day care the same as nursery in the UAE?",
-      a: "Usually, yes. \"Nursery\" is the legal term in UAE regulation, and \"day care\" is the everyday word many families use for the same licensed setting, especially for babies and toddlers.",
+      q: "Is day care the same as an early childhood centre in the UAE?",
+      a: "Usually, yes. \"Early childhood centre\" is the licensing term used by UAE regulators, and \"day care\" is the everyday word many families use for the same licensed setting, especially for babies and toddlers.",
     },
     {
-      q: "What is the difference between nursery and kindergarten?",
-      a: "Nursery is licensed care and early learning, which federal law covers up to age 4. Kindergarten (KG1, KG2) is the first stage of school, joined by age: KG1 at 4 and KG2 at 5 by 31 December in September-start schools.",
+      q: "What is the difference between day care and kindergarten?",
+      a: "Day care is licensed care and early learning in an early childhood centre, which federal law covers up to age 4. Kindergarten (KG1, KG2) is the first stage of school, joined by age: KG1 at 4 and KG2 at 5 by 31 December in September-start schools.",
     },
     {
       q: "What age can a baby start day care in Dubai?",
-      a: "KHDA-licensed early childhood centres in Dubai can take children from **45 days** old. In Abu Dhabi, ADEK nurseries also start at 45 days.",
+      a: "KHDA-licensed early childhood centres in Dubai can take children from **45 days** old. In Abu Dhabi, ADEK-licensed early childhood centres also start at 45 days.",
     },
     {
       q: "What age is preschool in the UAE?",
-      a: "Preschool usually means the 3 to 5 stage, either in a nursery's older rooms or in FS1 / Pre-KG at a school. Use our [age calculator](/tools/nursery-age-calculator) to check your child's year group.",
+      a: "Preschool usually means the 3 to 5 stage, either in an early childhood centre's older rooms or in FS1 / Pre-KG at a school. Our [preschool age guide](/parents-guide/preschool-age-uae) shows how to check your child's year group.",
     },
     {
-      q: "Can a child stay in nursery until age 6 in Dubai?",
+      q: "Can a child stay in an early childhood centre until age 6 in Dubai?",
       a: "KHDA early childhood centre licences cover **45 days to 6 years**, so some Dubai centres run FS1, FS2 and KG classes. From FS1, they must follow the age-grade chart.",
     },
     {
@@ -377,8 +372,8 @@ const guide: Guide = {
       a: "Private sector employees get **60 days**: 45 days on full pay and 15 days on half pay, under Federal Decree-Law 33 of 2021. Federal government employees get 90 days on full pay.",
     },
     {
-      q: "Do I need to send my child to nursery before KG1?",
-      a: "No. Nursery is optional. Many parents choose it for childcare, social play or to get used to routines before school, but entry to FS1 or KG1 depends only on age.",
+      q: "Do I need to send my child to preschool or day care before KG1?",
+      a: "No. Preschool and day care are optional. Many parents choose it for childcare, social play or to get used to routines before school, but entry to FS1 or KG1 depends only on age.",
     },
     {
       q: "Does Universal Blooming take babies?",
@@ -387,7 +382,7 @@ const guide: Guide = {
   ],
   sources: [
     {
-      label: "UAE Legislation: Federal Decree-Law No. 51 of 2022 on nurseries",
+      label: "UAE Legislation: Federal Decree-Law No. 51 of 2022 on early childhood centres",
       url: "https://uaelegislation.gov.ae/en/legislations/1616",
     },
     {
@@ -395,11 +390,11 @@ const guide: Guide = {
       url: "https://gulfnews.com/uae/education/dubai-sets-admission-age-for-early-childhood-centres-1.85200155",
     },
     {
-      label: "ADEK: Nurseries",
+      label: "ADEK: Early childhood centres",
       url: "https://www.adek.gov.ae/Education-System/Nurseries",
     },
     {
-      label: "ADEK: Parents are required to ensure their child is enrolled in a licensed nursery",
+      label: "ADEK: Parents are required to ensure their child is enrolled in a licensed early childhood centre",
       url: "https://www.adek.gov.ae/en/Media-Centre/News/ADEK-Parents-are-required-to-ensure-their-child-is-enrolled-in-a-licensed-nursery",
     },
     {
@@ -435,9 +430,8 @@ const guide: Guide = {
       url: "https://www.thenationalnews.com/news/uae/2026/02/25/uae-school-calendar-2026/",
     },
   ],
-  related: ["nursery-age-uae", "how-to-choose-a-nursery-uae", "settling-into-nursery"],
+  related: ["preschool-age-uae", "how-to-choose-a-preschool-uae", "settling-into-preschool"],
   relatedPrograms: ["day-care", "preschool", "after-school"],
-  tool: "nursery-age-calculator",
 };
 
 export default guide;

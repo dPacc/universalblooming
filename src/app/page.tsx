@@ -234,14 +234,9 @@ export default function Home() {
         <div className="card-pop grid items-center gap-8 overflow-hidden bg-pink-soft p-6 sm:p-10 md:grid-cols-[1fr_1.5fr]" data-reveal>
           <div className="relative mx-auto w-full max-w-xs">
             <div className="absolute inset-0 translate-x-3 translate-y-3 rounded-[40%_60%_55%_45%/50%_45%_55%_50%] bg-yellow border-[3px] border-ink" />
-            <Image
-              src={asset(site.founder.image)}
-              alt={`${site.founder.name}, ${site.founder.role} of Universal Blooming`}
-              width={520}
-              height={509}
-              className="relative rounded-[40%_60%_55%_45%/50%_45%_55%_50%] border-[3px] border-ink bg-white"
-              sizes="(min-width: 768px) 320px, 80vw"
-            />
+            <div className="relative grid aspect-square place-items-center rounded-[40%_60%_55%_45%/50%_45%_55%_50%] border-[3px] border-ink bg-white">
+              <Image src={asset("/images/logo.webp")} alt="Universal Blooming logo" width={300} height={282} className="w-3/4 h-auto" />
+            </div>
           </div>
           <div>
             <p className="eyebrow">Founder&apos;s message</p>
@@ -252,44 +247,10 @@ export default function Home() {
               <span className="text-pink" aria-hidden>”</span>
             </blockquote>
             <p className="mt-5 font-bold">
-              {site.founder.name}
-              <span className="block text-sm font-bold text-ink-soft">{site.founder.role}</span>
+              {site.founder.role}
+              <span className="block text-sm font-bold text-ink-soft">Universal Blooming</span>
             </p>
             <Link href="/about" className="btn btn-light mt-6">Our story</Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ───────────── TOOLS + GUIDES ───────────── */}
-      <section className="container-x mt-28" aria-labelledby="guides-h">
-        <div className="grid gap-6 lg:grid-cols-[1fr_2fr]">
-          <div className="card-pop bg-sky p-7 text-white" data-reveal>
-            <Bloomi mood="think" className="float-right -mr-1 -mt-1 mb-2 ml-3 h-auto w-24 sm:w-28" />
-            <p className="chip bg-white text-sky">Free tool</p>
-            <h2 className="mt-4 text-3xl font-semibold">Which year group can my child join?</h2>
-            <p className="mt-2 text-white/90">
-              The UAE moved the FS1/KG1 age cut-off to <strong>31 December</strong> from 2026-27. Check your child&apos;s year group in 10 seconds.
-            </p>
-            <Link href="/tools/nursery-age-calculator" className="btn btn-sun mt-6" data-cta="home-age-calculator">Try the age calculator</Link>
-          </div>
-          <div data-reveal={1}>
-            <div className="flex items-end justify-between gap-4">
-              <div>
-                <p className="eyebrow">Parents&apos; guide</p>
-                <h2 id="guides-h" className="mt-1 text-3xl font-semibold sm:text-4xl">Honest answers for UAE parents</h2>
-              </div>
-              <Link href="/parents-guide" className="hidden font-display font-semibold text-pink sm:block">All guides →</Link>
-            </div>
-            <ul className="mt-6 grid gap-4 sm:grid-cols-2">
-              {guides.slice(0, 4).map((g) => (
-                <li key={g.slug}>
-                  <Link href={`/parents-guide/${g.slug}`} className={`card-pop !shadow-pop-sm block h-full p-5 ${accentSoft[g.accent]}`}>
-                    <span className="text-xs font-extrabold uppercase tracking-wider text-ink-soft">{g.category}</span>
-                    <span className="mt-1.5 block font-display text-lg font-semibold leading-snug">{g.title}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
       </section>
@@ -312,25 +273,29 @@ export default function Home() {
 /** Static composition: Bloomi on a sunny disc with the logo's planet and two "stickers". */
 function HeroArt() {
   return (
-    <div className="relative mx-auto aspect-square w-full max-w-[22rem] lg:max-w-[25rem]">
-      <div aria-hidden className="absolute inset-0 rounded-full border-[3px] border-dashed border-ink/20" />
-      <div aria-hidden className="absolute inset-[7%] overflow-hidden rounded-full border-[3px] border-ink bg-white shadow-soft">
-        <div className="absolute inset-x-0 bottom-0 h-[30%] border-t-[3px] border-dashed border-green/40 bg-green-soft" />
-      </div>
-      <Planet className="absolute right-[5%] top-[30%] w-[20%]" />
-      <Star className="absolute left-[20%] top-[26%] w-[7%]" fill="var(--color-orange)" />
+    <div className="mx-auto flex w-full max-w-[22rem] flex-col items-center lg:max-w-[25rem]">
+      <div className="relative aspect-square w-full">
+        <div aria-hidden className="absolute inset-0 rounded-full border-[3px] border-dashed border-ink/20" />
+        <div aria-hidden className="absolute inset-[7%] overflow-hidden rounded-full border-[3px] border-ink bg-white shadow-soft">
+          <div className="absolute inset-x-0 bottom-0 h-[30%] border-t-[3px] border-dashed border-green/40 bg-green-soft" />
+        </div>
+        <Planet className="absolute right-[5%] top-[30%] w-[20%]" />
+        <Star className="absolute left-[18%] top-[30%] w-[7%]" fill="var(--color-orange)" />
 
-      {/* Bloomi stands on the "grass"; the tap bubble sits above the head. */}
-      <div className="absolute bottom-[12%] left-1/2 w-[44%] -translate-x-1/2">
-        <BloomiBuddy mood="wave" still bubble="Hi! I'm Bloomi 👋" bubbleSide="top" size="w-full" />
+        {/* Bloomi stands on the "grass"; the tap bubble sits above the head. */}
+        <div className="absolute bottom-[12%] left-1/2 w-[44%] -translate-x-1/2">
+          <BloomiBuddy mood="wave" still bubble="Hi! I'm Bloomi 👋" bubbleSide="top" size="w-full" />
+        </div>
+
+        {/* Top-centre sticker: above the circle, clear of Bloomi's speech bubble at every width. */}
+        <p className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/3 -rotate-3 whitespace-nowrap rounded-2xl border-[2.5px] border-ink bg-white px-3 py-1.5 font-display text-sm font-semibold shadow-pop-sm sm:px-4 sm:py-2 sm:text-base">
+          🎨 Play-based learning
+        </p>
       </div>
 
-      {/* Stickers live in the empty top-left and bottom-right corners of the circle. */}
-      <p className="absolute left-0 top-[5%] -rotate-6 whitespace-nowrap rounded-2xl border-[2.5px] border-ink bg-white px-3 py-1.5 font-display text-sm font-semibold shadow-pop-sm sm:px-4 sm:py-2 sm:text-base">
-        🎨 Play-based learning
-      </p>
-      <p className="absolute bottom-[4%] right-0 rotate-3 whitespace-nowrap rounded-2xl border-[2.5px] border-ink bg-white px-3 py-1.5 font-display text-sm font-semibold shadow-pop-sm sm:px-4 sm:py-2 sm:text-base">
-        🎒 Ready for FS1 &amp; KG1
+      {/* In flow under Bloomi's feet, so the longer line can wrap on small phones without covering anything. */}
+      <p className="relative -mt-5 max-w-[17rem] rotate-2 rounded-2xl border-[2.5px] border-ink bg-white px-4 py-2 text-center font-display text-sm font-semibold leading-snug shadow-pop-sm sm:max-w-none sm:text-base">
+        🌸 Are you ready to help your child bloom?
       </p>
     </div>
   );

@@ -1,24 +1,24 @@
 import type { Guide } from "@/content/types";
 
 const guide: Guide = {
-  slug: "nursery-age-uae",
+  slug: "preschool-age-uae",
   category: "Admissions",
-  title: "What Age Can a Child Start Nursery, FS1 or KG1 in the UAE?",
-  seoTitle: "Nursery & FS1 Age Cut-Off UAE {year}: Full Guide",
+  title: "What Age Can a Child Start Preschool, FS1 or KG1 in the UAE?",
+  seoTitle: "Preschool & FS1 Age Cut-Off UAE {year}: Full Guide",
   seoDescription:
-    "UAE nursery, FS1 and KG1 ages explained: the new 31 December cut-off, 31 March for April-start schools, birth-year tables to 2028-29 and rules by emirate.",
+    "UAE preschool, FS1 and KG1 ages explained: the new 31 December cut-off, 31 March for April-start schools, birth-year tables to 2028-29 and emirate rules.",
   excerpt:
     "The UAE moved the FS1/KG cut-off to 31 December from 2026-27. Here is what that means for your child's year group, with birth-date tables and the rules in each emirate.",
   quickAnswer:
-    "Babies can join a licensed nursery from **45 days old** in Dubai and Abu Dhabi. For school entry, September-start schools now use a **31 December** cut-off from 2026-27: a child must turn **3 by 31 December** to join FS1/Pre-KG and **4 by 31 December** for FS2/KG1. April-start schools, mainly Indian and Pakistani curricula, keep **31 March**.",
+    "Babies can join a licensed early childhood centre from **45 days old** in Dubai and Abu Dhabi. For school entry, September-start schools now use a **31 December** cut-off from 2026-27: a child must turn **3 by 31 December** to join FS1/Pre-KG and **4 by 31 December** for FS2/KG1. April-start schools, mainly Indian and Pakistani curricula, keep **31 March**.",
   keywords: [
-    "nursery age UAE",
+    "preschool age UAE",
     "FS1 age Dubai 2026",
     "KG1 age cut-off UAE",
-    "what age can a child start nursery in Dubai",
+    "what age can a child start preschool in Dubai",
     "FS1 age cut-off 31 December",
     "is my child eligible for FS1",
-    "nursery age Abu Dhabi",
+    "day care age Abu Dhabi",
     "KG1 age Sharjah",
     "Pre-KG age UAE",
     "school admission age UAE 2026-27",
@@ -26,31 +26,30 @@ const guide: Guide = {
   published: "2026-09-25",
   updated: "2026-09-25",
   accent: "sky",
-  tool: "nursery-age-calculator",
   sections: [
     {
       id: "short-answer",
-      title: "What age can a child start nursery in the UAE?",
+      title: "What age can a child start preschool or day care in the UAE?",
       blocks: [
         {
           type: "p",
-          text: "There are two different questions hiding inside this one. The first is when your baby or toddler can join a **nursery or early childhood centre**, which is about care and play before school. The second is when your child can join **FS1, Pre-KG or KG1**, which is the first formal year group in a school and is set by a national cut-off date.",
+          text: "There are two different questions hiding inside this one. The first is when your baby or toddler can join a **day care or early childhood centre**, which is about care and play before school. The second is when your child can join **FS1, Pre-KG or KG1**, which is the first formal year group in a school and is set by a national cut-off date.",
         },
         {
           type: "p",
-          text: "For nurseries, the youngest age is typically **45 days** in Dubai and Abu Dhabi. For school year groups, the UAE Ministry of Education changed the rule for the 2026-27 academic year: September-start schools now count a child's age on **31 December** instead of 31 August. That single change moved thousands of children into a different year group.",
+          text: "For early childhood centres, the youngest age is typically **45 days** in Dubai and Abu Dhabi. For school year groups, the UAE Ministry of Education changed the rule for the 2026-27 academic year: September-start schools now count a child's age on **31 December** instead of 31 August. That single change moved thousands of children into a different year group.",
         },
         {
           type: "p",
-          text: "If you only want the answer for your own child, the quickest route is our [nursery age calculator](/tools/nursery-age-calculator). Enter a date of birth and it shows the likely nursery room or school year group. Read on for the rules behind it, the tables for the next three academic years, and the exceptions worth knowing.",
+          text: "Read on for the rules, the tables for the next three academic years, and the exceptions worth knowing.",
         },
         {
           type: "table",
           caption: "Minimum ages at a glance",
           head: ["Setting", "Youngest age", "Where it applies"],
           rows: [
-            ["Licensed nursery / early childhood centre", "**45 days**", "Dubai (KHDA) and Abu Dhabi (ADEK)"],
-            ["Al Ghad public nursery", "3 months", "Abu Dhabi, for eligible Emirati families"],
+            ["Licensed early childhood centre (ECC)", "**45 days**", "Dubai (KHDA) and Abu Dhabi (ADEK)"],
+            ["Al Ghad public early childhood centre", "3 months", "Abu Dhabi, for eligible Emirati families"],
             ["FS1 / Pre-KG (September-start school)", "**3 by 31 December** of the admission year", "All emirates from 2026-27"],
             ["FS2 / KG1 (September-start school)", "**4 by 31 December** of the admission year", "All emirates from 2026-27"],
             ["KG1 (April-start school)", "**3 by 31 March** of the joining year", "Indian and Pakistani curriculum schools"],
@@ -87,7 +86,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "The biggest effect is on children born between **1 September and 31 December**. They used to be the oldest in their class. Under the new rule they are the youngest. If your child has an autumn birthday, check their year group with the [age calculator](/tools/nursery-age-calculator) before you book school visits.",
+          text: "The biggest effect is on children born between **1 September and 31 December**. They used to be the oldest in their class. Under the new rule they are the youngest. If your child has an autumn birthday, check their year group against the tables below before you book school visits.",
         },
       ],
     },
@@ -138,10 +137,6 @@ const guide: Guide = {
           title: "Watch the wording on school websites",
           text: "Some sites describe April-start KG1 as 4 years by 31 March, measured at the **end** of the school year, and still give the same birth window shown here. Always compare birth-date windows, not age phrases. Some Indian schools also set their own policies, so confirm with the school.",
         },
-        {
-          type: "p",
-          text: "Not sure which column your child falls into? Our [nursery age calculator](/tools/nursery-age-calculator) handles both the 31 December and 31 March cut-offs.",
-        },
       ],
     },
     {
@@ -165,7 +160,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "So when a parent asks what age KG1 is, the honest answer is: **4 by 31 December** in American and MoE schools, but **3 by 31 March** in Indian curriculum schools. If you are comparing schools across curricula, match on age, not on the class name. Our guide to [nursery curriculums in the UAE](/parents-guide/nursery-curriculum-uae) explains how EYFS, Montessori and play-based approaches differ before these year groups begin.",
+          text: "So when a parent asks what age KG1 is, the honest answer is: **4 by 31 December** in American and MoE schools, but **3 by 31 March** in Indian curriculum schools. If you are comparing schools across curricula, match on age, not on the class name. Our guide to [preschool curriculums in the UAE](/parents-guide/preschool-curriculum-uae) explains how EYFS, Montessori and play-based approaches differ before these year groups begin.",
         },
       ],
     },
@@ -180,8 +175,8 @@ const guide: Guide = {
         {
           type: "ul",
           items: [
-            "**Children born 1 September – 31 December 2022** who were **not enrolled in any school or nursery** could start in **FS1 or FS2** (or the equivalent) in 2026-27. The school and parents decide together based on readiness. If they disagree, the school's professional judgement applies, subject to KHDA review. The child then moves up normally each year.",
-            "**The new cut-off applies only to children registering in the KHDA system for the first time** in 2026-27. Children already in a Dubai school or nursery, and transfers within Dubai, are not affected.",
+            "**Children born 1 September – 31 December 2022** who were **not enrolled in any school or early childhood centre** could start in **FS1 or FS2** (or the equivalent) in 2026-27. The school and parents decide together based on readiness. If they disagree, the school's professional judgement applies, subject to KHDA review. The child then moves up normally each year.",
+            "**The new cut-off applies only to children registering in the KHDA system for the first time** in 2026-27. Children already in a Dubai school or early childhood centre, and transfers within Dubai, are not affected.",
             "**From 2027-28 there is no cohort flexibility** under this transitional rule.",
           ],
         },
@@ -205,49 +200,49 @@ const guide: Guide = {
           type: "callout",
           tone: "warning",
           title: "Age comes first in the early years",
-          text: "In Dubai, from FS1 to Year 1 (Pre-KG to KG2), **age is the overriding placement rule**. Holding a child back for maturity is not allowed without KHDA-reviewed evidence, and nurseries and early childhood centres must follow the age-grade chart from FS1. They cannot skip or repeat a year without KHDA approval.",
+          text: "In Dubai, from FS1 to Year 1 (Pre-KG to KG2), **age is the overriding placement rule**. Holding a child back for maturity is not allowed without KHDA-reviewed evidence, and early childhood centres must follow the age-grade chart from FS1. They cannot skip or repeat a year without KHDA approval.",
         },
       ],
     },
     {
       id: "rules-by-emirate",
-      title: "Who regulates nurseries in each emirate, and what ages can they serve?",
+      title: "Who regulates early childhood centres in each emirate, and what ages can they serve?",
       blocks: [
         {
           type: "p",
-          text: "Nurseries are covered by Federal Decree-Law No. 51 of 2022, which defines a child for nursery purposes as aged 1 day to 4 years. Each emirate then has its own regulator, and Dubai's licence covers a wider age range than the federal definition.",
+          text: "Early childhood centres are covered by Federal Decree-Law No. 51 of 2022, which defines a child for this purpose as aged 1 day to 4 years. Each emirate then has its own regulator, and Dubai's licence covers a wider age range than the federal definition.",
         },
         {
           type: "table",
-          caption: "Nursery regulators and age ranges by emirate",
+          caption: "Early childhood centre regulators and age ranges by emirate",
           head: ["Emirate", "Regulator", "Ages served", "School cut-off for 2026-27"],
           rows: [
             ["**Dubai**", "KHDA", "45 days to 6 years (early childhood centres)", "31 Dec (Sept-start); 31 Mar (April-start); plus the transitional rules above"],
-            ["**Abu Dhabi**, Al Ain, Al Dhafra", "ADEK", "45 days to 4 years (private nurseries); Al Ghad from 3 months to 4 years", "31 Dec, the same national table"],
+            ["**Abu Dhabi**, Al Ain, Al Dhafra", "ADEK", "45 days to 4 years (private early childhood centres); Al Ghad from 3 months to 4 years", "31 Dec, the same national table"],
             ["**Sharjah**", "SPEA", "Not confirmed; the federal 4-year definition likely applies", "31 Dec under the MoE rule; check SPEA for any local detail"],
-            ["**Ras Al Khaimah**", "RAKDOK for private schools; check both RAKDOK and MoE for nurseries", "Federal definition (up to 4)", "MoE rule applies"],
+            ["**Ras Al Khaimah**", "RAKDOK for private schools; check both RAKDOK and MoE for early childhood centres", "Federal definition (up to 4)", "MoE rule applies"],
             ["**Ajman, Fujairah, Umm Al Quwain**", "Ministry of Education", "Federal definition (up to 4)", "MoE rule applies"],
           ],
         },
         {
           type: "p",
-          text: "This explains why some Dubai early childhood centres run FS1 and FS2 classes while Abu Dhabi nurseries usually stop at age 4. It also means a nursery in one emirate might be licensed for a slightly different age range from one in another.",
+          text: "This explains why some Dubai early childhood centres run FS1 and FS2 classes while Abu Dhabi centres usually stop at age 4. It also means an early childhood centre in one emirate might be licensed for a slightly different age range from one in another.",
         },
         {
           type: "callout",
           tone: "tip",
           title: "Check the licence",
-          text: "Ask any nursery which authority licenses it and what age range the licence covers. In Abu Dhabi, ADEK requires the licence to be displayed in reception. Our [guide to choosing a nursery](/parents-guide/how-to-choose-a-nursery-uae) has a full list of questions to ask on a visit.",
+          text: "Ask any preschool or day care which authority licenses it and what age range the licence covers. In Abu Dhabi, ADEK requires the licence to be displayed in reception. Our [guide to choosing a preschool or day care](/parents-guide/how-to-choose-a-preschool-uae) has a full list of questions to ask on a visit.",
         },
       ],
     },
     {
       id: "before-fs1",
-      title: "What happens before FS1? Nursery rooms for babies and toddlers",
+      title: "What happens before FS1? Day care rooms for babies and toddlers",
       blocks: [
         {
           type: "p",
-          text: "There is no official year group before FS1 / Pre-KG. Under-3s join nursery rooms by age. Names like Babies, Toddlers or Pre-FS1 are chosen by each nursery and are not regulated terms, so do not worry if two nurseries use different labels for the same age.",
+          text: "There is no official year group before FS1 / Pre-KG. Under-3s join early years rooms by age. Names like Babies, Toddlers or Pre-FS1 are chosen by each centre and are not regulated terms, so do not worry if two centres use different labels for the same age.",
         },
         {
           type: "p",
@@ -255,18 +250,18 @@ const guide: Guide = {
         },
         {
           type: "table",
-          caption: "A typical path from nursery to school (September-start)",
+          caption: "A typical path from day care to school (September-start)",
           head: ["Age", "Common setting", "What it focuses on"],
           rows: [
-            ["45 days to 1 year", "Baby room in a licensed nursery", "Care, sleep, feeding, closeness"],
+            ["45 days to 1 year", "Baby room in a licensed early childhood centre", "Care, sleep, feeding, closeness"],
             ["1–3 years", "Toddler room / day care", "Language, movement, routines, first friendships"],
-            ["3 by 31 Dec", "FS1 / Pre-KG, in a nursery or school", "Play-based early learning"],
+            ["3 by 31 Dec", "FS1 / Pre-KG, in an early childhood centre or school", "Play-based early learning"],
             ["4 by 31 Dec", "FS2 / KG1", "Early literacy and numeracy through play"],
           ],
         },
         {
           type: "p",
-          text: "If you are weighing up the different kinds of setting, our guide to [day care vs preschool vs nursery](/parents-guide/daycare-vs-preschool-vs-nursery) explains what each one offers and when families usually switch.",
+          text: "If you are weighing up the different kinds of setting, our guide to [day care vs preschool vs kindergarten](/parents-guide/daycare-vs-preschool-vs-kindergarten) explains what each one offers and when families usually switch.",
         },
       ],
     },
@@ -276,14 +271,14 @@ const guide: Guide = {
       blocks: [
         {
           type: "p",
-          text: "Here is how the rules play out for a few real-life birthdays in a September-start school. Use them as a guide, then check your own date in the [calculator](/tools/nursery-age-calculator).",
+          text: "Here is how the rules play out for a few real-life birthdays in a September-start school. Use them as a guide, then check your own child's date against the tables above.",
         },
         {
           type: "ul",
           items: [
             "**Born 15 February 2023**: turns 3 by 31 December 2026, so FS1 / Pre-KG in 2026-27 and FS2 / KG1 in 2027-28.",
             "**Born 20 November 2023**: also turns 3 by 31 December 2026, so FS1 in 2026-27. They will be among the youngest in the class. In a British school, if they were not yet 3 when term began, the school may formally assess FS1 readiness.",
-            "**Born 5 January 2024**: misses the 31 December 2026 cut-off by five days, so FS1 in 2027-28. Until then, a nursery or [preschool](/programs/preschool) place keeps learning going.",
+            "**Born 5 January 2024**: misses the 31 December 2026 cut-off by five days, so FS1 in 2027-28. Until then, a day care or [preschool](/programs/preschool) place keeps learning going.",
             "**Born 10 October 2022, not previously enrolled, joining a Dubai school**: under the one-off 2026-27 rule, could start in FS1 or FS2 depending on readiness.",
           ],
         },
@@ -302,13 +297,13 @@ const guide: Guide = {
         {
           type: "checklist",
           items: [
-            "Check your child's year group in the [nursery age calculator](/tools/nursery-age-calculator) for each academic year you are considering.",
+            "Check your child's year group in the birth-date tables above for each academic year you are considering.",
             "Confirm whether your preferred school starts in September or April, as this changes the cut-off.",
             "Match year groups by age, not name, when comparing curricula.",
             "If your child has a September to December birthday, ask the school how it handles FS1 readiness.",
-            "Ask each nursery which regulator licenses it and what age range the licence covers.",
-            "Get your paperwork ready using our [registration documents checklist](/parents-guide/nursery-registration-documents-uae).",
-            "Budget ahead with our guide to [nursery fees in the UAE](/parents-guide/nursery-fees-uae).",
+            "Ask each preschool or day care which regulator licenses it and what age range the licence covers.",
+            "Get your paperwork ready using our [registration documents checklist](/parents-guide/preschool-registration-documents-uae).",
+            "Budget ahead with our guide to [preschool and day care fees in the UAE](/parents-guide/preschool-fees-uae).",
             "Confirm anything unclear with KHDA, ADEK, SPEA or the Ministry of Education.",
           ],
         },
@@ -329,28 +324,28 @@ const guide: Guide = {
       a: "In American and MoE schools, KG1 is for children who turn **4 by 31 December** of the admission year. In Indian curriculum (April-start) schools, KG1 is for children who are **3 by 31 March** of the joining year. Compare birth dates, not class names.",
     },
     {
-      q: "Can my baby join a nursery at 45 days old?",
-      a: "Yes, in Dubai (KHDA) and Abu Dhabi (ADEK) licensed nurseries can care for babies from **45 days**. Not every nursery takes babies that young, so ask each one about its youngest room. Ask the Universal Blooming team about availability in our [day care](/programs/day-care).",
+      q: "Can my baby join day care at 45 days old?",
+      a: "Yes, in Dubai (KHDA) and Abu Dhabi (ADEK) licensed early childhood centres can care for babies from **45 days**. Not every centre takes babies that young, so ask each one about its youngest room. Ask the Universal Blooming team about availability in our [day care](/programs/day-care).",
     },
     {
       q: "Does the new 31 December cut-off affect children already in school?",
-      a: "No. The change applies to new admissions only. Children already enrolled keep their current year group. In Dubai, children already in a Dubai school or nursery, and transfers within Dubai, are not affected.",
+      a: "No. The change applies to new admissions only. Children already enrolled keep their current year group. In Dubai, children already in a Dubai school or early childhood centre, and transfers within Dubai, are not affected.",
     },
     {
       q: "My child was born in November. Which year group will they join?",
-      a: "In a September-start school, a November birthday now counts towards the year in which your child turns the required age. For example, born November 2023 means FS1 in 2026-27. They will be among the youngest, so readiness is worth discussing with the school. Try our [age calculator](/tools/nursery-age-calculator).",
+      a: "In a September-start school, a November birthday now counts towards the year in which your child turns the required age. For example, born November 2023 means FS1 in 2026-27. They will be among the youngest, so readiness is worth discussing with the school.",
     },
     {
-      q: "Can a nursery hold my child back a year?",
-      a: "In Dubai, age is the overriding placement rule from FS1 to Year 1. Nurseries and early childhood centres must follow the age-grade chart from FS1 and cannot skip or repeat a year without KHDA approval.",
+      q: "Can a preschool hold my child back a year?",
+      a: "In Dubai, age is the overriding placement rule from FS1 to Year 1. Early childhood centres must follow the age-grade chart from FS1 and cannot skip or repeat a year without KHDA approval.",
     },
     {
       q: "Does the 31 December rule apply in Sharjah and Abu Dhabi?",
       a: "The Ministry of Education rule applies to all September-start schools and kindergartens. Abu Dhabi uses the same table. SPEA had not separately confirmed the transitional flexibility at the time of reporting, so Sharjah parents should check with SPEA or the school.",
     },
     {
-      q: "What age can a child stay in nursery until?",
-      a: "Under federal law and in Abu Dhabi, nurseries serve children up to **4 years**. Dubai early childhood centres licensed by KHDA can serve children from **45 days to 6 years**, which is why some run FS1 and FS2 classes.",
+      q: "What age can a child stay in an early childhood centre until?",
+      a: "Under federal law and in Abu Dhabi, early childhood centres serve children up to **4 years**. Dubai early childhood centres licensed by KHDA can serve children from **45 days to 6 years**, which is why some run FS1 and FS2 classes.",
     },
   ],
   sources: [
@@ -379,7 +374,7 @@ const guide: Guide = {
       url: "https://gulfnews.com/uae/education/uae-clarifies-school-entry-age-rules-for-202627-what-parents-need-to-know-1.500434368",
     },
     {
-      label: "ADEK: Nurseries in Abu Dhabi",
+      label: "ADEK: Early childhood centres in Abu Dhabi",
       url: "https://www.adek.gov.ae/Education-System/Nurseries",
     },
     {
@@ -399,7 +394,7 @@ const guide: Guide = {
       url: "https://u.ae/en/information-and-services/education/school-education-k-12/regulatory-authorities-of-k-12-education",
     },
   ],
-  related: ["school-readiness-checklist", "nursery-registration-documents-uae", "daycare-vs-preschool-vs-nursery"],
+  related: ["school-readiness-checklist", "preschool-registration-documents-uae", "daycare-vs-preschool-vs-kindergarten"],
   relatedPrograms: ["day-care", "preschool"],
 };
 

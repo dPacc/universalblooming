@@ -3,11 +3,11 @@ import type { Faq } from "./types";
 export const homeFaqs: Faq[] = [
   {
     q: "What ages does Universal Blooming accept?",
-    a: "Our [Preschool](/programs/preschool) is for 3 to 6 year olds, our [Day Care](/programs/day-care) cares for little ones who are not yet ready for preschool, and our [After School Activities](/programs/after-school) are for children aged 3 and up. Not sure which fits? Try the [nursery age calculator](/tools/nursery-age-calculator).",
+    a: "Our [Preschool](/programs/preschool) is for 3 to 6 year olds, our [Day Care](/programs/day-care) cares for little ones who are not yet ready for preschool, and our [After School Activities](/programs/after-school) are for children aged 3 and up.",
   },
   {
     q: "Is Universal Blooming a preschool or a day care?",
-    a: "Both, plus after school activities, in one joyful place: Preschool, Day Care & After School Activities. In the UAE the words overlap: \"preschool\" stresses getting ready for school, \"day care\" stresses full-day care, and many parents also say \"nursery\" for early years care before school. Our guide on [day care vs preschool vs nursery](/parents-guide/daycare-vs-preschool-vs-nursery) explains the differences.",
+    a: "Both, plus after school activities, in one joyful place: Preschool, Day Care & After School Activities. In the UAE the words overlap: \"preschool\" stresses getting ready for school and \"day care\" stresses full-day care. Our guide on [day care vs preschool vs kindergarten](/parents-guide/daycare-vs-preschool-vs-kindergarten) explains the differences.",
   },
   {
     q: "What is your approach to learning?",
@@ -19,11 +19,11 @@ export const homeFaqs: Faq[] = [
   },
   {
     q: "How much are the fees?",
-    a: "Fees depend on the program and the schedule you choose, so we share the current fee sheet on your visit or on WhatsApp. For context on what UAE families typically pay and which extras to ask about, read our [nursery fees guide](/parents-guide/nursery-fees-uae).",
+    a: "Fees depend on the program and the schedule you choose, so we share the current fee sheet on your visit or on WhatsApp. For context on what UAE families typically pay and which extras to ask about, read our [preschool and day care fees guide](/parents-guide/preschool-fees-uae).",
   },
   {
     q: "What documents do I need to register my child?",
-    a: "Usually the child's passport, UAE residence visa, Emirates ID, birth certificate and vaccination record, plus parent IDs. See the full [nursery registration documents checklist](/parents-guide/nursery-registration-documents-uae).",
+    a: "Usually the child's passport, UAE residence visa, Emirates ID, birth certificate and vaccination record, plus parent IDs. See the full [registration documents checklist](/parents-guide/preschool-registration-documents-uae).",
   },
 ];
 

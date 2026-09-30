@@ -1,25 +1,25 @@
 import type { Guide } from "@/content/types";
 
 const guide: Guide = {
-  slug: "nursery-curriculum-uae",
-  category: "Choosing a Nursery",
-  title: "EYFS vs Montessori vs Play-Based vs Reggio Emilia: UAE Nursery Curricula Explained",
+  slug: "preschool-curriculum-uae",
+  category: "Choosing a Preschool",
+  title: "Preschool Curricula in the UAE: EYFS vs Montessori vs Play-Based vs Reggio Emilia",
   seoTitle: "EYFS vs Montessori vs Play-Based vs Reggio",
   seoDescription:
-    "EYFS, Montessori, play-based or Reggio? How each UAE nursery approach works, which child it suits, how it leads to FS1 and KG1, and how to spot a label.",
+    "EYFS, Montessori, play-based or Reggio? How each UAE preschool approach works, which child it suits, how it leads to FS1 and KG1, and how to spot a label.",
   excerpt:
-    "A plain-English comparison of the main nursery approaches in the UAE, which children each one suits, how they lead into FS1 or KG1, and how to tell the real thing from a label.",
+    "A plain-English comparison of the main preschool and day care approaches in the UAE, which children each one suits, how they lead into FS1 or KG1, and how to tell the real thing from a label.",
   quickAnswer:
-    "**EYFS** is the British early years framework and the most common in UAE nurseries. **Montessori** uses special materials and self-directed work. **Play-based** nurseries let children learn through guided play, and **Reggio Emilia** follows children's interests through long projects. Many UAE nurseries blend approaches. Whichever you choose, **FS1 or KG1 entry depends on age**, not the nursery's curriculum.",
+    "**EYFS** is the British early years framework and the most common in UAE early years settings. **Montessori** uses special materials and self-directed work. **Play-based** preschools let children learn through guided play, and **Reggio Emilia** follows children's interests through long projects. Many UAE preschools blend approaches. Whichever you choose, **FS1 or KG1 entry depends on age**, not the preschool's curriculum.",
   keywords: [
-    "nursery curriculum UAE",
+    "preschool curriculum UAE",
     "EYFS vs Montessori",
-    "Montessori nursery Dubai",
-    "EYFS nursery Dubai",
-    "Reggio Emilia nursery UAE",
-    "play-based nursery Dubai",
-    "British vs Montessori nursery",
-    "best nursery curriculum",
+    "Montessori preschool Dubai",
+    "EYFS preschool Dubai",
+    "Reggio Emilia preschool UAE",
+    "play-based day care Dubai",
+    "British vs Montessori preschool",
+    "best preschool curriculum",
     "play-based learning UAE",
   ],
   published: "2026-09-25",
@@ -28,7 +28,7 @@ const guide: Guide = {
   sections: [
     {
       id: "which-curriculum-is-best",
-      title: "Which nursery curriculum is best in the UAE?",
+      title: "Which preschool curriculum is best in the UAE?",
       blocks: [
         {
           type: "p",
@@ -36,23 +36,23 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "UAE nurseries commonly follow **EYFS** (England's Early Years Foundation Stage, the most widespread), **Montessori**, **Reggio Emilia**-inspired or **play-based** approaches such as HighScope. You will also see IB PYP Early Years in IB schools, the Ministry of Education's KG curriculum, US-style Pre-K programmes and the French maternelle. Many nurseries **blend EYFS with Montessori** or another approach.",
+          text: "UAE preschools and day care centres commonly follow **EYFS** (England's Early Years Foundation Stage, the most widespread), **Montessori**, **Reggio Emilia**-inspired or **play-based** approaches such as HighScope. You will also see IB PYP Early Years in IB schools, the Ministry of Education's KG curriculum, US-style Pre-K programmes and the French maternelle. Many settings **blend EYFS with Montessori** or another approach.",
         },
         {
           type: "p",
-          text: "It helps to separate two things. A **framework** such as EYFS, the MoE KG curriculum or IB PYP Early Years sets out what children should learn and how progress is tracked. A **teaching approach** such as Montessori, Reggio Emilia or play-based describes how the day actually feels for the child. That is why a nursery can honestly say \"EYFS with Montessori\": one tells you what is covered, the other how.",
+          text: "It helps to separate two things. A **framework** such as EYFS, the MoE KG curriculum or IB PYP Early Years sets out what children should learn and how progress is tracked. A **teaching approach** such as Montessori, Reggio Emilia or play-based describes how the day actually feels for the child. That is why a preschool can honestly say \"EYFS with Montessori\": one tells you what is covered, the other how.",
         },
         {
           type: "callout",
           tone: "note",
-          title: "Nursery curriculum does not decide your school place",
-          text: "Entry to FS1, Pre-KG or KG1 is set by your child's **age**, not by the nursery they attended. A child from a Montessori nursery can join a British school, and a child from an EYFS nursery can join an American or Indian one.",
+          title: "Preschool curriculum does not decide your school place",
+          text: "Entry to FS1, Pre-KG or KG1 is set by your child's **age**, not by the preschool or day care they attended. A child from a Montessori preschool can join a British school, and a child from an EYFS preschool can join an American or Indian one.",
         },
       ],
     },
     {
       id: "what-is-eyfs",
-      title: "What is EYFS, and why is it so common in UAE nurseries?",
+      title: "What is EYFS, and why is it so common in UAE preschools?",
       blocks: [
         {
           type: "p",
@@ -66,14 +66,14 @@ const guide: Guide = {
           type: "ul",
           items: [
             "**Strengths:** clear progress tracking, smooth move into British schools, balance of free play and adult-led activities.",
-            "**Watch for:** nurseries that turn EYFS into early worksheets. Good EYFS practice is still mostly play.",
+            "**Watch for:** settings that turn EYFS into early worksheets. Good EYFS practice is still mostly play.",
           ],
         },
       ],
     },
     {
       id: "what-is-montessori",
-      title: "What is a Montessori nursery?",
+      title: "What is a Montessori preschool?",
       blocks: [
         {
           type: "p",
@@ -87,18 +87,18 @@ const guide: Guide = {
           type: "ul",
           items: [
             "**Strengths:** independence, concentration, order, fine motor skills.",
-            "**Watch for:** less emphasis on pretend play and group games in stricter settings; a \"Montessori-inspired\" nursery may only have a few materials.",
+            "**Watch for:** less emphasis on pretend play and group games in stricter settings; a \"Montessori-inspired\" setting may only have a few materials.",
           ],
         },
       ],
     },
     {
       id: "what-is-play-based",
-      title: "What does a play-based nursery actually do?",
+      title: "What does a play-based preschool actually do?",
       blocks: [
         {
           type: "p",
-          text: "A **play-based** nursery treats play as the main way young children learn. Children choose from rich activities, such as building, role play, painting, sand and water, and adults join in to extend the learning with questions, new words and fresh challenges. HighScope is one well-known structured version of this.",
+          text: "A **play-based** preschool treats play as the main way young children learn. Children choose from rich activities, such as building, role play, painting, sand and water, and adults join in to extend the learning with questions, new words and fresh challenges. HighScope is one well-known structured version of this.",
         },
         {
           type: "p",
@@ -148,7 +148,7 @@ const guide: Guide = {
       blocks: [
         {
           type: "table",
-          caption: "Nursery approaches at a glance",
+          caption: "Early years approaches at a glance",
           head: ["", "EYFS", "Montessori", "Play-based", "Reggio Emilia"],
           rows: [
             [
@@ -210,7 +210,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "In practice, the lines blur. Many UAE nurseries use EYFS as their framework for planning and reporting while using Montessori materials or Reggio-style projects in the rooms. That is fine, as long as the nursery can explain how the pieces fit together.",
+          text: "In practice, the lines blur. Many UAE early years settings use EYFS as their framework for planning and reporting while using Montessori materials or Reggio-style projects in the rooms. That is fine, as long as the setting can explain how the pieces fit together.",
         },
       ],
     },
@@ -220,7 +220,7 @@ const guide: Guide = {
       blocks: [
         {
           type: "p",
-          text: "Every child can thrive in a good nursery of any type. Still, some children take to one style more easily. Use this as a starting point for your visits, not a rule.",
+          text: "Every child can thrive in a good preschool or day care of any type. Still, some children take to one style more easily. Use this as a starting point for your visits, not a rule.",
         },
         {
           type: "table",
@@ -241,7 +241,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "Think about your family too. If you want detailed progress reports, EYFS nurseries tend to provide them. If you value independence at home, Montessori may feel familiar. Our [milestones guide](/parents-guide/child-development-milestones) helps you see what is typical at each age, whatever the curriculum.",
+          text: "Think about your family too. If you want detailed progress reports, EYFS settings tend to provide them. If you value independence at home, Montessori may feel familiar. Our [milestones guide](/parents-guide/child-development-milestones) helps you see what is typical at each age, whatever the curriculum.",
         },
       ],
     },
@@ -265,17 +265,17 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "Schools with an **April start**, mainly Indian and Pakistani curricula, keep a **31 March** cut-off, and KHDA's table places a child who is 3 by 31 March of the joining year in KG1. In Dubai, nurseries and early childhood centres must follow the age-grade chart from FS1 onwards, and cannot skip or repeat a year without KHDA approval.",
+          text: "Schools with an **April start**, mainly Indian and Pakistani curricula, keep a **31 March** cut-off, and KHDA's table places a child who is 3 by 31 March of the joining year in KG1. In Dubai, early childhood centres, including preschools and day care centres, must follow the age-grade chart from FS1 onwards, and cannot skip or repeat a year without KHDA approval.",
         },
         {
           type: "callout",
           tone: "tip",
           title: "Work out your child's year group",
-          text: "Enter a date of birth in our [nursery age calculator](/tools/nursery-age-calculator) to see which year group applies, then read the [nursery age guide](/parents-guide/nursery-age-uae) for the transitional rules in 2026-27.",
+          text: "Read our [preschool age guide](/parents-guide/preschool-age-uae) to see which year group applies to your child's date of birth, including the transitional rules in 2026-27.",
         },
         {
           type: "p",
-          text: "In Dubai, **Arabic** is also part of early years now. KHDA's policy phases Arabic into all private schools and early childhood centres, starting with ages 4 to 6 from September 2025. Ask any Dubai nursery how Arabic fits into its approach.",
+          text: "In Dubai, **Arabic** is also part of early years now. KHDA's policy phases Arabic into all private schools and early childhood centres, starting with ages 4 to 6 from September 2025. Ask any Dubai preschool or day care how Arabic fits into its approach.",
         },
       ],
     },
@@ -285,7 +285,7 @@ const guide: Guide = {
       blocks: [
         {
           type: "p",
-          text: "Curriculum names are not protected terms in marketing, so any nursery can say \"Montessori-inspired\" or \"Reggio-style\". The proof is in what you see during a normal morning and how staff explain it.",
+          text: "Curriculum names are not protected terms in marketing, so any preschool can say \"Montessori-inspired\" or \"Reggio-style\". The proof is in what you see during a normal morning and how staff explain it.",
         },
         {
           type: "checklist",
@@ -294,7 +294,7 @@ const guide: Guide = {
             "The rooms look like the approach: materials, layout and displays match what is claimed",
             "Children are busy and choosing, not waiting or queuing",
             "Adults are down at child height, talking with children",
-            "The nursery can show how it records and shares progress",
+            "The setting can show how it records and shares progress",
             "Staff training in the approach is ongoing, not a one-off",
             "The approach shows up outdoors as well as indoors",
             "Worksheets and rote drills are rare for under-fives",
@@ -302,11 +302,11 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "Be a little cautious when a nursery lists every approach at once. Blending can work well, but a brochure that promises EYFS, Montessori, Reggio and forest school in one breath may be describing a few resources rather than a way of working. Ask which approach leads, and why.",
+          text: "Be a little cautious when a preschool lists every approach at once. Blending can work well, but a brochure that promises EYFS, Montessori, Reggio and forest school in one breath may be describing a few resources rather than a way of working. Ask which approach leads, and why.",
         },
         {
           type: "p",
-          text: "It is also worth asking how long the approach has been in place and who leads it. A nursery that has trained its whole team, and reviews practice regularly, will show it in the small details of the rooms.",
+          text: "It is also worth asking how long the approach has been in place and who leads it. A preschool that has trained its whole team, and reviews practice regularly, will show it in the small details of the rooms.",
         },
         {
           type: "h3",
@@ -324,7 +324,7 @@ const guide: Guide = {
         },
         {
           type: "p",
-          text: "For the full list of visit questions, including safety and ratios, use our [complete checklist for choosing a nursery](/parents-guide/how-to-choose-a-nursery-uae).",
+          text: "For the full list of visit questions, including safety and ratios, use our [complete checklist for choosing a preschool](/parents-guide/how-to-choose-a-preschool-uae).",
         },
       ],
     },
@@ -350,35 +350,35 @@ const guide: Guide = {
   faqs: [
     {
       q: "What is the difference between EYFS and Montessori?",
-      a: "EYFS is a framework of learning areas with planned and child-led play, used in British schools. Montessori is an approach built around self-directed work with specially designed materials. Many UAE nurseries blend the two.",
+      a: "EYFS is a framework of learning areas with planned and child-led play, used in British schools. Montessori is an approach built around self-directed work with specially designed materials. Many UAE preschools blend the two.",
     },
     {
       q: "Is Montessori or EYFS better for my child?",
       a: "Neither is better for every child. Montessori often suits children who love order and independence; EYFS suits families wanting clear progress reports and a smooth route into British schools. The quality of staff matters most.",
     },
     {
-      q: "Can a child from a Montessori nursery join a British school in FS1?",
-      a: "Yes. FS1 entry depends on age, not on the nursery curriculum. From 2026-27, a child joining a September-start school needs to be 3 by 31 December for FS1.",
+      q: "Can a child from a Montessori preschool join a British school in FS1?",
+      a: "Yes. FS1 entry depends on age, not on the preschool curriculum. From 2026-27, a child joining a September-start school needs to be 3 by 31 December for FS1.",
     },
     {
-      q: "What is a play-based nursery?",
-      a: "A nursery where children learn mainly through guided play such as building, role play, art, sand and water, with adults joining in to extend learning. Universal Blooming is a play-based preschool and day care.",
+      q: "What is a play-based preschool?",
+      a: "An early years setting where children learn mainly through guided play such as building, role play, art, sand and water, with adults joining in to extend learning. Universal Blooming is a play-based preschool and day care.",
     },
     {
       q: "What does Reggio Emilia-inspired mean?",
-      a: "It means a nursery draws on the Reggio Emilia approach: long projects based on children's questions, many forms of expression and careful documentation of learning. Most UAE settings are inspired by it rather than following the original model exactly.",
+      a: "It means a preschool draws on the Reggio Emilia approach: long projects based on children's questions, many forms of expression and careful documentation of learning. Most UAE settings are inspired by it rather than following the original model exactly.",
     },
     {
-      q: "Which curriculum is most common in UAE nurseries?",
-      a: "EYFS, the British early years framework, is the most common, followed by Montessori, Reggio Emilia-inspired and play-based approaches. Many nurseries blend EYFS with another approach.",
+      q: "Which curriculum is most common in UAE preschools?",
+      a: "EYFS, the British early years framework, is the most common, followed by Montessori, Reggio Emilia-inspired and play-based approaches. Many preschools blend EYFS with another approach.",
     },
     {
-      q: "Do Dubai nurseries have to teach Arabic?",
+      q: "Do Dubai preschools have to teach Arabic?",
       a: "KHDA's Arabic policy is phasing Arabic into all private schools and early childhood centres, starting with ages 4 to 6 from September 2025, with younger ages to follow.",
     },
     {
-      q: "How do I know if a nursery really follows its curriculum?",
-      a: "Watch a normal morning. The rooms, materials and adult behaviour should match the approach, and staff should explain it with real examples. Use our [nursery checklist](/parents-guide/how-to-choose-a-nursery-uae) on your visit.",
+      q: "How do I know if a preschool really follows its curriculum?",
+      a: "Watch a normal morning. The rooms, materials and adult behaviour should match the approach, and staff should explain it with real examples. Use our [preschool checklist](/parents-guide/how-to-choose-a-preschool-uae) on your visit.",
     },
   ],
   sources: [
@@ -403,9 +403,8 @@ const guide: Guide = {
       url: "https://gulfnews.com/uae/education/dubai-introduces-quality-standards-for-early-childhood-care-through-new-framework-1.500346210",
     },
   ],
-  related: ["how-to-choose-a-nursery-uae", "nursery-age-uae", "school-readiness-checklist"],
+  related: ["how-to-choose-a-preschool-uae", "preschool-age-uae", "school-readiness-checklist"],
   relatedPrograms: ["preschool", "day-care"],
-  tool: "nursery-age-calculator",
 };
 
 export default guide;
