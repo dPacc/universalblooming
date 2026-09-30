@@ -14,7 +14,7 @@ export function GET() {
     "",
     `> ${site.description} Located in ${placeLabel()}. ${site.tagline}.`,
     "",
-    `Contact: ${site.email}${site.phoneDisplay ? ` · ${site.phoneDisplay}` : ""}. Book a visit: ${SITE_URL}/admissions`,
+    `Contact: ${site.email}${site.phoneDisplay ? ` · ${site.phoneDisplay}` : ""}${site.phone2Display ? ` · ${site.phone2Display}` : ""}. Book a visit: ${SITE_URL}/admissions`,
     "",
     "## Programs",
     ...programs.map((p) => `- [${p.ageLabel ? `${p.name} (${p.ageLabel})` : p.name}](${SITE_URL}/programs/${p.slug}): ${stripInline(p.quickAnswer)}`),

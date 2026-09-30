@@ -56,6 +56,7 @@ export function Footer() {
               {hasPhone && (
                 <li>
                   📞 <a className="hover:text-yellow" href={`tel:${site.phone}`}>{site.phoneDisplay}</a>
+                  {site.phone2 && <> <span className="text-white/40">|</span> <a className="hover:text-yellow" href={`tel:${site.phone2}`}>{site.phone2Display}</a></>}
                 </li>
               )}
               {site.streetAddress && <li>📍 {[site.streetAddress, site.landmark, site.city].filter(Boolean).join(", ")}</li>}

@@ -37,9 +37,11 @@ export const site = {
   googleMapsUrl: "", // the "Share" link from the Google Business Profile
   googleMapsEmbed: "", // the <iframe src> from GBP "Embed a map"
 
-  phone: "", // E.164, e.g. "+97145551234"
-  phoneDisplay: "", // e.g. "+971 4 555 1234"
-  whatsapp: "", // digits only, e.g. "971501234567"
+  phone: "+971581896513", // E.164, primary line (calls + WhatsApp)
+  phoneDisplay: "058 189 6513",
+  phone2: "+971581896514", // second line, from the centre's flyer
+  phone2Display: "058 189 6514",
+  whatsapp: "971581896513", // digits only
   email: "universalbloomingkids@gmail.com",
 
   // Mon=1 … Sun=7. Displayed on contact page and in OpeningHoursSpecification.

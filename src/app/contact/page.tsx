@@ -36,7 +36,7 @@ export default function ContactPage() {
   const wa = whatsappLink("Hi Universal Blooming! (from: contact page)");
   const channels = [
     { icon: "💬", label: "WhatsApp", value: "Chat with the admissions team", href: wa, cta: "contact-whatsapp", tone: "bg-green-soft" },
-    ...(hasPhone ? [{ icon: "📞", label: "Call us", value: site.phoneDisplay, href: `tel:${site.phone}`, cta: "contact-call", tone: "bg-sky-soft" }] : []),
+    ...(hasPhone ? [{ icon: "📞", label: "Call us", value: site.phone2 ? `${site.phoneDisplay} | ${site.phone2Display}` : site.phoneDisplay, href: `tel:${site.phone}`, cta: "contact-call", tone: "bg-sky-soft" }] : []),
     { icon: "✉️", label: "Email", value: <EmailText email={site.email} />, href: `mailto:${site.email}`, cta: "contact-email", tone: "bg-pink-soft" },
     ...(site.googleMapsUrl ? [{ icon: "📍", label: "Directions", value: "Open in Google Maps", href: site.googleMapsUrl, cta: "contact-directions", tone: "bg-yellow-soft" }] : []),
   ];
