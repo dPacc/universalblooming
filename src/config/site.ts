@@ -42,7 +42,7 @@ export const site = {
   phone2: "+971581896514", // second line, from the centre's flyer
   phone2Display: "058 189 6514",
   whatsapp: "971581896513", // digits only
-  email: "universalbloomingkids@gmail.com",
+  email: "universalblooming@gmail.com",
 
   // Mon=1 … Sun=7. Displayed on contact page and in OpeningHoursSpecification.
   hours: [
