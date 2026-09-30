@@ -55,7 +55,7 @@ const LEARN = [
   { icon: "📚", label: "Stories", at: 141 },
   { icon: "🎵", label: "Music", at: 156 },
   { icon: "🔬", label: "Science", at: 171 },
-  { icon: "⚽", label: "Play", at: 186 },
+  { icon: "🧩", label: "Puzzles", at: 186 },
 ];
 const START_PETALS = 3;
 const CELEBRATE = 216;
@@ -549,7 +549,7 @@ function EndCard() {
           </div>
         </div>
         <div style={{ marginTop: 30, display: "flex", gap: 12, whiteSpace: "nowrap" }}>
-          {["🎨 Preschool · 3–6", "🧸 Day Care", "⚽ After School Activities · 3+"].map((p, i) => (
+          {["🎨 Preschool · 3–6", "🧸 Day Care", "🧩 After School Activities · 3+"].map((p, i) => (
             <span key={p} style={{ opacity: s(40 + i * 4), transform: `translateY(${(1 - s(40 + i * 4)) * 30}px)`, fontFamily: BODY, fontWeight: 800, fontSize: 29, color: INK, background: "#fff", border: `4px solid ${INK}`, borderRadius: 999, padding: "10px 20px" }}>
               {p}
             </span>
