@@ -51,10 +51,9 @@ export const site = {
   // Licence shown in the footer and in schema once confirmed (KHDA / ADEK / SPEA / MoE).
   licence: { authority: "ADEK", number: "" }, // TODO: ADEK licence number
 
+  // The founder asked not to be named or pictured on the site: role + message only.
   founder: {
-    name: "G.B. Saravana Kumar",
     role: "Founder & Principal",
-    image: "/images/founder.webp",
     quote:
       "Every child carries a seed of greatness within; through love, care, and joyful learning, we nurture it and help it blossom into its fullest potential.",
   },

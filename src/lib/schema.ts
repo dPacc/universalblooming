@@ -11,7 +11,6 @@ import { ogImageUrl } from "@/lib/seo";
 
 export const ORG_ID = `${SITE_URL}/#organization`;
 export const WEBSITE_ID = `${SITE_URL}/#website`;
-export const FOUNDER_ID = `${SITE_URL}/about#founder`;
 
 type Node = Record<string, unknown>;
 
@@ -30,7 +29,6 @@ export function organizationNode(): Node {
     logo: { "@type": "ImageObject", url: `${SITE_URL}/images/logo-square.png`, width: 512, height: 512 },
     image: `${SITE_URL}/images/logo-square.png`,
     email: site.email,
-    founder: { "@id": FOUNDER_ID },
     areaServed: site.city
       ? { "@type": "City", name: site.city, containedInPlace: { "@type": "Country", name: site.country } }
       : { "@type": "Country", name: site.country },
@@ -84,17 +82,6 @@ export function organizationNode(): Node {
     };
   }
   return node;
-}
-
-export function founderNode(): Node {
-  return {
-    "@type": "Person",
-    "@id": FOUNDER_ID,
-    name: site.founder.name,
-    jobTitle: site.founder.role,
-    image: `${SITE_URL}${site.founder.image}`,
-    worksFor: { "@id": ORG_ID },
-  };
 }
 
 export function websiteNode(): Node {
@@ -214,8 +201,8 @@ export function articleNode(opts: {
     image: ogImageUrl(opts.headline, opts.section),
     datePublished: opts.published,
     dateModified: opts.modified,
-    author: { "@id": FOUNDER_ID },
-    reviewedBy: { "@id": FOUNDER_ID },
+    author: { "@id": ORG_ID },
+    reviewedBy: { "@id": ORG_ID },
     publisher: { "@id": ORG_ID },
     articleSection: opts.section,
     keywords: opts.keywords.join(", "),

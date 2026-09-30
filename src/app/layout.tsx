@@ -8,7 +8,7 @@ import { WhatsAppFloat } from "@/components/lead/WhatsAppFloat";
 import { Attribution } from "@/components/tracking/Attribution";
 import { RevealScript } from "@/components/ui/RevealScript";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { graph, organizationNode, websiteNode, founderNode } from "@/lib/schema";
+import { graph, organizationNode, websiteNode } from "@/lib/schema";
 import { ogImageUrl } from "@/lib/seo";
 
 const fredoka = Fredoka({ subsets: ["latin"], variable: "--font-fredoka", display: "swap", weight: ["400", "500", "600", "700"] });
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   description: site.description,
   applicationName: site.name,
-  authors: [{ name: site.founder.name, url: `${SITE_URL}/about` }],
+  authors: [{ name: site.name, url: SITE_URL }],
   creator: site.name,
   publisher: site.name,
   formatDetection: { telephone: false },
@@ -53,7 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         {/* Opt into reveal animations before first paint (no flash). */}
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
-        <JsonLd data={graph(organizationNode(), websiteNode(), founderNode())} />
+        <JsonLd data={graph(organizationNode(), websiteNode())} />
       </head>
       <body className="min-h-dvh overflow-x-clip">
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 btn btn-sun">

@@ -25,8 +25,7 @@ export const generateStaticParams = () => guides.map((g) => ({ slug: g.slug }));
 type Props = { params: Promise<{ slug: string }> };
 
 const TOOLS = {
-  "nursery-age-calculator": { title: "Check your child's year group", text: "Enter a date of birth and see FS1, KG1 and school placement for the next three years.", href: "/tools/nursery-age-calculator", cta: "Open the age calculator", mood: "think" as const },
-  "nursery-readiness-quiz": { title: "Is your child nursery-ready?", text: "Ten quick questions, instant friendly results and tips you can use at home.", href: "/tools/nursery-readiness-quiz", cta: "Take the 2-minute quiz", mood: "cheer" as const },
+  "preschool-readiness-quiz": { title: "Is your child preschool-ready?", text: "Ten quick questions, instant friendly results and tips you can use at home.", href: "/tools/preschool-readiness-quiz", cta: "Take the 2-minute quiz", mood: "cheer" as const },
 };
 
 const fmtDate = (d: string) => new Date(d).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
@@ -91,10 +90,10 @@ export default async function GuidePage({ params }: Props) {
         tone={accentSoft[g.accent]}
       >
         <div className="flex items-center gap-3 text-sm font-bold text-ink-soft">
-          <Image src={asset(site.founder.image)} alt="" width={40} height={40} className="h-10 w-10 shrink-0 rounded-full border-2 border-ink bg-white object-cover" />
+          <Image src={asset("/images/logo.webp")} alt="" width={40} height={40} className="h-10 w-10 shrink-0 rounded-full border-2 border-ink bg-white object-cover" />
           <div className="flex flex-wrap gap-x-4 gap-y-0.5">
             <span>
-              Reviewed by <Link href="/about#founder" className="whitespace-nowrap text-ink underline-offset-4 hover:underline">{site.founder.name}</Link>, <span className="whitespace-nowrap">{site.founder.role}</span>
+              By the <Link href="/about" className="whitespace-nowrap text-ink underline-offset-4 hover:underline">Universal Blooming team</Link>
             </span>
             <span className="whitespace-nowrap">🗓️ Updated <time dateTime={g.updated}>{fmtDate(g.updated)}</time></span>
             <span className="whitespace-nowrap">⏱️ {minutes} min read</span>
@@ -144,12 +143,12 @@ export default async function GuidePage({ params }: Props) {
           )}
 
           <section id="author" className="mt-10 flex gap-5 rounded-3xl border-[2.5px] border-ink/10 bg-pink-soft p-6" aria-label="About the reviewer">
-            <Image src={asset(site.founder.image)} alt={site.founder.name} width={80} height={80} className="h-20 w-20 shrink-0 rounded-full border-[2.5px] border-ink bg-white object-cover" />
+            <Image src={asset("/images/logo.webp")} alt="Universal Blooming logo" width={80} height={80} className="h-20 w-20 shrink-0 rounded-full border-[2.5px] border-ink bg-white object-cover" />
             <div>
-              <p className="font-display text-lg font-semibold">{site.founder.name}</p>
-              <p className="text-sm font-bold text-ink-soft">{site.founder.role}, Universal Blooming</p>
+              <p className="font-display text-lg font-semibold">The Universal Blooming team</p>
+              <p className="text-sm font-bold text-ink-soft">Preschool, Day Care &amp; After School Activities, {site.city}</p>
               <p className="mt-2 text-ink-soft">
-                Our guides are written for UAE parents by the Universal Blooming team and reviewed by our founder, with every rule checked against official sources.
+                Our guides are written for UAE parents by the Universal Blooming team, with every rule checked against official sources.
               </p>
             </div>
           </section>

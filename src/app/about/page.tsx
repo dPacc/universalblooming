@@ -20,7 +20,7 @@ const path = "/about";
 export const metadata: Metadata = pageMetadata({
   path,
   titles: [`About Us: Preschool & Day Care in ${placeLabel()}`, "About Us"],
-  description: `Meet Universal Blooming: Preschool, Day Care & After School Activities in ${placeLabel()}. Our mission, values, founder ${site.founder.name} and our mascot Bloomi.`,
+  description: `Meet Universal Blooming: Preschool, Day Care & After School Activities in ${placeLabel()}. Our mission, values, founder's message and our mascot Bloomi.`,
   ogTitle: "Where every child blooms",
   eyebrow: "About us",
 });
@@ -76,10 +76,12 @@ export default function AboutPage() {
 
       <section id="founder" className="container-x mt-20 scroll-mt-24">
         <div className="card-pop grid items-center gap-8 bg-pink-soft p-6 sm:p-10 md:grid-cols-[1fr_1.6fr]">
-          <Image src={asset(site.founder.image)} alt={`${site.founder.name}, ${site.founder.role}`} width={520} height={509} className="mx-auto w-full max-w-xs rounded-[40%_60%_55%_45%/50%_45%_55%_50%] border-[3px] border-ink bg-white" />
+          <div className="mx-auto grid aspect-square w-full max-w-xs place-items-center rounded-[40%_60%_55%_45%/50%_45%_55%_50%] border-[3px] border-ink bg-white">
+            <Image src={asset("/images/logo.webp")} alt="Universal Blooming logo" width={300} height={282} className="w-3/4 h-auto" />
+          </div>
           <div>
-            <p className="eyebrow">Meet our founder</p>
-            <h2 className="mt-1 text-3xl font-semibold sm:text-4xl">{site.founder.name}</h2>
+            <p className="eyebrow">A message from our founder</p>
+            <h2 className="mt-1 text-3xl font-semibold sm:text-4xl">Guided by love, inspired by children</h2>
             <p className="font-bold text-ink-soft">{site.founder.role}</p>
             <blockquote className="mt-5 font-display text-2xl leading-snug">“{site.founder.quote}”</blockquote>
             <div className="prose-ub mt-5">
